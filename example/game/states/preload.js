@@ -13,11 +13,11 @@ Preload.prototype = {
     this.load.onLoadComplete.addOnce(this.onLoadComplete, this);
     this.load.setPreloadSprite(this.asset);
     this.load.image('yeoman', 'assets/yeoman-logo.png');
+    this.load.image('closeBtn', 'assets/close-btn.png');
 
   },
   create: function() {
     this.asset.cropEnabled = false;
-    console.log(Phaser.Plugin.Dialogs)
     this.game.Dialogs = this.game.plugins.add(new Phaser.Plugin.Dialogs(this.game));
   },
   update: function() {

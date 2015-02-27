@@ -14,7 +14,7 @@
       this.sprite.body.velocity.y = this.game.rnd.integerInRange(-500,500);
 
       this.sprite.events.onInputDown.add(this.clickListener, this);
-      this.game.Dialogs.createDialog({hasBg: true});
+      this.game.Dialogs.createDialog({hasBg: true, hasCloseBtn: true, closeBtnSprite:'closeBtn', hasEasyClose: false});
     },
     update: function() {
 
