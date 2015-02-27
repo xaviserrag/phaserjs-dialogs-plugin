@@ -1,5 +1,5 @@
-
   'use strict';
+
   function Play() {}
   Play.prototype = {
     create: function() {
@@ -14,8 +14,7 @@
       this.sprite.body.velocity.y = this.game.rnd.integerInRange(-500,500);
 
       this.sprite.events.onInputDown.add(this.clickListener, this);
-
-      this.game.plugins.Dialogs.createDialog();
+      this.game.Dialogs.createDialog({hasBg: true});
     },
     update: function() {
 

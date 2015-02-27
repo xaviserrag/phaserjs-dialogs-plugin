@@ -95,8 +95,8 @@ Menu.prototype = {
 module.exports = Menu;
 
 },{}],5:[function(require,module,exports){
-
   'use strict';
+
   function Play() {}
   Play.prototype = {
     create: function() {
@@ -111,8 +111,7 @@ module.exports = Menu;
       this.sprite.body.velocity.y = this.game.rnd.integerInRange(-500,500);
 
       this.sprite.events.onInputDown.add(this.clickListener, this);
-
-      this.game.plugins.Dialogs.createDialog();
+      this.game.Dialogs.createDialog({hasBg: true});
     },
     update: function() {
 
@@ -144,8 +143,7 @@ Preload.prototype = {
   },
   create: function() {
     this.asset.cropEnabled = false;
-    this.game.plugins.add(new Phaser.Plugin.Dialogs(this.game, this));
-
+    this.game.Dialogs = this.game.plugins.add(new Phaser.Plugin.Dialogs(this.game));
   },
   update: function() {
     if(!!this.ready) {

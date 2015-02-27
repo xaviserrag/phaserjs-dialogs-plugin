@@ -17,8 +17,7 @@ Preload.prototype = {
   },
   create: function() {
     this.asset.cropEnabled = false;
-    this.game.plugins.add(new Phaser.Plugin.Dialogs(this.game, this));
-
+    this.game.Dialogs = this.game.plugins.add(new Phaser.Plugin.Dialogs(this.game));
   },
   update: function() {
     if(!!this.ready) {
