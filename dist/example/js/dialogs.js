@@ -67,8 +67,8 @@ Phaser.Plugin.Dialogs.prototype.createDialog = function createDialog (config) {
     hasCloseBtn && initcloseBtn();
 
     this.dialogs.add(dialog);
-    //console.log(this.game.world)
-    //this.game.world.bringToTop(this);
+    console.log(this.game.world)
+    this.game.world.bringToTop(this);
 };
 
 Phaser.Plugin.Dialogs.prototype.hideDialog = function hideDialog (name) {

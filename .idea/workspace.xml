@@ -2,897 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b67e05c5-2c34-49f2-b71f-5ecb58c06694" name="Default" comment="">
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\.bowerrc" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\.editorconfig" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\Gruntfile.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\assets\preloader.gif" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\assets\yeoman-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower.json" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\CONTRIBUTING.md" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\Gruntfile.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\README.md" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\bower.json" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\build\config.php" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\build\custom\ninja.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\build\custom\ninja.min.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\build\custom\p2.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\build\custom\p2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\build\custom\phaser-no-libs.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\build\custom\phaser-no-libs.min.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\build\custom\phaser-no-physics.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\build\custom\phaser-no-physics.min.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\build\custom\pixi.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\build\custom\pixi.min.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\build\phaser.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\build\phaser.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\build\phaser.map" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\build\phaser.min.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\changelog.md" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\AABB.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Animation.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\AnimationManager.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\AnimationParser.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\BitmapData.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\BitmapText.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Body.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Body.js_.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Body.js__.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\BodyDebug.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Button.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Cache.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Camera.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Canvas.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Circle.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Circle.js_.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\CollisionGroup.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Color.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\ContactMaterial.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Debug.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Device.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\DistanceConstraint.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Easing.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Ellipse.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Emitter.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Events.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Filter.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Frame.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\FrameData.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Game.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\GameObjectCreator.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\GameObjectFactory.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Gamepad.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\GamepadButton.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\GearConstraint.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Graphics.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Group.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Image.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Input.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\InputHandler.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\InversePointProxy.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Key.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Keyboard.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Line.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\LinkedList.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Loader.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\LoaderParser.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\LockConstraint.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\MSPointer.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Material.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Math.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Mouse.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Net.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Particles.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Animation.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.AnimationManager.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.AnimationParser.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.BitmapData.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.BitmapText.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Button.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Cache.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Camera.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Canvas.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Circle.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Color.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Device.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Easing.Back.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Easing.Bounce.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Easing.Circular.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Easing.Cubic.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Easing.Elastic.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Easing.Exponential.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Easing.Linear.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Easing.Quadratic.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Easing.Quartic.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Easing.Quintic.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Easing.Sinusoidal.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Easing.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Ellipse.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Events.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Filter.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Frame.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.FrameData.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Game.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.GameObjectCreator.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.GameObjectFactory.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Gamepad.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.GamepadButton.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Graphics.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Group.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Image.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Input.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.InputHandler.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Key.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Keyboard.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Line.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.LinkedList.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Loader.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.LoaderParser.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.MSPointer.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Math.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Mouse.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Net.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Particles.Arcade.Emitter.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Particles.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Physics.Arcade.Body.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Physics.Arcade.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Physics.Ninja.AABB.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Physics.Ninja.Body.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Physics.Ninja.Circle.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Physics.Ninja.Tile.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Physics.Ninja.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Physics.P2.Body.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Physics.P2.BodyDebug.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Physics.P2.CollisionGroup.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Physics.P2.ContactMaterial.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Physics.P2.DistanceConstraint.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Physics.P2.GearConstraint.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Physics.P2.InversePointProxy.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Physics.P2.LockConstraint.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Physics.P2.Material.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Physics.P2.PointProxy.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Physics.P2.PrismaticConstraint.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Physics.P2.RevoluteConstraint.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Physics.P2.Spring.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Physics.P2.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Physics.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Plugin.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.PluginManager.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Point.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Pointer.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Polygon.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.QuadTree.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.RandomDataGenerator.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Rectangle.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.RenderTexture.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.RequestAnimationFrame.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.RetroFont.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.ScaleManager.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Signal.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.SinglePad.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Sound.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.SoundManager.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Sprite.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.SpriteBatch.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Stage.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.State.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.StateManager.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Text.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Tile.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.TileSprite.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Tilemap.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.TilemapLayer.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.TilemapParser.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Tileset.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Time.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Timer.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.TimerEvent.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Touch.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Tween.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.TweenManager.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Utils.Debug.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.Utils.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.World.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Phaser.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Physics.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Plugin.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\PluginManager.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Point.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\PointProxy.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Pointer.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Polygon.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\PrismaticConstraint.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\QuadTree.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\RandomDataGenerator.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Rectangle.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\RenderTexture.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\RequestAnimationFrame.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\RetroFont.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\RevoluteConstraint.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\ScaleManager.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Signal.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\SignalBinding.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\SignalBinding.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\SinglePad.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Sound.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\SoundManager.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Spring.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Sprite.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\SpriteBatch.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Stage.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\State.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\StateManager.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Text.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Tile.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Tile.js_.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\TileSprite.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Tilemap.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\TilemapLayer.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\TilemapParser.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Tileset.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Time.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Timer.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\TimerEvent.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Touch.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Tween.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\TweenManager.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\Utils.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\World.js.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\World.js_.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\World.js__.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\World.js___.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\build\build master.bat" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\build\conf.json" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\build\docstrap-master\styles\bootswatch.less" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\build\docstrap-master\styles\main.less" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\build\docstrap-master\styles\variables.less" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\build\docstrap-master\template\jsdoc.conf.json" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\build\docstrap-master\template\publish.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\build\docstrap-master\template\static\img\glyphicons-halflings-white.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\build\docstrap-master\template\static\img\glyphicons-halflings.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\build\docstrap-master\template\static\scripts\URI.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\build\docstrap-master\template\static\scripts\bootstrap-dropdown.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\build\docstrap-master\template\static\scripts\bootstrap-tab.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\build\docstrap-master\template\static\scripts\jquery.localScroll.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\build\docstrap-master\template\static\scripts\jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\build\docstrap-master\template\static\scripts\jquery.scrollTo.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\build\docstrap-master\template\static\scripts\jquery.sunlight.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\build\docstrap-master\template\static\scripts\prettify\Apache-License-2.0.txt" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\build\docstrap-master\template\static\scripts\prettify\jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\build\docstrap-master\template\static\scripts\prettify\lang-css.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\build\docstrap-master\template\static\scripts\prettify\prettify.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\build\docstrap-master\template\static\scripts\sunlight-plugin.doclinks.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\build\docstrap-master\template\static\scripts\sunlight-plugin.linenumbers.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\build\docstrap-master\template\static\scripts\sunlight-plugin.menu.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\build\docstrap-master\template\static\scripts\sunlight.javascript.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\build\docstrap-master\template\static\scripts\sunlight.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\build\docstrap-master\template\static\scripts\toc.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\build\docstrap-master\template\static\styles\darkstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\build\docstrap-master\template\static\styles\prettify-tomorrow.css" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\build\docstrap-master\template\static\styles\site.cerulean.css" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\build\docstrap-master\template\static\styles\sunlight.dark.css" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\build\docstrap-master\template\static\styles\sunlight.default.css" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\build\docstrap-master\template\tmpl\container.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\build\docstrap-master\template\tmpl\details.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\build\docstrap-master\template\tmpl\example.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\build\docstrap-master\template\tmpl\examples.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\build\docstrap-master\template\tmpl\exceptions.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\build\docstrap-master\template\tmpl\fires.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\build\docstrap-master\template\tmpl\layout.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\build\docstrap-master\template\tmpl\mainpage.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\build\docstrap-master\template\tmpl\members.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\build\docstrap-master\template\tmpl\method.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\build\docstrap-master\template\tmpl\params.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\build\docstrap-master\template\tmpl\properties.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\build\docstrap-master\template\tmpl\returns.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\build\docstrap-master\template\tmpl\sections.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\build\docstrap-master\template\tmpl\source.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\build\docstrap-master\template\tmpl\tutorial.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\build\docstrap-master\template\tmpl\type.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\classes.list.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\img\glyphicons-halflings-white.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\img\glyphicons-halflings.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\index.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\namespaces.list.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\scripts\URI.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\scripts\bootstrap-dropdown.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\scripts\bootstrap-tab.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\scripts\jquery.localScroll.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\scripts\jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\scripts\jquery.scrollTo.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\scripts\jquery.sunlight.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\scripts\prettify\Apache-License-2.0.txt" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\scripts\prettify\jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\scripts\prettify\lang-css.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\scripts\prettify\prettify.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\scripts\sunlight-plugin.doclinks.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\scripts\sunlight-plugin.linenumbers.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\scripts\sunlight-plugin.menu.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\scripts\sunlight.javascript.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\scripts\sunlight.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\scripts\toc.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\styles\darkstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\styles\prettify-tomorrow.css" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\styles\site.cerulean.css" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\styles\sunlight.dark.css" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\docs\styles\sunlight.default.css" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\examples\where have they gone.txt" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\filters\BinarySerpents.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\filters\BlurX.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\filters\BlurY.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\filters\CausticLight.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\filters\CheckerWave.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\filters\ColorBars.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\filters\Fire.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\filters\Gray.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\filters\HueRotate.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\filters\LightBeam.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\filters\Marble.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\filters\Plasma.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\filters\SampleFilter.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\filters\Tunnel.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\labs\code\001 under sea.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\labs\code\002 animated tilesprites.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\labs\code\003 thrust.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\labs\code\004 maggot batch.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\labs\code\005 ilkkeee.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\labs\code\006 bitmap fonts ahoy.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\labs\code\007 text shadow.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\labs\code\008 cannon balls.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\labs\code\009 boxes everywhere.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\labs\code\010 fixed to camera.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\labs\code\011 font wobble.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\labs\code\012 ninja physics.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\labs\css\component.css" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\labs\css\demo.css" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\labs\css\normalize.css" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\labs\favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\labs\index.php" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\labs\index_local.php" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\labs\index_remote.php" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\labs\js\modernizr.custom.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\labs\list.php" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\labs\view.php" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\labs\view_local.php" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\labs\view_remote.php" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\license.txt" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\package.json" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\phaser-logo-small.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\plugins\AStar.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\plugins\CSS3Filters.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\plugins\ColorHarmony.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\plugins\ProTracker.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\plugins\QuadTree.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\plugins\SamplePlugin.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\plugins\Webcam.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Migration Guide.md" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\128px\0.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\128px\1.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\128px\10.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\128px\11.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\128px\12.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\128px\13.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\128px\14.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\128px\15.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\128px\16.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\128px\17.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\128px\18.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\128px\19.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\128px\2.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\128px\20.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\128px\21.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\128px\22.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\128px\23.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\128px\24.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\128px\25.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\128px\26.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\128px\27.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\128px\28.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\128px\29.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\128px\3.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\128px\30.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\128px\31.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\128px\32.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\128px\33.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\128px\4.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\128px\5.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\128px\6.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\128px\7.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\128px\8.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\128px\9.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\128px\ninja-tiles128.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\32px\0.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\32px\1.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\32px\10.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\32px\11.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\32px\12.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\32px\13.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\32px\14.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\32px\15.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\32px\16.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\32px\17.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\32px\18.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\32px\19.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\32px\2.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\32px\20.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\32px\21.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\32px\22.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\32px\23.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\32px\24.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\32px\25.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\32px\26.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\32px\27.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\32px\28.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\32px\29.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\32px\3.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\32px\30.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\32px\31.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\32px\32.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\32px\33.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\32px\4.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\32px\5.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\32px\6.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\32px\7.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\32px\8.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\32px\9.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\32px\ninja-tiles32.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\64px\0.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\64px\1.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\64px\10.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\64px\11.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\64px\12.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\64px\13.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\64px\14.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\64px\15.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\64px\16.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\64px\17.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\64px\18.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\64px\19.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\64px\2.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\64px\20.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\64px\21.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\64px\22.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\64px\23.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\64px\24.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\64px\25.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\64px\26.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\64px\27.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\64px\28.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\64px\29.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\64px\3.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\64px\30.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\64px\31.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\64px\32.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\64px\33.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\64px\4.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\64px\5.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\64px\6.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\64px\7.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\64px\8.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\64px\9.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\64px\ninja-tiles64.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\named\22 deg nn B.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\named\22 deg nn S.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\named\22 deg np B.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\named\22 deg np S.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\named\22 deg pn B.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\named\22 deg pn S.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\named\22 deg pp B.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\named\22 deg pp S.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\named\45 deg nn.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\named\45 deg np.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\named\45 deg pn.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\named\45 deg pp.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\named\67 deg nn B.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\named\67 deg nn S.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\named\67 deg np B.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\named\67 deg np S.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\named\67 deg pn B.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\named\67 deg pn S.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\named\67 deg pp B.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\named\67 deg pp S.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\named\concave nn.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\named\concave np.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\named\concave pn.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\named\concave pp.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\named\convex nn.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\named\convex np.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\named\convex pn.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\named\convex pp.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\named\full list.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\named\full.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\named\half d.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\named\half l.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\named\half r.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Ninja Physics Debug Tiles\named\half u.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Phaser Logo\2D Text\Phaser Logo 2D Vector Outline.fla" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Phaser Logo\PNG\Phaser Logo Print Quality.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Phaser Logo\PNG\Phaser Logo Web Quality.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Phaser Logo\PNG\Phaser Logo iPad Resolution.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Phaser Logo\PNG\Phaser-2D-Flat.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Phaser Logo\PNG\Phaser-2D-Flat.psd" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Phaser Logo\PNG\Phaser-Logo-Small.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Phaser Logo\Pixel Art\Phaser-Logo-Sizes.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Phaser Logo\Pixel Art\phaser_pixel_large_shaded.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Phaser Logo\Pixel Art\phaser_pixel_medium_flat.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Phaser Logo\Pixel Art\phaser_pixel_medium_shaded.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Phaser Logo\Pixel Art\phaser_pixel_small_flat.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Phaser Logo\Vector\Phaser Logo.eps" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Phaser Logo\Vector\Phaser Logo.fla" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\PhysicsEditor Exporter\exporter.xml" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\PhysicsEditor Exporter\phaser.json" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Project Templates\Basic\Boot.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Project Templates\Basic\Game.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Project Templates\Basic\MainMenu.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Project Templates\Basic\Preloader.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Project Templates\Basic\index.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Project Templates\Full Screen Mobile\apple-touch-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Project Templates\Full Screen Mobile\css\stylesheet.css" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Project Templates\Full Screen Mobile\icons\app_icon_1024x1024.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Project Templates\Full Screen Mobile\icons\app_icon_114x114.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Project Templates\Full Screen Mobile\icons\app_icon_120x120.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Project Templates\Full Screen Mobile\icons\app_icon_144x144.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Project Templates\Full Screen Mobile\icons\app_icon_152x152.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Project Templates\Full Screen Mobile\icons\app_icon_256x256.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Project Templates\Full Screen Mobile\icons\app_icon_512x512.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Project Templates\Full Screen Mobile\icons\app_icon_57x57.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Project Templates\Full Screen Mobile\icons\app_icon_60x60.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Project Templates\Full Screen Mobile\icons\app_icon_72x72.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Project Templates\Full Screen Mobile\icons\app_icon_76x76.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Project Templates\Full Screen Mobile\images\orientation.jpg" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Project Templates\Full Screen Mobile\index.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Project Templates\Full Screen Mobile\src\Boot.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Project Templates\Full Screen Mobile\src\Game.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Project Templates\Full Screen Mobile\src\MainMenu.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Project Templates\Full Screen Mobile\src\Preloader.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Screen Shots\phaser-cybernoid.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Screen Shots\phaser-p2-cannon.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Screen Shots\phaser-protracker.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Screen Shots\phaser-waves.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Screen Shots\phaser_balls.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Screen Shots\phaser_blaster.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Screen Shots\phaser_cams.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Screen Shots\phaser_checkerwave.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Screen Shots\phaser_desert.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Screen Shots\phaser_fixed_camera.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Screen Shots\phaser_fruit.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Screen Shots\phaser_fruit_particles.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Screen Shots\phaser_mapdraw.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Screen Shots\phaser_marble.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Screen Shots\phaser_mario_combo.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Screen Shots\phaser_multiple_anims.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Screen Shots\phaser_particles.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Screen Shots\phaser_platformer.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Screen Shots\phaser_polygons.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Screen Shots\phaser_quadtree.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Screen Shots\phaser_rotate4.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Screen Shots\phaser_scrollfactor.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Screen Shots\phaser_sprite_bounds.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Screen Shots\phaser_tanks.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Screen Shots\phaser_tilemap.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Screen Shots\phaser_tilemap_collision.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Screen Shots\phaser_tilemap_debug.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\Screen Shots\phaser_tunnel.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\resources\zwoptex-phaser.template" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\Intro.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\Outro.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\Phaser.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\animation\Animation.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\animation\AnimationManager.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\animation\AnimationParser.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\animation\Frame.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\animation\FrameData.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\core\Camera.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\core\Filter.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\core\Game.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\core\Group.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\core\LinkedList.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\core\Plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\core\PluginManager.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\core\ScaleManager.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\core\Signal.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\core\SignalBinding.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\core\Stage.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\core\State.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\core\StateManager.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\core\World.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\gameobjects\BitmapData.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\gameobjects\BitmapText.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\gameobjects\Button.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\gameobjects\Events.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\gameobjects\GameObjectCreator.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\gameobjects\GameObjectFactory.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\gameobjects\Graphics.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\gameobjects\Image.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\gameobjects\RenderTexture.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\gameobjects\RetroFont.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\gameobjects\Sprite.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\gameobjects\SpriteBatch.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\gameobjects\Text.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\gameobjects\TileSprite.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\geom\Circle.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\geom\Ellipse.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\geom\Line.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\geom\Point.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\geom\Polygon.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\geom\Rectangle.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\input\Gamepad.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\input\GamepadButton.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\input\Input.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\input\InputHandler.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\input\Key.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\input\Keyboard.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\input\MSPointer.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\input\Mouse.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\input\Pointer.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\input\SinglePad.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\input\Touch.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\loader\Cache.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\loader\Loader.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\loader\LoaderParser.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\math\Math.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\math\QuadTree.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\math\RandomDataGenerator.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\net\Net.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\particles\Particles.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\particles\arcade\ArcadeParticles.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\particles\arcade\Emitter.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\physics\Physics.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\physics\arcade\Body.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\physics\arcade\World.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\physics\ninja\AABB.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\physics\ninja\Body.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\physics\ninja\Circle.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\physics\ninja\Tile.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\physics\ninja\World.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\physics\p2\Body.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\physics\p2\BodyDebug.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\physics\p2\CollisionGroup.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\physics\p2\ContactMaterial.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\physics\p2\DistanceConstraint.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\physics\p2\GearConstraint.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\physics\p2\InversePointProxy.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\physics\p2\LockConstraint.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\physics\p2\Material.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\physics\p2\PointProxy.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\physics\p2\PrismaticConstraint.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\physics\p2\RevoluteConstraint.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\physics\p2\Spring.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\physics\p2\World.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\physics\p2\p2.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\InteractionData.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\InteractionManager.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\Intro.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\Outro.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\Pixi.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\core\Circle.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\core\Ellipse.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\core\Matrix.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\core\Point.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\core\Polygon.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\core\Rectangle.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\display\DisplayObject.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\display\DisplayObjectContainer.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\display\MovieClip.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\display\Sprite.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\display\SpriteBatch.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\display\Stage.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\extras\Rope.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\extras\Spine.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\extras\Strip.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\extras\TilingSprite.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\filters\AbstractFilter.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\filters\AlphaMaskFilter.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\filters\BlurFilter.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\filters\BlurXFilter.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\filters\BlurYFilter.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\filters\ColorMatrixFilter.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\filters\ColorStepFilter.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\filters\CrossHatchFilter.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\filters\DisplacementFilter.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\filters\DotScreenFilter.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\filters\FilterBlock.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\filters\GrayFilter.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\filters\InvertFilter.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\filters\NormalMapFilter.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\filters\PixelateFilter.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\filters\RGBSplitFilter.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\filters\SepiaFilter.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\filters\SmartBlurFilter.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\filters\TwistFilter.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\loaders\AssetLoader.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\loaders\AtlasLoader.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\loaders\BitmapFontLoader.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\loaders\ImageLoader.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\loaders\JsonLoader.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\loaders\SpineLoader.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\loaders\SpriteSheetLoader.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\primitives\Graphics.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\renderers\canvas\CanvasGraphics.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\renderers\canvas\CanvasRenderer.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\renderers\canvas\utils\CanvasMaskManager.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\renderers\canvas\utils\CanvasTinter.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\renderers\webgl\WebGLRenderer.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\renderers\webgl\shaders\PixiFastShader.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\renderers\webgl\shaders\PixiShader.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\renderers\webgl\shaders\PrimitiveShader.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\renderers\webgl\shaders\StripShader.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\renderers\webgl\utils\FilterTexture.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\renderers\webgl\utils\WebGLFastSpriteBatch.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\renderers\webgl\utils\WebGLFilterManager.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\renderers\webgl\utils\WebGLGraphics.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\renderers\webgl\utils\WebGLMaskManager.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\renderers\webgl\utils\WebGLShaderManager.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\renderers\webgl\utils\WebGLShaderUtils.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\renderers\webgl\utils\WebGLSpriteBatch.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\text\BitmapText.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\text\Text.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\textures\BaseTexture.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\textures\RenderTexture.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\textures\Texture.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\utils\Detector.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\utils\EventTarget.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\utils\Polyk.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\pixi\utils\Utils.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\sound\Sound.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\sound\SoundManager.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\system\Canvas.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\system\Device.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\system\RequestAnimationFrame.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\tilemap\Tile.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\tilemap\Tilemap.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\tilemap\TilemapLayer.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\tilemap\TilemapParser.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\tilemap\Tileset.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\time\Time.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\time\Timer.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\time\TimerEvent.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\tween\Easing.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\tween\Tween.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\tween\TweenManager.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\utils\Color.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\utils\Debug.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\src\utils\Utils.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tasks\banner.txt" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tasks\examples.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tasks\umd.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\01 Getting Started\hellophaser.zip" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\01 Getting Started\hellophaser\index.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\01 Getting Started\hellophaser\phaser.min.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\01 Getting Started\hellophaser\phaser.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\01 Getting Started\images\cloneFrom.jpg" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\01 Getting Started\images\dashboard.jpg" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\01 Getting Started\images\editor.jpg" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\01 Getting Started\images\start.jpg" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\01 Getting Started\index.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\01 Getting Started\part2.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\01 Getting Started\part3.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\01 Getting Started\part4.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\01 Getting Started\part5.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\01 Getting Started\part6.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\01 Getting Started\part7.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\01 Getting Started\part8.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\02 Making your first game\assets\baddie.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\02 Making your first game\assets\diamond.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\02 Making your first game\assets\dude.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\02 Making your first game\assets\firstaid.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\02 Making your first game\assets\platform.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\02 Making your first game\assets\sky.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\02 Making your first game\assets\star.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\02 Making your first game\js\phaser.min.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\02 Making your first game\part1.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\02 Making your first game\part2.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\02 Making your first game\part3.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\02 Making your first game\part4.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\02 Making your first game\part5.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\02 Making your first game\part6.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\02 Making your first game\part7.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\02 Making your first game\part8.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\02 Making your first game\part9.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\02 Making your first game\phaser_1x_tutorial_02.zip" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\02 Making your first game\phaser_tutorial_02.zip" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\02 Making your first game\screen shots\part3.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\02 Making your first game\screen shots\part4.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\02 Making your first game\screen shots\part5.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\02 Making your first game\screen shots\part6.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\02 Making your first game\screen shots\part7.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\02 Making your first game\screen shots\part8.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\02 Making your first game\screen shots\part9.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\02 Making your first game\screen shots\tutorial_header.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\02 Making your first game\tutorial.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\03 Using Phaser with TypeScript\screen shots\part1.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\03 Using Phaser with TypeScript\screen shots\part2.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\03 Using Phaser with TypeScript\screen shots\part3.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\03 Using Phaser with TypeScript\screen shots\part4.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\03 Using Phaser with TypeScript\screen shots\part5.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\03 Using Phaser with TypeScript\screen shots\part6.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\03 Using Phaser with TypeScript\screen shots\part7.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\03 Using Phaser with TypeScript\screen shots\part8.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\03 Using Phaser with TypeScript\screen shots\part9.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\04 Advanced TypeScript Projects\assets.zip" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\04 Advanced TypeScript Projects\assets\level1.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\04 Advanced TypeScript Projects\assets\loader.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\04 Advanced TypeScript Projects\assets\logo.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\04 Advanced TypeScript Projects\assets\simon.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\04 Advanced TypeScript Projects\assets\title.mp3" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\04 Advanced TypeScript Projects\assets\titlepage.jpg" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\04 Advanced TypeScript Projects\index.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\04 Advanced TypeScript Projects\screen shots\part1.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\04 Advanced TypeScript Projects\screen shots\part2.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\04 Advanced TypeScript Projects\screen shots\part3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\04 Advanced TypeScript Projects\screen shots\part3.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\04 Advanced TypeScript Projects\screen shots\part4.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\04 Advanced TypeScript Projects\screen shots\part5.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\04 Advanced TypeScript Projects\visualstudio_project.zip" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\Spanish\01 Comenzando\images\cloneFrom.jpg" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\Spanish\01 Comenzando\images\dashboard.jpg" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\Spanish\01 Comenzando\images\editor.jpg" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\Spanish\01 Comenzando\images\start.jpg" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\Spanish\01 Comenzando\index.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\Spanish\01 Comenzando\part2.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\Spanish\01 Comenzando\part3.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\Spanish\01 Comenzando\part4.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\Spanish\01 Comenzando\part5.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\Spanish\01 Comenzando\part6.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\Spanish\01 Comenzando\part7.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\Spanish\01 Comenzando\part8.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\Spanish\02 Creando tu primer juego\assets\baddie.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\Spanish\02 Creando tu primer juego\assets\diamond.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\Spanish\02 Creando tu primer juego\assets\dude.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\Spanish\02 Creando tu primer juego\assets\firstaid.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\Spanish\02 Creando tu primer juego\assets\platform.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\Spanish\02 Creando tu primer juego\assets\sky.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\Spanish\02 Creando tu primer juego\assets\star.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\Spanish\02 Creando tu primer juego\js\phaser.min.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\Spanish\02 Creando tu primer juego\part1.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\Spanish\02 Creando tu primer juego\part2.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\Spanish\02 Creando tu primer juego\part3.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\Spanish\02 Creando tu primer juego\part4.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\Spanish\02 Creando tu primer juego\part5.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\Spanish\02 Creando tu primer juego\part6.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\Spanish\02 Creando tu primer juego\part7.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\Spanish\02 Creando tu primer juego\part8.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\Spanish\02 Creando tu primer juego\part9.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\Spanish\02 Creando tu primer juego\phaser_tutorial_02.zip" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\Spanish\02 Creando tu primer juego\screen shots\part3.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\Spanish\02 Creando tu primer juego\screen shots\part4.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\Spanish\02 Creando tu primer juego\screen shots\part5.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\Spanish\02 Creando tu primer juego\screen shots\part6.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\Spanish\02 Creando tu primer juego\screen shots\part7.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\Spanish\02 Creando tu primer juego\screen shots\part8.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\Spanish\02 Creando tu primer juego\screen shots\part9.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\Spanish\02 Creando tu primer juego\screen shots\tutorial_header.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\bower_components\phaser-official\tutorials\Spanish\02 Creando tu primer juego\tutorial.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\config.json" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\css\styles.css" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\dist\assets\preloader.gif" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\dist\assets\yeoman-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\dist\css\styles.css" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\dist\index.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\dist\js\dialogs.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\dist\js\game.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\dist\js\phaser.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\dist\js\phaser.min.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\game\main.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\game\states\boot.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\game\states\gameover.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\game\states\menu.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\game\states\play.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\game\states\preload.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\index.html" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\package.json" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\plugins\dialogs.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\templates\_main.js.tpl" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/dist/js/plugins/dialogs.js" afterPath="$PROJECT_DIR$/example/dist/js/plugins/dialogs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/game/plugins/dialogs.js" afterPath="$PROJECT_DIR$/example/game/plugins/dialogs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/dist/js/game.js" afterPath="$PROJECT_DIR$/example/dist/js/game.js" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\package.json" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dialogs.js" afterPath="$PROJECT_DIR$/dialogs.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/index.html" afterPath="$PROJECT_DIR$/example/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/game/states/play.js" afterPath="$PROJECT_DIR$/example/game/states/play.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/game/states/preload.js" afterPath="$PROJECT_DIR$/example/game/states/preload.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="P:\Google Drive\repos\dialog-plugin\example\game\plugins\dialogs.js" afterPath="$PROJECT_DIR$/src/dialogs.js" />
     </list>
     <ignored path="dialog-plugin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -915,13 +32,13 @@
     <favorites_list name="dialog-plugin" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4972826">
+    <splitter split-orientation="horizontal" split-proportion="0.74157304">
       <split-first>
         <leaf>
           <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/example/dist/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="374">
+                <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="374">
                   <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
                   <folding />
                 </state>
@@ -932,7 +49,7 @@
             <entry file="file://$PROJECT_DIR$/example/game/states/play.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
-                  <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+                  <caret line="16" column="106" selection-start-line="16" selection-start-column="106" selection-end-line="16" selection-end-column="106" />
                   <folding />
                 </state>
               </provider>
@@ -941,7 +58,7 @@
           <file leaf-file-name="menu.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/example/game/states/menu.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+                <state vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="612">
                   <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
                   <folding />
                 </state>
@@ -951,7 +68,7 @@
           <file leaf-file-name="preload.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/example/game/states/preload.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
+                <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="663">
                   <caret line="15" column="29" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="29" />
                   <folding />
                 </state>
@@ -959,9 +76,9 @@
             </entry>
           </file>
           <file leaf-file-name="dialogs.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/example/game/plugins/dialogs.js">
+            <entry file="file://$PROJECT_DIR$/src/dialogs.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="10.538462" vertical-offset="682" max-vertical-offset="1598">
+                <state vertical-scroll-proportion="0.0" vertical-offset="682" max-vertical-offset="1598">
                   <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
                   <folding />
                 </state>
@@ -971,8 +88,48 @@
           <file leaf-file-name="dialogs.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/dialogs.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1598">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.59147024" vertical-offset="612" max-vertical-offset="1598">
+                  <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Gruntfile.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="1751">
+                  <caret line="70" column="28" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/example/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="374">
+                  <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/dist/example/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="374">
+                  <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/example/game/main.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="357">
+                  <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
                   <folding />
                 </state>
               </provider>
@@ -985,7 +142,7 @@
           <file leaf-file-name="modal.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/../phaser_modals/src/modal.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.5586854" vertical-offset="510" max-vertical-offset="5049">
+                <state vertical-scroll-proportion="0.54214126" vertical-offset="510" max-vertical-offset="5049">
                   <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
                   <folding />
                 </state>
@@ -1002,15 +159,24 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dialogs.js" />
         <option value="$PROJECT_DIR$/example/Gruntfile.js" />
-        <option value="$PROJECT_DIR$/example/index.html" />
         <option value="$PROJECT_DIR$/example/dist/index.html" />
         <option value="$PROJECT_DIR$/example/game/states/preload.js" />
         <option value="$PROJECT_DIR$/example/game/states/play.js" />
         <option value="$PROJECT_DIR$/example/game/plugins/dialogs.js" />
+        <option value="$PROJECT_DIR$/Gruntfile.js" />
+        <option value="$PROJECT_DIR$/example/index.html" />
+        <option value="$PROJECT_DIR$/dialogs.js" />
       </list>
     </option>
+  </component>
+  <component name="JsGruntFileManager">
+    <gruntfiles>
+      <GruntfileState>
+        <gruntfile-path>$PROJECT_DIR$/Gruntfile.js</gruntfile-path>
+      </GruntfileState>
+    </gruntfiles>
+    <initial>false</initial>
   </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
@@ -1044,6 +210,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1062,30 +229,107 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dialog-plugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dialog-plugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dialog-plugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dialog-plugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dialog-plugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dialog-plugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dialog-plugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dialog-plugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="editorconfig.notification" value="Applied .editorconfig settings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="P:\Google Drive\repos\dialog-plugin" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="P:\Google Drive\repos\dialog-plugin\src" />
       <recent name="P:\Google Drive\repos\dialog-plugin\example\game\plugins" />
       <recent name="P:\Google Drive\repos\dialog-plugin" />
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <method />
     </configuration>
-    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
@@ -1093,10 +337,6 @@
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="Chrome" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -1112,6 +352,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
       <method />
     </configuration>
     <list size="0" />
@@ -1128,16 +374,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1680" y="2" width="1676" height="1048" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
+      <window_info id="Grunt" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1018914" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13117754" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1145,9 +390,11 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1171,11 +418,82 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/example/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="374">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/game/states/play.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="561">
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/game/states/menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="612">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/game/states/preload.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="663">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dialogs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="682" max-vertical-offset="1598">
+          <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dialogs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1598">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="1751">
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/game/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="357">
+          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../phaser_modals/src/modal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5049">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/example/game/states/gameover.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="891">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1183,46 +501,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="891">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/game/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="891">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/Gruntfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23681258" vertical-offset="877" max-vertical-offset="1768">
-          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/example/dist/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="374">
+        <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="374">
           <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23583815" vertical-offset="0" max-vertical-offset="865">
-          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../phaser_modals/src/modal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5586854" vertical-offset="510" max-vertical-offset="5049">
-          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1235,14 +520,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/game/states/play.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
-          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/example/game/states/menu.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
@@ -1251,18 +528,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/game/plugins/dialogs.js">
+    <entry file="file://$PROJECT_DIR$/src/dialogs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="10.538462" vertical-offset="682" max-vertical-offset="1598">
+        <state vertical-scroll-proportion="0.0" vertical-offset="682" max-vertical-offset="1598">
           <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/game/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../phaser_modals/src/modal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.54214126" vertical-offset="510" max-vertical-offset="5049">
+          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/example/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="374">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="1751">
+          <caret line="70" column="28" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="374">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/game/states/play.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+          <caret line="16" column="106" selection-start-line="16" selection-start-column="106" selection-end-line="16" selection-end-column="106" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dialogs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1598">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.59147024" vertical-offset="612" max-vertical-offset="1598">
+          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
           <folding />
         </state>
       </provider>
