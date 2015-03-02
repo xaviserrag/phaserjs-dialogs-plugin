@@ -107,12 +107,12 @@ module.exports = Menu;
       var dialogs = [
         {
           name: 'gameOver',
-          btnOffsetY: 50,
+          closeBtnOffsetY: 50,
           bgScreenAlpha: 0.9,
           hasBgScreen: true,
           hasEasyClose: true,
-          fadeInType: 'alpha',
-          fadeOutType: 'alpha',
+          fadeIn: 'alpha',
+          fadeOut: 'alpha',
           objects: [
             {
               type: 'text',
@@ -144,10 +144,10 @@ module.exports = Menu;
           spriteSheet: 'popup',
           closeBtnSprite: 'close-btn',
           bgImg: 'bg-popup',
-          btnOffsetY: 151,
+          closeBtnOffsetY: 151,
           hasEasyClose: false,
-          fadeInType: 'alphaScale',
-          fadeOutType: 'alphaScale',
+          fadeIn: 'alphaScale',
+          fadeOut: 'alphaScale',
           objects: [
             {
               type: 'text',
@@ -188,8 +188,8 @@ module.exports = Menu;
           bgImg: 'yeoman',
           hasBgScreen: true,
           hasEasyClose: true,
-          fadeInType: 'alphaDown',
-          fadeOutType: 'alphaUp',
+          fadeIn: 'alphaDown',
+          fadeOut: 'alphaUp',
           objects: [
             {
               type: 'text',
@@ -205,12 +205,12 @@ module.exports = Menu;
         {
           name: 'random',
           spriteSheet: 'popup',
-          btnOffsetY: 100,
+          closeBtnOffsetY: 100,
           hasBgScreen: true,
           bgScreenColor: 0x55ffff,
           hasEasyClose: true,
-          fadeInType: 'alphaScale',
-          fadeOutType: 'alphaUp',
+          fadeIn: 'alphaScale',
+          fadeOut: 'alphaUp',
           objects: [
             {
               type: 'text',

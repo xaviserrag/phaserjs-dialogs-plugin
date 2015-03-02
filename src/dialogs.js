@@ -96,7 +96,7 @@ Phaser.Plugin.Dialogs.prototype.createDialog = function createDialog (config) {
         hasBgScreen = config.hasBgScreen || false,
         bgImg = config.bgImg || '',
         closeBtnSprite = config.closeBtnSprite || '',
-        closeBtnSprite = config.closeBtnSprite || 0,
+        closeBtnOffsetY = config.closeBtnOffsetY || 0,
         bgScreenColor = config.bgScreenColor || "0x000000",
         bgScreenAlpha = config.bgScreenAlpha || 0.7,
         fadeIn = config.fadeIn || '',
@@ -142,7 +142,7 @@ Phaser.Plugin.Dialogs.prototype.createDialog = function createDialog (config) {
             closeBtn= self.game.add.sprite(0, 0, closeBtnSprite);
         }
         closeBtn.inputEnabled = true;
-        closeBtn.y = 0 + closeBtnSprite;
+        closeBtn.y = 0 + closeBtnOffsetY;
         closeBtn.anchor.x = 0.5;
         closeBtn.anchor.y = 0.5;
         closeBtn.events.onInputDown.addOnce(function() {
