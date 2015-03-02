@@ -29,7 +29,7 @@
 },
 "gem":
 {
-	"frame": {"x":804,"y":262,"w":58,"h":104},
+	"frame": {"x":804,"y":328,"w":58,"h":104},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":58,"h":104},
@@ -56,11 +56,38 @@
 },
 "mario":
 {
-	"frame": {"x":804,"y":368,"w":52,"h":64},
+	"frame": {"x":864,"y":328,"w":52,"h":64},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":52,"h":64},
 	"sourceSize": {"w":52,"h":64},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"mario0":
+{
+	"frame": {"x":804,"y":262,"w":64,"h":64},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":64},
+	"sourceSize": {"w":64,"h":64},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"mario1":
+{
+	"frame": {"x":870,"y":262,"w":48,"h":64},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":48,"h":64},
+	"sourceSize": {"w":48,"h":64},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"mario2":
+{
+	"frame": {"x":864,"y":394,"w":52,"h":56},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":52,"h":56},
+	"sourceSize": {"w":52,"h":56},
 	"pivot": {"x":0.5,"y":0.5}
 },
 "random-btn":
@@ -77,8 +104,8 @@
 	"version": "1.0",
 	"image": "btn.png",
 	"format": "RGBA8888",
-	"size": {"w":906,"h":458},
+	"size": {"w":920,"h":458},
 	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:62098b2d59a08fcf01d72a31f97ed499:6b3eb71cf4ee791e007b2a071fbaa81c:382bbd42eff5a2b763aa915dc00d7597$"
+	"smartupdate": "$TexturePacker:SmartUpdate:e763cbdf3b2f3fa5b0a0612d2b3cc1e6:385e66266246d0d93bef0c74aed11723:382bbd42eff5a2b763aa915dc00d7597$"
 }
 }

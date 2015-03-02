@@ -102,7 +102,7 @@ Phaser.Plugin.Dialogs.prototype.createDialog = function createDialog (config) {
         bgScreenAlpha = config.bgScreenAlpha || 0.7,
         fadeInType = config.fadeInType || '',
         fadeOutType = config.fadeOutType || '',
-        objects = config.objects || [1,1,1];
+        objects = config.objects || [];
 
     var bgScreen;
     var dialog = this.game.add.group();
@@ -114,7 +114,6 @@ Phaser.Plugin.Dialogs.prototype.createDialog = function createDialog (config) {
 
 
     var initBgScreen = function initBg() {
-      console.log("????", hasBgScreen)
         bgScreen = self.game.add.graphics(0, 0);
         bgScreen.beginFill(bgScreenColor, bgScreenAlpha);
         bgScreen.drawRect(0 - self.game.width * 2, 0 - self.game.height * 2, self.game.width * 4, self.game.height * 4);
@@ -167,7 +166,8 @@ Phaser.Plugin.Dialogs.prototype.createDialog = function createDialog (config) {
                 offsetX = item.offsetX || 0,
                 offsetY = item.offsetY || 0,
                 contentScale = item.contentScale || 1,
-                content = item.content || "",
+                content = item.content || '',
+                animation = item.animation || [],
                 callback = item.callback || false,
                 label;
 
@@ -197,12 +197,17 @@ Phaser.Plugin.Dialogs.prototype.createDialog = function createDialog (config) {
             if (type === "image") {
                 if(spriteSheet !== '') {
                   label = self.game.add.sprite(0, 0, spriteSheet, content);
+                  if(animation.length > 0) {
+                    label.animations.add('anim', animation);
+                    label.animations.play('anim', 10, true);
+                  }
                 } else{
                   label = self.game.add.sprite(0, 0, content);
                 }
                 label.scale.setTo(contentScale, contentScale);
                 label.x = (0 - ((label.width) / 2)) + offsetX;
                 label.y = (0 - ((label.height) / 2)) + offsetY;
+
                 if(callback) {
                   label.inputEnabled = true;
                   label.events.onInputDown.add(callback, self)

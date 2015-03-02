@@ -7,7 +7,6 @@
       this.bg = this.game.add.sprite(-300,-300,'bg');
 
       var buttons = ['game-over-btn', 'level-btn', 'list-btn', 'random-btn'];
-
       var dialogs = [
         {
           name: 'gameOver',
@@ -108,9 +107,8 @@
         },
         {
           name: 'random',
-          closeBtnSprite: 'closeBtn',
+          spriteSheet: 'popup',
           btnOffsetY: 100,
-          bgImg: 'yeoman',
           hasBgScreen: true,
           bgScreenColor: 0x55ffff,
           hasEasyClose: true,
@@ -119,37 +117,36 @@
           objects: [
             {
               type: 'text',
-              color: '#ff55ff',
+              color: '#000',
               fontFamily: 'Arial',
               fontSize: 52,
               offsetX: 0,
               offsetY: -100,
-              content: "Hello World"
+              content: "Random Mario animation"
             },
             {
               type: 'image',
-              offsetY: -200,
-              offsetX: -200,
-              content: "yeoman"
+              offsetX: -30,
+              content: "mario"
             },
             {
               type: 'image',
-              offsetY: -200,
-              offsetX: 200,
-              content: "yeoman"
+              offsetX: 30,
+              content: "mario",
+              animation: ['mario0', 'mario1', 'mario2']
             }
           ]
         }
       ];
+      this.game.Dialogs.createDialog({});
 
       for(var i = 0; i < 4; i++){
-        var self = this;
-        var sprite = this.game.add.sprite(200 * i + 50, self.game.height/2 - 20, 'popup', buttons[i]);
+        var self = this,
+            sprite = this.game.add.sprite(200 * i + 50, self.game.height/2 - 20, 'popup', buttons[i]);
         sprite.inputEnabled = true;
         sprite.anchor.y = 0.5;
         (function (i) {
           sprite.events.onInputDown.add(function () {
-            console.log(i);
             self.game.Dialogs.createDialog(dialogs[i]);
           }, this);
         })(i);
