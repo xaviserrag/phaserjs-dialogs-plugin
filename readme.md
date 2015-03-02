@@ -137,8 +137,11 @@ normal fonts, even animations!
 * <b>offsetY</b> -> The offset Y from the center. Default: 0 (centered on the center of the screen).
 * <b>contentScale</b> -> If the type is an image you can scale it with this property. Default: 1 (no scale).
 * <b>content</b> ->
-⋅⋅ In case of an image this will be the spriteName or frameName (if an spriteSheet is used on the dialog, this will expect a frame)
-·· In case of a text, this will be the text printed.
+
+⋅⋅· In case of an image this will be the spriteName or frameName (if an spriteSheet is used on the dialog, this will expect a frame)
+
+··· In case of a text, this will be the text printed.
+
 * <b>animation</b> -> If case of an image, you can pass an array of frames here like in a normal animation.
  Example: 
  ```javascript
