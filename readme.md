@@ -94,10 +94,10 @@ After all those properties, we can setup our fadeIn or fadeOut animations, and o
 ###FadeIn and fadeOut
 This plugin has four types of animations, they are inverse on the In and Out.
 
-*<b>alpha</b> -> Standard alpha animation from 0 to 1.
-*<b>alphaUp</b> -> Alpha animation + a little tween moving all the dialog from the bottom to the center.
-*<b>alphaDown</b> -> Alpha animation + a little tween moving all the dialog from the top to the center.
-*<b>alphaScale</b> -> Alpha animation + a little scale of the dialog.
+* <b>alpha</b> -> Standard alpha animation from 0 to 1.
+* <b>alphaUp</b> -> Alpha animation + a little tween moving all the dialog from the bottom to the center.
+* <b>alphaDown</b> -> Alpha animation + a little tween moving all the dialog from the top to the center.
+* <b>alphaScale</b> -> Alpha animation + a little scale of the dialog.
 
 All the animations appear on the examples. In the other hand, if you don't like any of those animations.
 You can just pass a function to the fadeIn that returns your desired tween.
@@ -126,26 +126,26 @@ normal fonts, even animations!
 
 ####Properties
 
-*<b>type</b> -> 'text', 'bitmapText' or 'image'. The type of the object you want to add.
-*<b> color</b> -> The color of the font. Default: #000. 
-*<b> fontFamily</b> -> The font used. Default: Arial.
-*<b> fontSize</b> -> The font size used. Default: 32.
-*<b> stroke</b> -> If stroke thickness applied, color of the stroke. Default: #000.
-*<b> strokeThickness</b> -> the thickness of the stroke. Default: 0 (no stroke).
-*<b> align</b> -> the align of the text. Default: center.
-*<b> offsetX</b> -> The offset X from the center. Default: 0 (centered on the center of the screen).
-*<b> offsetY</b> -> The offset Y from the center. Default: 0 (centered on the center of the screen).
-*<b> contentScale</b> -> If the type is an image you can scale it with this property. Default: 1 (no scale).
-*<b> content</b> ->
+* <b>type</b> -> 'text', 'bitmapText' or 'image'. The type of the object you want to add.
+* <b> color</b> -> The color of the font. Default: #000. 
+* <b> fontFamily</b> -> The font used. Default: Arial.
+* <b> fontSize</b> -> The font size used. Default: 32.
+* <b> stroke</b> -> If stroke thickness applied, color of the stroke. Default: #000.
+* <b> strokeThickness</b> -> the thickness of the stroke. Default: 0 (no stroke).
+* <b> align</b> -> the align of the text. Default: center.
+* <b> offsetX</b> -> The offset X from the center. Default: 0 (centered on the center of the screen).
+* <b> offsetY</b> -> The offset Y from the center. Default: 0 (centered on the center of the screen).
+* <b> contentScale</b> -> If the type is an image you can scale it with this property. Default: 1 (no scale).
+* <b> content</b> ->
     ··* In case of an image this will be the spriteName or frameName (if an spriteSheet is used on the dialog, this will expect a frame)
     ··* In case of a text, this will be the text printed.
-*<b>animation</b> -> If case of an image, you can pass an array of frames here like in a normal animation.
+* <b>animation</b> -> If case of an image, you can pass an array of frames here like in a normal animation.
  Example: 
  ```javascript
  animation: ['mario00', 'mario01', 'mario02']
  animation: [0, 1, 2]
  ```
-*<b> callback</b> -> a callback that will be triggered when the object is clicked.
+* <b> callback</b> -> a callback that will be triggered when the object is clicked.
 
 
 
