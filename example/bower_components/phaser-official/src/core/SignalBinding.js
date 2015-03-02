@@ -1,25 +1,21 @@
 /**
+* @author       Miller Medeiros http://millermedeiros.github.com/js-signals/
 * @author       Richard Davey <rich@photonstorm.com>
 * @copyright    2014 Photon Storm Ltd.
 * @license      {@link https://github.com/photonstorm/phaser/blob/master/license.txt|MIT License}
 */
 
 /**
-* Phaser.SignalBinding
-*
 * Object that represents a binding between a Signal and a listener function.
-* This is an internal constructor and shouldn't be called by regular users.
+* This is an internal constructor and shouldn't be created directly.
 * Inspired by Joa Ebert AS3 SignalBinding and Robert Penner's Slot classes.
-*
+* 
 * @class Phaser.SignalBinding
-* @name SignalBinding
-* @author Miller Medeiros http://millermedeiros.github.com/js-signals/
 * @constructor
-* @inner
 * @param {Phaser.Signal} signal - Reference to Signal object that listener is currently bound to.
 * @param {function} listener - Handler function bound to the signal.
 * @param {boolean} isOnce - If binding should be executed just once.
-* @param {object} [listenerContext] - Context on which listener will be executed (object that should represent the `this` variable inside listener function).
+* @param {object} [listenerContext=null] - Context on which listener will be executed (object that should represent the `this` variable inside listener function).
 * @param {number} [priority] - The priority level of the event listener. (default = 0).
 */
 Phaser.SignalBinding = function (signal, listener, isOnce, listenerContext, priority) {
@@ -30,17 +26,15 @@ Phaser.SignalBinding = function (signal, listener, isOnce, listenerContext, prio
     */
     this._listener = listener;
 
-    /**
-    * @property {boolean} _isOnce - If binding should be executed just once.
-    * @private
-    */
-    this._isOnce = isOnce;
+    if (isOnce)
+    {
+        this._isOnce = true;
+    }
 
-    /**
-    * @property {object|undefined|null} context - Context on which listener will be executed (object that should represent the `this` variable inside listener function).
-    * @memberof SignalBinding.prototype
-    */
-    this.context = listenerContext;
+    if (listenerContext != null) /* not null/undefined */
+    {
+        this.context = listenerContext;
+    }
 
     /**
     * @property {Phaser.Signal} _signal - Reference to Signal object that listener is currently bound to.
@@ -48,15 +42,36 @@ Phaser.SignalBinding = function (signal, listener, isOnce, listenerContext, prio
     */
     this._signal = signal;
 
-    /**
-    * @property {number} _priority - Listener priority.
-    * @private
-    */
-    this._priority = priority || 0;
+    if (priority)
+    {
+        this._priority = priority;
+    }
 
 };
 
 Phaser.SignalBinding.prototype = {
+
+    /**
+    * @property {?object} context - Context on which listener will be executed (object that should represent the `this` variable inside listener function).
+    */
+    context: null,
+
+    /**
+    * @property {boolean} _isOnce - If binding should be executed just once.
+    * @private
+    */
+    _isOnce: false,
+
+    /**
+    * @property {number} _priority - Listener priority.
+    * @private
+    */
+    _priority: 0,
+
+    /**
+    * @property {number} callCount - The number of times the handler function has been called.
+    */
+    callCount: 0,
 
     /**
     * If binding is active and should be executed.
@@ -76,7 +91,7 @@ Phaser.SignalBinding.prototype = {
     * Call listener passing arbitrary parameters.
     * If binding was added using `Signal.addOnce()` it will be automatically removed from signal dispatch queue, this method is used internally for the signal dispatch.
     * @method Phaser.SignalBinding#execute
-    * @param {array} [paramsArr] - Array of parameters that should be passed to the listener.
+    * @param {any[]} [paramsArr] - Array of parameters that should be passed to the listener.
     * @return {any} Value returned by the listener.
     */
     execute: function(paramsArr) {
@@ -87,6 +102,7 @@ Phaser.SignalBinding.prototype = {
         {
             params = this.params ? this.params.concat(paramsArr) : paramsArr;
             handlerReturn = this._listener.apply(this.context, params);
+            this.callCount++;
 
             if (this._isOnce)
             {
@@ -126,7 +142,7 @@ Phaser.SignalBinding.prototype = {
 
     /**
     * @method Phaser.SignalBinding#getListener
-    * @return {Function} Handler function bound to the signal.
+    * @return {function} Handler function bound to the signal.
     */
     getListener: function () {
         return this._listener;
@@ -134,15 +150,15 @@ Phaser.SignalBinding.prototype = {
 
     /**
     * @method Phaser.SignalBinding#getSignal
-    * @return {Signal} Signal that listener is currently bound to.
+    * @return {Phaser.Signal} Signal that listener is currently bound to.
     */
     getSignal: function () {
         return this._signal;
     },
 
     /**
-    * @method Phaser.SignalBinding#_destroy
     * Delete instance properties
+    * @method Phaser.SignalBinding#_destroy
     * @private
     */
     _destroy: function () {

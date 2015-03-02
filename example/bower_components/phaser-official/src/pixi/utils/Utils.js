@@ -1,7 +1,7 @@
 /**
  * @author Mat Groves http://matgroves.com/ @Doormat23
  */
-
+ 
 // http://paulirish.com/2011/requestanimationframe-for-smart-animating/
 // http://my.opera.com/emoller/blog/2011/12/20/requestanimationframe-for-smart-er-animating
 
@@ -11,42 +11,45 @@
 
 /**
  * A polyfill for requestAnimationFrame
- * You can actually use both requestAnimationFrame and requestAnimFrame,
+ * You can actually use both requestAnimationFrame and requestAnimFrame, 
  * you will still benefit from the polyfill
  *
  * @method requestAnimationFrame
  */
+
 /**
  * A polyfill for cancelAnimationFrame
  *
  * @method cancelAnimationFrame
  */
-var lastTime = 0;
-var vendors = ['ms', 'moz', 'webkit', 'o'];
-for(var x = 0; x < vendors.length && !window.requestAnimationFrame; ++x) {
-    window.requestAnimationFrame = window[vendors[x] + 'RequestAnimationFrame'];
-    window.cancelAnimationFrame = window[vendors[x] + 'CancelAnimationFrame'] ||
-        window[vendors[x] + 'CancelRequestAnimationFrame'];
-}
+(function(window) {
+    var lastTime = 0;
+    var vendors = ['ms', 'moz', 'webkit', 'o'];
+    for(var x = 0; x < vendors.length && !window.requestAnimationFrame; ++x) {
+        window.requestAnimationFrame = window[vendors[x] + 'RequestAnimationFrame'];
+        window.cancelAnimationFrame = window[vendors[x] + 'CancelAnimationFrame'] ||
+            window[vendors[x] + 'CancelRequestAnimationFrame'];
+    }
 
-if (!window.requestAnimationFrame) {
-    window.requestAnimationFrame = function(callback) {
-        var currTime = new Date().getTime();
-        var timeToCall = Math.max(0, 16 - (currTime - lastTime));
-        var id = window.setTimeout(function() { callback(currTime + timeToCall); },
-          timeToCall);
-        lastTime = currTime + timeToCall;
-        return id;
-    };
-}
+    if (!window.requestAnimationFrame) {
+        window.requestAnimationFrame = function(callback) {
+            var currTime = new Date().getTime();
+            var timeToCall = Math.max(0, 16 - (currTime - lastTime));
+            var id = window.setTimeout(function() { callback(currTime + timeToCall); },
+              timeToCall);
+            lastTime = currTime + timeToCall;
+            return id;
+        };
+    }
 
-if (!window.cancelAnimationFrame) {
-    window.cancelAnimationFrame = function(id) {
-        clearTimeout(id);
-    };
-}
+    if (!window.cancelAnimationFrame) {
+        window.cancelAnimationFrame = function(id) {
+            clearTimeout(id);
+        };
+    }
 
-window.requestAnimFrame = window.requestAnimationFrame;
+    window.requestAnimFrame = window.requestAnimationFrame;
+})(this);
 
 /**
  * Converts a hex color number to an [R, G, B] array
@@ -75,15 +78,21 @@ PIXI.rgb2hex = function(rgb) {
  */
 if (typeof Function.prototype.bind !== 'function') {
     Function.prototype.bind = (function () {
-        var slice = Array.prototype.slice;
         return function (thisArg) {
-            var target = this, boundArgs = slice.call(arguments, 1);
+            var target = this, i = arguments.length - 1, boundArgs = [];
+            if (i > 0)
+            {
+                boundArgs.length = i;
+                while (i--) boundArgs[i] = arguments[i + 1];
+            }
 
             if (typeof target !== 'function') throw new TypeError();
 
             function bound() {
-                var args = boundArgs.concat(slice.call(arguments));
-                target.apply(this instanceof bound ? this : thisArg, args);
+                var i = arguments.length, args = new Array(i);
+                while (i--) args[i] = arguments[i];
+                args = boundArgs.concat(args);
+                return target.apply(this instanceof bound ? this : thisArg, args);
             }
 
             bound.prototype = (function F(proto) {
@@ -138,7 +147,7 @@ PIXI.packColorRGBA = function(r, g, b, a)//r, g, b, a)
    // var g = (i / 4096.0)%64 / 64;
   //  var b = (i / 64.0)%64 / 64;
   //  var a = (i)%64 / 64;
-
+     
   //  console.log(r, g, b, a);
   //  return i;
 
@@ -164,6 +173,7 @@ PIXI.unpackColorRGB = function(r, g, b)//r, g, b, a)
  */
 PIXI.canUseNewCanvasBlendModes = function()
 {
+    if (typeof document === 'undefined') return false;
     var canvas = document.createElement('canvas');
     canvas.width = 1;
     canvas.height = 1;
@@ -194,4 +204,17 @@ PIXI.getNextPowerOfTwo = function(number)
         while (result < number) result <<= 1;
         return result;
     }
+};
+
+/**
+ * checks if the given width and height make a power of two texture
+ * @method isPowerOfTwo
+ * @param width {Number}
+ * @param height {Number}
+ * @return {Boolean} 
+ */
+PIXI.isPowerOfTwo = function(width, height)
+{
+    return (width > 0 && (width & (width - 1)) === 0 && height > 0 && (height & (height - 1)) === 0);
+
 };

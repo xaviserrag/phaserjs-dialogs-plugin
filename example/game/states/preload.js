@@ -18,7 +18,6 @@ Preload.prototype = {
   },
   create: function() {
     this.asset.cropEnabled = false;
-    console.log(this.game)
     this.game.plugins.add(Phaser.Plugin.Debug);
   },
   update: function() {

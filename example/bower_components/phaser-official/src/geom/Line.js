@@ -6,14 +6,13 @@
 
 /**
 * Creates a new Line object with a start and an end point.
-* @class Line
-* @classdesc Phaser - Line
+* 
+* @class Phaser.Line
 * @constructor
 * @param {number} [x1=0] - The x coordinate of the start of the line.
 * @param {number} [y1=0] - The y coordinate of the start of the line.
 * @param {number} [x2=0] - The x coordinate of the end of the line.
 * @param {number} [y2=0] - The y coordinate of the end of the line.
-* @return {Phaser.Line} This line object
 */
 Phaser.Line = function (x1, y1, x2, y2) {
 
@@ -38,6 +37,7 @@ Phaser.Line.prototype = {
 
     /**
     * Sets the components of the Line to the specified values.
+    * 
     * @method Phaser.Line#setTo
     * @param {number} [x1=0] - The x coordinate of the start of the line.
     * @param {number} [y1=0] - The y coordinate of the start of the line.
@@ -57,6 +57,7 @@ Phaser.Line.prototype = {
     /**
     * Sets the line to match the x/y coordinates of the two given sprites.
     * Can optionally be calculated from their center coordinates.
+    * 
     * @method Phaser.Line#fromSprite
     * @param {Phaser.Sprite} startSprite - The coordinates of this Sprite will be set to the Line.start point.
     * @param {Phaser.Sprite} endSprite - The coordinates of this Sprite will be set to the Line.start point.
@@ -71,10 +72,27 @@ Phaser.Line.prototype = {
         {
             return this.setTo(startSprite.center.x, startSprite.center.y, endSprite.center.x, endSprite.center.y);
         }
-        else
-        {
-            return this.setTo(startSprite.x, startSprite.y, endSprite.x, endSprite.y);
-        }
+
+        return this.setTo(startSprite.x, startSprite.y, endSprite.x, endSprite.y);
+
+    },
+
+    /**
+    * Sets this line to start at the given `x` and `y` coordinates and for the segment to extend at `angle` for the given `length`.
+    * 
+    * @method Phaser.Line#fromAngle
+    * @param {number} x - The x coordinate of the start of the line.
+    * @param {number} y - The y coordinate of the start of the line.
+    * @param {number} angle - The angle of the line in radians.
+    * @param {number} length - The length of the line in pixels.
+    * @return {Phaser.Line} This line object
+    */
+    fromAngle: function (x, y, angle, length) {
+
+        this.start.setTo(x, y);
+        this.end.setTo(x + (Math.cos(angle) * length), y + (Math.sin(angle) * length));
+
+        return this;
 
     },
 
@@ -96,7 +114,22 @@ Phaser.Line.prototype = {
     },
 
     /**
+    * Returns the reflected angle between two lines.
+    * This is the outgoing angle based on the angle of this line and the normalAngle of the given line.
+    *
+    * @method Phaser.Line#reflect
+    * @param {Phaser.Line} line - The line to reflect off this line.
+    * @return {number} The reflected angle in radians.
+    */
+    reflect: function (line) {
+
+        return Phaser.Line.reflect(this, line);
+
+    },
+
+    /**
     * Tests if the given coordinates fall on this line. See pointOnSegment to test against just the line segment.
+    * 
     * @method Phaser.Line#pointOnLine
     * @param {number} x - The line to check against this one.
     * @param {number} y - The line to check against this one.
@@ -104,12 +137,13 @@ Phaser.Line.prototype = {
     */
     pointOnLine: function (x, y) {
 
-        return ((x - this.start.x) * (this.end.y - this.end.y) === (this.end.x - this.start.x) * (y - this.end.y));
+        return ((x - this.start.x) * (this.end.y - this.start.y) === (this.end.x - this.start.x) * (y - this.start.y));
 
     },
 
     /**
     * Tests if the given coordinates fall on this line and within the segment. See pointOnLine to test against just the line.
+    * 
     * @method Phaser.Line#pointOnSegment
     * @param {number} x - The line to check against this one.
     * @param {number} y - The line to check against this one.
@@ -182,6 +216,27 @@ Phaser.Line.prototype = {
 
         return results;
 
+    },
+
+    /**
+     * Returns a new Line object with the same values for the start and end properties as this Line object.
+     * @method Phaser.Line#clone
+     * @param {Phaser.Line} output - Optional Line object. If given the values will be set into the object, otherwise a brand new Line object will be created and returned.
+     * @return {Phaser.Line} The cloned Line object.
+     */
+    clone: function (output) {
+
+        if (typeof output === "undefined" || output === null)
+        {
+            output = new Phaser.Line(this.start.x, this.start.y, this.end.x, this.end.y);
+        }
+        else
+        {
+            output.setTo(this.start.x, this.start.y, this.end.x, this.end.y);
+        }
+
+        return output;
+
     }
 
 };
@@ -207,7 +262,7 @@ Object.defineProperty(Phaser.Line.prototype, "length", {
 Object.defineProperty(Phaser.Line.prototype, "angle", {
 
     get: function () {
-        return Math.atan2(this.end.x - this.start.x, this.end.y - this.start.y);
+        return Math.atan2(this.end.y - this.start.y, this.end.x - this.start.x);
     }
 
 });
@@ -343,6 +398,45 @@ Object.defineProperty(Phaser.Line.prototype, "height", {
 });
 
 /**
+* @name Phaser.Line#normalX
+* @property {number} normalX - Gets the x component of the left-hand normal of this line.
+* @readonly
+*/
+Object.defineProperty(Phaser.Line.prototype, "normalX", {
+
+    get: function () {
+        return Math.cos(this.angle - 1.5707963267948966);
+    }
+
+});
+
+/**
+* @name Phaser.Line#normalY
+* @property {number} normalY - Gets the y component of the left-hand normal of this line.
+* @readonly
+*/
+Object.defineProperty(Phaser.Line.prototype, "normalY", {
+
+    get: function () {
+        return Math.sin(this.angle - 1.5707963267948966);
+    }
+
+});
+
+/**
+* @name Phaser.Line#normalAngle
+* @property {number} normalAngle - Gets the angle in radians of the normal of this line (line.angle - 90 degrees.)
+* @readonly
+*/
+Object.defineProperty(Phaser.Line.prototype, "normalAngle", {
+
+    get: function () {
+        return Phaser.Math.wrap(this.angle - 1.5707963267948966, -Math.PI, Math.PI);
+    }
+
+});
+
+/**
 * Checks for intersection between two lines as defined by the given start and end points.
 * If asSegment is true it will check for line segment intersection. If asSegment is false it will check for line intersection.
 * Returns the intersection segment of AB and EF as a Point, or null if there is no intersection.
@@ -354,7 +448,7 @@ Object.defineProperty(Phaser.Line.prototype, "height", {
 * @param {Phaser.Point} e - The start of the second Line to be checked.
 * @param {Phaser.Point} f - The end of the second line to be checked.
 * @param {boolean} [asSegment=true] - If true it will check for segment intersection, otherwise full line intersection.
-* @param {Phaser.Point} [result] - A Point object to store the result in, if not given a new one will be created.
+* @param {Phaser.Point|object} [result] - A Point object to store the result in, if not given a new one will be created.
 * @return {Phaser.Point} The intersection segment of the two lines as a Point, or null if there is no intersection.
 */
 Phaser.Line.intersectsPoints = function (a, b, e, f, asSegment, result) {
@@ -380,22 +474,15 @@ Phaser.Line.intersectsPoints = function (a, b, e, f, asSegment, result) {
 
     if (asSegment)
     {
-        if (Math.pow((result.x - b.x) + (result.y - b.y), 2) > Math.pow((a.x - b.x) + (a.y - b.y), 2))
-        {
-            return null;
-        }
+        var uc = ((f.y - e.y) * (b.x - a.x) - (f.x - e.x) * (b.y - a.y));
+        var ua = (((f.x - e.x) * (a.y - e.y)) - (f.y - e.y) * (a.x - e.x)) / uc;
+        var ub = (((b.x - a.x) * (a.y - e.y)) - ((b.y - a.y) * (a.x - e.x))) / uc;
 
-        if (Math.pow((result.x - a.x) + (result.y - a.y), 2) > Math.pow((a.x - b.x) + (a.y - b.y), 2))
+        if (ua >= 0 && ua <= 1 && ub >= 0 && ub <= 1)
         {
-            return null;
+            return result;
         }
-
-        if (Math.pow((result.x - f.x) + (result.y - f.y), 2) > Math.pow((e.x - f.x) + (e.y - f.y), 2))
-        {
-            return null;
-        }
-
-        if (Math.pow((result.x - e.x) + (result.y - e.y), 2) > Math.pow((e.x - f.x) + (e.y - f.y), 2))
+        else
         {
             return null;
         }
@@ -422,5 +509,20 @@ Phaser.Line.intersectsPoints = function (a, b, e, f, asSegment, result) {
 Phaser.Line.intersects = function (a, b, asSegment, result) {
 
     return Phaser.Line.intersectsPoints(a.start, a.end, b.start, b.end, asSegment, result);
+
+};
+
+/**
+* Returns the reflected angle between two lines.
+* This is the outgoing angle based on the angle of Line 1 and the normalAngle of Line 2.
+*
+* @method Phaser.Line.reflect
+* @param {Phaser.Line} a - The base line.
+* @param {Phaser.Line} b - The line to be reflected from the base line.
+* @return {number} The reflected angle in radians.
+*/
+Phaser.Line.reflect = function (a, b) {
+
+    return 2 * b.normalAngle - 3.141592653589793 - a.angle;
 
 };

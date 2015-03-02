@@ -5,17 +5,15 @@
 */
 
 /**
-* Creates a new BitmapText object.
-*
-* @class Phaser.BitmapText
-*
-* @classdesc BitmapText objects work by taking a texture file and an XML file that describes the font layout.
+* BitmapText objects work by taking a texture file and an XML file that describes the font layout.
 *
 * On Windows you can use the free app BMFont: http://www.angelcode.com/products/bmfont/
 * On OS X we recommend Glyph Designer: http://www.71squared.com/en/glyphdesigner
 * For Web there is the great Littera: http://kvazars.com/littera/
 *
+* @class Phaser.BitmapText
 * @constructor
+* @extends PIXI.BitmapText
 * @param {Phaser.Game} game - A reference to the currently running game.
 * @param {number} x - X position of the new bitmapText object.
 * @param {number} y - Y position of the new bitmapText object.
@@ -123,10 +121,11 @@ Phaser.BitmapText = function (game, x, y, font, text, size) {
     * 5 = outOfBoundsFired (0 = no, 1 = yes)
     * 6 = exists (0 = no, 1 = yes)
     * 7 = fixed to camera (0 = no, 1 = yes)
+    * 8 = destroy phase? (0 = no, 1 = yes)
     * @property {Array} _cache
     * @private
     */
-    this._cache = [0, 0, 0, 0, 1, 0, 1, 0];
+    this._cache = [0, 0, 0, 0, 1, 0, 1, 0, 0];
 
 };
 
@@ -168,7 +167,7 @@ Phaser.BitmapText.prototype.preUpdate = function () {
         this.renderable = this.game.world.camera.screenView.intersects(this.getBounds());
     }
 
-    this.world.setTo(this.game.camera.x + this.worldTransform[2], this.game.camera.y + this.worldTransform[5]);
+    this.world.setTo(this.game.camera.x + this.worldTransform.tx, this.game.camera.y + this.worldTransform.ty);
 
     if (this.visible)
     {
@@ -210,9 +209,11 @@ Phaser.BitmapText.prototype.postUpdate = function () {
 */
 Phaser.BitmapText.prototype.destroy = function(destroyChildren) {
 
-    if (this.game === null) { return; }
+    if (this.game === null || this.destroyPhase) { return; }
 
     if (typeof destroyChildren === 'undefined') { destroyChildren = true; }
+
+    this._cache[8] = 1;
 
     if (this.parent)
     {
@@ -256,6 +257,8 @@ Phaser.BitmapText.prototype.destroy = function(destroyChildren) {
     this.filters = null;
     this.mask = null;
     this.game = null;
+
+    this._cache[8] = 0;
 
 };
 
@@ -417,6 +420,10 @@ Object.defineProperty(Phaser.BitmapText.prototype, "inputEnabled", {
                 this.input = new Phaser.InputHandler(this);
                 this.input.start();
             }
+            else if (this.input && !this.input.enabled)
+            {
+                this.input.start();
+            }
         }
         else
         {
@@ -425,6 +432,7 @@ Object.defineProperty(Phaser.BitmapText.prototype, "inputEnabled", {
                 this.input.stop();
             }
         }
+
     }
 
 });
@@ -456,6 +464,20 @@ Object.defineProperty(Phaser.BitmapText.prototype, "fixedToCamera", {
         {
             this._cache[7] = 0;
         }
+    }
+
+});
+
+/**
+* @name Phaser.BitmapText#destroyPhase
+* @property {boolean} destroyPhase - True if this object is currently being destroyed.
+*/
+Object.defineProperty(Phaser.BitmapText.prototype, "destroyPhase", {
+
+    get: function () {
+
+        return !!this._cache[8];
+
     }
 
 });

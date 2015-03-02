@@ -3,14 +3,14 @@
  */
 
 /**
- * The SpriteBatch class is a really fast version of the DisplayObjectContainer
+ * The SpriteBatch class is a really fast version of the DisplayObjectContainer 
  * built solely for speed, so use when you need a lot of sprites or particles.
- * And it's extremely easy to use :
+ * And it's extremely easy to use : 
 
     var container = new PIXI.SpriteBatch();
-
+ 
     stage.addChild(container);
-
+ 
     for(var i  = 0; i < 100; i++)
     {
         var sprite = new PIXI.Sprite.fromImage("myImage.png");
@@ -22,6 +22,8 @@
  * @constructor
  * @param texture {Texture}
  */
+
+//TODO RENAME to PARTICLE CONTAINER?
 PIXI.SpriteBatch = function(texture)
 {
     PIXI.DisplayObjectContainer.call( this);
@@ -32,7 +34,7 @@ PIXI.SpriteBatch = function(texture)
 };
 
 PIXI.SpriteBatch.prototype = Object.create(PIXI.DisplayObjectContainer.prototype);
-PIXI.SpriteBatch.constructor = PIXI.SpriteBatch;
+PIXI.SpriteBatch.prototype.constructor = PIXI.SpriteBatch;
 
 /*
  * Initialises the spriteBatch
@@ -56,16 +58,16 @@ PIXI.SpriteBatch.prototype.initWebGL = function(gl)
  */
 PIXI.SpriteBatch.prototype.updateTransform = function()
 {
-   // TODO dont need to!
-    PIXI.DisplayObject.prototype.updateTransform.call( this );
-  //  PIXI.DisplayObjectContainer.prototype.updateTransform.call( this );
+    // TODO don't need to!
+    this.displayObjectUpdateTransform();
+    //  PIXI.DisplayObjectContainer.prototype.updateTransform.call( this );
 };
 
 /**
 * Renders the object using the WebGL renderer
 *
 * @method _renderWebGL
-* @param renderSession {RenderSession}
+* @param renderSession {RenderSession} 
 * @private
 */
 PIXI.SpriteBatch.prototype._renderWebGL = function(renderSession)
@@ -73,41 +75,41 @@ PIXI.SpriteBatch.prototype._renderWebGL = function(renderSession)
     if(!this.visible || this.alpha <= 0 || !this.children.length)return;
 
     if(!this.ready)this.initWebGL( renderSession.gl );
-
+    
     renderSession.spriteBatch.stop();
-
-    renderSession.shaderManager.activateShader(renderSession.shaderManager.fastShader);
-
+    
+    renderSession.shaderManager.setShader(renderSession.shaderManager.fastShader);
+    
     this.fastSpriteBatch.begin(this, renderSession);
     this.fastSpriteBatch.render(this);
 
-    renderSession.shaderManager.activateShader(renderSession.shaderManager.defaultShader);
-
     renderSession.spriteBatch.start();
-
+ 
 };
 
 /**
 * Renders the object using the Canvas renderer
 *
 * @method _renderCanvas
-* @param renderSession {RenderSession}
+* @param renderSession {RenderSession} 
 * @private
 */
 PIXI.SpriteBatch.prototype._renderCanvas = function(renderSession)
 {
+    if(!this.visible || this.alpha <= 0 || !this.children.length)return;
+    
     var context = renderSession.context;
     context.globalAlpha = this.worldAlpha;
 
-    PIXI.DisplayObject.prototype.updateTransform.call(this);
+    this.displayObjectUpdateTransform();
 
     var transform = this.worldTransform;
     // alow for trimming
-
+       
     var isRotated = true;
 
     for (var i = 0; i < this.children.length; i++) {
-
+       
         var child = this.children[i];
 
         if(!child.visible)continue;
@@ -121,7 +123,7 @@ PIXI.SpriteBatch.prototype._renderCanvas = function(renderSession)
         {
             if(isRotated)
             {
-                context.setTransform(transform.a, transform.c, transform.b, transform.d, transform.tx, transform.ty);
+                context.setTransform(transform.a, transform.b, transform.c, transform.d, transform.tx, transform.ty);
                 isRotated = false;
             }
 
@@ -139,20 +141,20 @@ PIXI.SpriteBatch.prototype._renderCanvas = function(renderSession)
         else
         {
             if(!isRotated)isRotated = true;
-
-            PIXI.DisplayObject.prototype.updateTransform.call(child);
-
+    
+            child.displayObjectUpdateTransform();
+           
             var childTransform = child.worldTransform;
 
             // allow for trimming
-
+           
             if (renderSession.roundPixels)
             {
-                context.setTransform(childTransform.a, childTransform.c, childTransform.b, childTransform.d, childTransform.tx | 0, childTransform.ty | 0);
+                context.setTransform(childTransform.a, childTransform.b, childTransform.c, childTransform.d, childTransform.tx | 0, childTransform.ty | 0);
             }
             else
             {
-                context.setTransform(childTransform.a, childTransform.c, childTransform.b, childTransform.d, childTransform.tx, childTransform.ty);
+                context.setTransform(childTransform.a, childTransform.b, childTransform.c, childTransform.d, childTransform.tx, childTransform.ty);
             }
 
             context.drawImage(texture.baseTexture.source,
@@ -164,7 +166,7 @@ PIXI.SpriteBatch.prototype._renderCanvas = function(renderSession)
                                  ((child.anchor.y) * (-frame.height) + 0.5) | 0,
                                  frame.width,
                                  frame.height);
-
+           
 
         }
 
@@ -173,4 +175,3 @@ PIXI.SpriteBatch.prototype._renderCanvas = function(renderSession)
 
 //    context.restore();
 };
-

@@ -14,8 +14,6 @@
  * @param crossorigin {Boolean} Whether requests should be treated as crossorigin
  */
 PIXI.JsonLoader = function (url, crossorigin) {
-    PIXI.EventTarget.call(this);
-
     /**
      * The url of the bitmap font data
      *
@@ -54,6 +52,7 @@ PIXI.JsonLoader = function (url, crossorigin) {
 
 // constructor
 PIXI.JsonLoader.prototype.constructor = PIXI.JsonLoader;
+PIXI.EventTarget.mixin(PIXI.JsonLoader.prototype);
 
 /**
  * Loads the JSON data
@@ -61,15 +60,53 @@ PIXI.JsonLoader.prototype.constructor = PIXI.JsonLoader;
  * @method load
  */
 PIXI.JsonLoader.prototype.load = function () {
-    this.ajaxRequest = new PIXI.AjaxRequest(this.crossorigin);
-    var scope = this;
-    this.ajaxRequest.onreadystatechange = function () {
-        scope.onJSONLoaded();
-    };
 
-    this.ajaxRequest.open('GET', this.url, true);
-    if (this.ajaxRequest.overrideMimeType) this.ajaxRequest.overrideMimeType('application/json');
-    this.ajaxRequest.send(null);
+    if(window.XDomainRequest && this.crossorigin)
+    {
+        this.ajaxRequest = new window.XDomainRequest();
+
+        // XDomainRequest has a few quirks. Occasionally it will abort requests
+        // A way to avoid this is to make sure ALL callbacks are set even if not used
+        // More info here: http://stackoverflow.com/questions/15786966/xdomainrequest-aborts-post-on-ie-9
+        this.ajaxRequest.timeout = 3000;
+
+        this.ajaxRequest.onerror = this.onError.bind(this);
+
+        this.ajaxRequest.ontimeout = this.onError.bind(this);
+
+        this.ajaxRequest.onprogress = function() {};
+
+        this.ajaxRequest.onload = this.onJSONLoaded.bind(this);
+    }
+    else
+    {
+        if (window.XMLHttpRequest)
+        {
+            this.ajaxRequest = new window.XMLHttpRequest();
+        }
+        else
+        {
+            this.ajaxRequest = new window.ActiveXObject('Microsoft.XMLHTTP');
+        }
+
+        this.ajaxRequest.onreadystatechange = this.onReadyStateChanged.bind(this);
+    }
+
+    this.ajaxRequest.open('GET',this.url,true);
+
+    this.ajaxRequest.send();
+};
+
+/**
+ * Bridge function to be able to use the more reliable onreadystatechange in XMLHttpRequest.
+ *
+ * @method onReadyStateChanged
+ * @private
+ */
+PIXI.JsonLoader.prototype.onReadyStateChanged = function () {
+    if (this.ajaxRequest.readyState === 4 && (this.ajaxRequest.status === 200 || window.location.href.indexOf('http') === -1)) {
+        this.onJSONLoaded();
+    }
 };
 
 /**
@@ -79,66 +116,110 @@ PIXI.JsonLoader.prototype.load = function () {
  * @private
  */
 PIXI.JsonLoader.prototype.onJSONLoaded = function () {
-    if (this.ajaxRequest.readyState === 4) {
-        if (this.ajaxRequest.status === 200 || window.location.protocol.indexOf('http') === -1) {
-            this.json = JSON.parse(this.ajaxRequest.responseText);
 
-            if(this.json.frames)
-            {
-                // sprite sheet
-                var scope = this;
-                var textureUrl = this.baseUrl + this.json.meta.image;
-                var image = new PIXI.ImageLoader(textureUrl, this.crossorigin);
-                var frameData = this.json.frames;
+    if(!this.ajaxRequest.responseText )
+    {
+        this.onError();
+        return;
+    }
 
-                this.texture = image.texture.baseTexture;
-                image.addEventListener('loaded', function() {
-                    scope.onLoaded();
-                });
+    this.json = JSON.parse(this.ajaxRequest.responseText);
 
-                for (var i in frameData) {
-                    var rect = frameData[i].frame;
-                    if (rect) {
-                        PIXI.TextureCache[i] = new PIXI.Texture(this.texture, {
-                            x: rect.x,
-                            y: rect.y,
-                            width: rect.w,
-                            height: rect.h
-                        });
+    if(this.json.frames)
+    {
+        // sprite sheet
+        var textureUrl = this.baseUrl + this.json.meta.image;
+        var image = new PIXI.ImageLoader(textureUrl, this.crossorigin);
+        var frameData = this.json.frames;
 
-                        // check to see ifthe sprite ha been trimmed..
-                        if (frameData[i].trimmed) {
+        this.texture = image.texture.baseTexture;
+        image.addEventListener('loaded', this.onLoaded.bind(this));
 
-                            var texture =  PIXI.TextureCache[i];
-
-                            var actualSize = frameData[i].sourceSize;
-                            var realSize = frameData[i].spriteSourceSize;
-
-                            texture.trim = new PIXI.Rectangle(realSize.x, realSize.y, actualSize.w, actualSize.h);
-                        }
-                    }
-                }
-
-                image.load();
-
-            }
-            else if(this.json.bones)
-            {
-                // spine animation
-                var spineJsonParser = new spine.SkeletonJson();
-                var skeletonData = spineJsonParser.readSkeletonData(this.json);
-                PIXI.AnimCache[this.url] = skeletonData;
-                this.onLoaded();
-            }
-            else
-            {
-                this.onLoaded();
-            }
-        }
-        else
+        for (var i in frameData)
         {
-            this.onError();
+            var rect = frameData[i].frame;
+
+            if (rect)
+            {
+                var textureSize = new PIXI.Rectangle(rect.x, rect.y, rect.w, rect.h);
+                var crop = textureSize.clone();
+                var trim = null;
+
+                //  Check to see if the sprite is trimmed
+                if (frameData[i].trimmed)
+                {
+                    var actualSize = frameData[i].sourceSize;
+                    var realSize = frameData[i].spriteSourceSize;
+                    trim = new PIXI.Rectangle(realSize.x, realSize.y, actualSize.w, actualSize.h);
+                }
+                PIXI.TextureCache[i] = new PIXI.Texture(this.texture, textureSize, crop, trim);
+            }
         }
+
+        image.load();
+
+    }
+    else if(this.json.bones)
+    {
+		/* check if the json was loaded before */
+		if (PIXI.AnimCache[this.url])
+		{
+			this.onLoaded();
+		}
+		else
+		{
+			/* use a bit of hackery to load the atlas file, here we assume that the .json, .atlas and .png files
+			 * that correspond to the spine file are in the same base URL and that the .json and .atlas files
+			 * have the same name
+			*/
+			var atlasPath = this.url.substr(0, this.url.lastIndexOf('.')) + '.atlas';
+			var atlasLoader = new PIXI.JsonLoader(atlasPath, this.crossorigin);
+			// save a copy of the current object for future reference //
+			var originalLoader = this;
+			// before loading the file, replace the "onJSONLoaded" function for our own //
+			atlasLoader.onJSONLoaded = function()
+			{
+				// at this point "this" points at the atlasLoader (JsonLoader) instance //
+				if(!this.ajaxRequest.responseText)
+				{
+					this.onError(); // FIXME: hmm, this is funny because we are not responding to errors yet
+					return;
+				}
+				// create a new instance of a spine texture loader for this spine object //
+				var textureLoader = new PIXI.SpineTextureLoader(this.url.substring(0, this.url.lastIndexOf('/')));
+				// create a spine atlas using the loaded text and a spine texture loader instance //
+				var spineAtlas = new spine.Atlas(this.ajaxRequest.responseText, textureLoader);
+				// now we use an atlas attachment loader //
+				var attachmentLoader = new spine.AtlasAttachmentLoader(spineAtlas);
+				// spine animation
+				var spineJsonParser = new spine.SkeletonJson(attachmentLoader);
+				var skeletonData = spineJsonParser.readSkeletonData(originalLoader.json);
+				PIXI.AnimCache[originalLoader.url] = skeletonData;
+				originalLoader.spine = skeletonData;
+				originalLoader.spineAtlas = spineAtlas;
+				originalLoader.spineAtlasLoader = atlasLoader;
+				// wait for textures to finish loading if needed
+				if (textureLoader.loadingCount > 0)
+				{
+					textureLoader.addEventListener('loadedBaseTexture', function(evt){
+						if (evt.content.content.loadingCount <= 0)
+						{
+							originalLoader.onLoaded();
+						}
+					});
+				}
+				else
+				{
+					originalLoader.onLoaded();
+				}
+			};
+			// start the loading //
+			atlasLoader.load();
+		}
+    }
+    else
+    {
+        this.onLoaded();
     }
 };
 
@@ -163,6 +244,7 @@ PIXI.JsonLoader.prototype.onLoaded = function () {
  * @private
  */
 PIXI.JsonLoader.prototype.onError = function () {
+
     this.dispatchEvent({
         type: 'error',
         content: this

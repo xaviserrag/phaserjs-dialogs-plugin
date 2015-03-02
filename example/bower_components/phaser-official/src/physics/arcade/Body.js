@@ -9,7 +9,6 @@
 * the Sprite itself. For example you can set the velocity, acceleration, bounce values etc all on the Body.
 *
 * @class Phaser.Physics.Arcade.Body
-* @classdesc Arcade Physics Body Constructor
 * @constructor
 * @param {Phaser.Sprite} sprite - The Sprite object this physics body belongs to.
 */
@@ -29,6 +28,12 @@ Phaser.Physics.Arcade.Body = function (sprite) {
     * @property {number} type - The type of physics system this body belongs to.
     */
     this.type = Phaser.Physics.ARCADE;
+
+    /**
+    * @property {boolean} enable - A disabled body won't be checked for any form of collision or overlap or have its pre/post updates run.
+    * @default
+    */
+    this.enable = true;
 
     /**
     * @property {Phaser.Point} offset - The offset of the Physics Body from the Sprite x/y position.
@@ -287,9 +292,14 @@ Phaser.Physics.Arcade.Body = function (sprite) {
     this.tilePadding = new Phaser.Point();
 
     /**
-    * @property {number} phaser - Is this Body in a preUpdate or postUpdate state?
+    * @property {number} phaser - Is this Body in a preUpdate (1) or postUpdate (2) state?
     */
     this.phase = 0;
+
+    /**
+    * @property {boolean} skipQuadTree - If true and you collide this Sprite against a Group, it will disable the collision check from using a QuadTree.
+    */
+    this.skipQuadTree = false;
 
     /**
     * @property {boolean} _reset - Internal cache var.
@@ -328,7 +338,7 @@ Phaser.Physics.Arcade.Body.prototype = {
     /**
     * Internal method.
     *
-    * @method Phaser.Physics.Arcade#updateBounds
+    * @method Phaser.Physics.Arcade.Body#updateBounds
     * @protected
     */
     updateBounds: function () {
@@ -354,10 +364,15 @@ Phaser.Physics.Arcade.Body.prototype = {
     /**
     * Internal method.
     *
-    * @method Phaser.Physics.Arcade#preUpdate
+    * @method Phaser.Physics.Arcade.Body#preUpdate
     * @protected
     */
     preUpdate: function () {
+
+        if (!this.enable)
+        {
+            return;
+        }
 
         this.phase = 1;
 
@@ -429,10 +444,21 @@ Phaser.Physics.Arcade.Body.prototype = {
     /**
     * Internal method.
     *
-    * @method Phaser.Physics.Arcade#postUpdate
+    * @method Phaser.Physics.Arcade.Body#postUpdate
     * @protected
     */
     postUpdate: function () {
+
+        if (!this.enable)
+        {
+            return;
+        }
+
+        //  Only allow postUpdate to be called once per frame
+        if (this.phase === 2)
+        {
+            return;
+        }
 
         this.phase = 2;
 
@@ -502,10 +528,11 @@ Phaser.Physics.Arcade.Body.prototype = {
     /**
     * Removes this bodies reference to its parent sprite, freeing it up for gc.
     *
-    * @method Phaser.Physics.Arcade#destroy
+    * @method Phaser.Physics.Arcade.Body#destroy
     */
     destroy: function () {
 
+        this.sprite.body = null;
         this.sprite = null;
 
     },
@@ -513,7 +540,7 @@ Phaser.Physics.Arcade.Body.prototype = {
     /**
     * Internal method.
     *
-    * @method Phaser.Physics.Arcade#checkWorldBounds
+    * @method Phaser.Physics.Arcade.Body#checkWorldBounds
     * @protected
     */
     checkWorldBounds: function () {
@@ -551,16 +578,16 @@ Phaser.Physics.Arcade.Body.prototype = {
     * So it could be smaller or larger than the parent Sprite. You can also control the x and y offset, which
     * is the position of the Body relative to the top-left of the Sprite.
     *
-    * @method Phaser.Physics.Arcade#setSize
+    * @method Phaser.Physics.Arcade.Body#setSize
     * @param {number} width - The width of the Body.
     * @param {number} height - The height of the Body.
-    * @param {number} offsetX - The X offset of the Body from the Sprite position.
-    * @param {number} offsetY - The Y offset of the Body from the Sprite position.
+    * @param {number} [offsetX] - The X offset of the Body from the Sprite position.
+    * @param {number} [offsetY] - The Y offset of the Body from the Sprite position.
     */
     setSize: function (width, height, offsetX, offsetY) {
 
-        offsetX = offsetX || this.offset.x;
-        offsetY = offsetY || this.offset.y;
+        if (typeof offsetX === 'undefined') { offsetX = this.offset.x; }
+        if (typeof offsetY === 'undefined') { offsetY = this.offset.y; }
 
         this.sourceWidth = width;
         this.sourceHeight = height;
@@ -577,9 +604,9 @@ Phaser.Physics.Arcade.Body.prototype = {
     /**
     * Resets all Body values (velocity, acceleration, rotation, etc)
     *
-    * @method Phaser.Physics.Arcade#reset
+    * @method Phaser.Physics.Arcade.Body#reset
     * @param {number} x - The new x position of the Body.
-    * @param {number} y - The new x position of the Body.
+    * @param {number} y - The new y position of the Body.
     */
     reset: function (x, y) {
 
@@ -600,8 +627,22 @@ Phaser.Physics.Arcade.Body.prototype = {
 
         this._sx = this.sprite.scale.x;
         this._sy = this.sprite.scale.y;
-        
+
         this.center.setTo(this.position.x + this.halfWidth, this.position.y + this.halfHeight);
+
+    },
+
+    /**
+    * Tests if a world point lies within this Body.
+    *
+    * @method Phaser.Physics.Arcade.Body#hitTest
+    * @param {number} x - The world x coordinate to test.
+    * @param {number} y - The world y coordinate to test.
+    * @return {boolean} True if the given coordinates are inside this Body, otherwise false.
+    */
+    hitTest: function (x, y) {
+
+        return Phaser.Rectangle.contains(this, x, y);
 
     },
 
@@ -741,13 +782,13 @@ Object.defineProperty(Phaser.Physics.Arcade.Body.prototype, "y", {
 /**
 * Render Sprite Body.
 *
-* @method Phaser.Physics.Arcade.Body#renderDebug
+* @method Phaser.Physics.Arcade.Body#render
 * @param {object} context - The context to render to.
 * @param {Phaser.Physics.Arcade.Body} body - The Body to render the info of.
-* @param {string} [color='rgb(255,255,255)'] - color of the debug info to be rendered. (format is css color string).
+* @param {string} [color='rgba(0,255,0,0.4)'] - color of the debug info to be rendered. (format is css color string).
 * @param {boolean} [filled=true] - Render the objected as a filled (default, true) or a stroked (false)
 */
-Phaser.Physics.Arcade.Body.render = function (context, body, filled, color) {
+Phaser.Physics.Arcade.Body.render = function (context, body, color, filled) {
 
     if (typeof filled === 'undefined') { filled = true; }
 

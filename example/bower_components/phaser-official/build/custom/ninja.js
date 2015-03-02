@@ -23,9 +23,8 @@
 * Feel free to attempt any of the above and submit a Pull Request with your code! Be sure to include test cases proving they work.
 *
 * @class Phaser.Physics.Ninja
-* @classdesc Ninja Physics Constructor
 * @constructor
-* @param {Phaser.Game} game reference to the current game instance.
+* @param {Phaser.Game} game - reference to the current game instance.
 */
 Phaser.Physics.Ninja = function (game) {
 
@@ -63,6 +62,9 @@ Phaser.Physics.Ninja = function (game) {
     * @property {Phaser.QuadTree} quadTree - The world QuadTree.
     */
     this.quadTree = new Phaser.QuadTree(this.game.world.bounds.x, this.game.world.bounds.y, this.game.world.bounds.width, this.game.world.bounds.height, this.maxObjects, this.maxLevels);
+
+    // By default we want the bounds the same size as the world bounds
+    this.setBoundsToWorld();
 
 };
 
@@ -334,8 +336,8 @@ Phaser.Physics.Ninja.prototype = {
     * The collideCallback is an optional function that is only called if two sprites collide. If a processCallback has been set then it needs to return true for collideCallback to be called.
     *
     * @method Phaser.Physics.Ninja#collide
-    * @param {Phaser.Sprite|Phaser.Group|Phaser.Particles.Emitter|Phaser.Tilemap} object1 - The first object to check. Can be an instance of Phaser.Sprite, Phaser.Group, Phaser.Particles.Emitter, or Phaser.Tilemap.
-    * @param {Phaser.Sprite|Phaser.Group|Phaser.Particles.Emitter|Phaser.Tilemap|array} object2 - The second object or array of objects to check. Can be Phaser.Sprite, Phaser.Group, Phaser.Particles.Emitter or Phaser.Tilemap.
+    * @param {Phaser.Sprite|Phaser.Group|Phaser.Particles.Emitter|Phaser.TilemapLayer} object1 - The first object to check. Can be an instance of Phaser.Sprite, Phaser.Group, Phaser.Particles.Emitter, or Phaser.TilemapLayer.
+    * @param {Phaser.Sprite|Phaser.Group|Phaser.Particles.Emitter|Phaser.TilemapLayer|array} object2 - The second object or array of objects to check. Can be Phaser.Sprite, Phaser.Group, Phaser.Particles.Emitter or Phaser.TilemapLayer.
     * @param {function} [collideCallback=null] - An optional callback function that is called if the objects collide. The two objects will be passed to this function in the same order in which you specified them.
     * @param {function} [processCallback=null] - A callback function that lets you perform additional checks against the two objects if they overlap. If this is set then collision will only happen if processCallback returns true. The two objects will be passed to this function in the same order in which you specified them.
     * @param {object} [callbackContext] - The context in which to run the callbacks.
@@ -371,8 +373,8 @@ Phaser.Physics.Ninja.prototype = {
     *
     * @method Phaser.Physics.Ninja#collideHandler
     * @private
-    * @param {Phaser.Sprite|Phaser.Group|Phaser.Particles.Emitter|Phaser.Tilemap} object1 - The first object to check. Can be an instance of Phaser.Sprite, Phaser.Group, Phaser.Particles.Emitter, or Phaser.Tilemap.
-    * @param {Phaser.Sprite|Phaser.Group|Phaser.Particles.Emitter|Phaser.Tilemap} object2 - The second object to check. Can be an instance of Phaser.Sprite, Phaser.Group, Phaser.Particles.Emitter or Phaser.Tilemap. Can also be an array of objects to check.
+    * @param {Phaser.Sprite|Phaser.Group|Phaser.Particles.Emitter|Phaser.TilemapLayer} object1 - The first object to check. Can be an instance of Phaser.Sprite, Phaser.Group, Phaser.Particles.Emitter, or Phaser.TilemapLayer.
+    * @param {Phaser.Sprite|Phaser.Group|Phaser.Particles.Emitter|Phaser.TilemapLayer} object2 - The second object to check. Can be an instance of Phaser.Sprite, Phaser.Group, Phaser.Particles.Emitter or Phaser.TilemapLayer. Can also be an array of objects to check.
     * @param {function} collideCallback - An optional callback function that is called if the objects collide. The two objects will be passed to this function in the same order in which you specified them.
     * @param {function} processCallback - A callback function that lets you perform additional checks against the two objects if they overlap. If this is set then collision will only happen if processCallback returns true. The two objects will be passed to this function in the same order in which you specified them.
     * @param {object} callbackContext - The context in which to run the callbacks.
@@ -616,7 +618,6 @@ Phaser.Physics.Ninja.prototype = {
 * the Sprite itself. For example you can set the velocity, bounce values etc all on the Body.
 *
 * @class Phaser.Physics.Ninja.Body
-* @classdesc Ninja Physics Body Constructor
 * @constructor
 * @param {Phaser.Physics.Ninja} system - The physics system this Body belongs to.
 * @param {Phaser.Sprite} sprite - The Sprite object this physics body belongs to.
@@ -1153,6 +1154,28 @@ Object.defineProperty(Phaser.Physics.Ninja.Body.prototype, "angle", {
 
 });
 
+/**
+* Render Sprite's Body.
+*
+* @method Phaser.Physics.Ninja.Body#render
+* @param {object} context - The context to render to.
+* @param {Phaser.Physics.Ninja.Body} body - The Body to render.
+* @param {string} [color='rgba(0,255,0,0.4)'] - color of the debug shape to be rendered. (format is css color string).
+* @param {boolean} [filled=true] - Render the shape as a filled (default, true) or a stroked (false)
+*/
+Phaser.Physics.Ninja.Body.render = function(context, body, color, filled) {
+    color = color || 'rgba(0,255,0,0.4)';
+
+    if (typeof filled === 'undefined')
+    {
+        filled = true;
+    }
+
+    if (body.aabb || body.circle)
+    {
+        body.shape.render(context, body.game.camera.x, body.game.camera.y, color, filled);
+    }
+};
 
 /* jshint camelcase: false */
 /**
@@ -1166,7 +1189,6 @@ Object.defineProperty(Phaser.Physics.Ninja.Body.prototype, "angle", {
 * Note: This class could be massively optimised and reduced in size. I leave that challenge up to you.
 *
 * @class Phaser.Physics.Ninja.AABB
-* @classdesc Arcade Physics Constructor
 * @constructor
 * @param {Phaser.Physics.Ninja.Body} body - The body that owns this shape.
 * @param {number} x - The x coordinate to create this shape at.
@@ -2159,8 +2181,33 @@ Phaser.Physics.Ninja.AABB.prototype = {
     destroy: function() {
         this.body = null;
         this.system = null;
-    }
+    },
 
+    /**
+    * Render this AABB for debugging purposes.
+    *
+    * @method Phaser.Physics.Ninja.AABB#render
+    * @param {object} context - The context to render to.
+    * @param {number} xOffset - X offset from AABB's position to render at.
+    * @param {number} yOffset - Y offset from AABB's position to render at.
+    * @param {string} color - color of the debug shape to be rendered. (format is css color string).
+    * @param {boolean} filled - Render the shape as solid (true) or hollow (false).
+    */
+    render: function(context, xOffset, yOffset, color, filled) {
+        var left = this.pos.x - this.xw - xOffset;
+        var top = this.pos.y - this.yw - yOffset;
+
+        if (filled)
+        {
+            context.fillStyle = color;
+            context.fillRect(left, top, this.width, this.height);
+        }
+        else
+        {
+            context.strokeStyle = color;
+            context.strokeRect(left, top, this.width, this.height);
+        }
+    }
 };
 
 /* jshint camelcase: false */
@@ -2179,7 +2226,6 @@ Phaser.Physics.Ninja.AABB.prototype = {
 * Note: This class could be massively optimised and reduced in size. I leave that challenge up to you.
 *
 * @class Phaser.Physics.Ninja.Tile
-* @classdesc The Ninja Physics Tile class. Based on code by Metanet Software.
 * @constructor
 * @param {Phaser.Physics.Ninja.Body} body - The body that owns this shape.
 * @param {number} x - The x coordinate to create this shape at.
@@ -2948,7 +2994,6 @@ Phaser.Physics.Ninja.Tile.TYPE_HALF = 30;
 * Note: This class could be massively optimised and reduced in size. I leave that challenge up to you.
 *
 * @class Phaser.Physics.Ninja.Circle
-* @classdesc Arcade Physics Constructor
 * @constructor
 * @param {Phaser.Physics.Ninja.Body} body - The body that owns this shape.
 * @param {number} x - The x coordinate to create this shape at.
@@ -3266,7 +3311,6 @@ Phaser.Physics.Ninja.Circle.prototype = {
         }
         else
         {
-            // console.log("ResolveCircleTile() was called with an empty (or unknown) tile!: ID=" + t.id + ")");
             return false;
         }
 
@@ -5557,6 +5601,34 @@ Phaser.Physics.Ninja.Circle.prototype = {
     destroy: function() {
         this.body = null;
         this.system = null;
-    }
+    },
 
+    /**
+    * Render this circle for debugging purposes.
+    *
+    * @method Phaser.Physics.Ninja.Circle#render
+    * @param {object} context - The context to render to.
+    * @param {number} xOffset - X offset from circle's position to render at.
+    * @param {number} yOffset - Y offset from circle's position to render at.
+    * @param {string} color - color of the debug shape to be rendered. (format is css color string).
+    * @param {boolean} filled - Render the shape as solid (true) or hollow (false).
+    */
+    render: function(context, xOffset, yOffset, color, filled) {
+        var x = this.pos.x - xOffset;
+        var y = this.pos.y - yOffset;
+
+        context.beginPath();
+        context.arc(x, y, this.radius, 0, 2 * Math.PI, false);
+
+        if (filled)
+        {
+            context.fillStyle = color;
+            context.fill();
+        }
+        else
+        {
+            context.strokeStyle = color;
+            context.stroke();
+        }
+    }
 };

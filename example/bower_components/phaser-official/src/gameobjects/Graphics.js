@@ -9,7 +9,7 @@
 *
 * @class Phaser.Graphics
 * @constructor
-*
+* @extends PIXI.Graphics
 * @param {Phaser.Game} game Current game instance.
 * @param {number} x - X position of the new graphics object.
 * @param {number} y - Y position of the new graphics object.
@@ -71,10 +71,11 @@ Phaser.Graphics = function (game, x, y) {
     * 5 = outOfBoundsFired (0 = no, 1 = yes)
     * 6 = exists (0 = no, 1 = yes)
     * 7 = fixed to camera (0 = no, 1 = yes)
+    * 8 = destroy phase? (0 = no, 1 = yes)
     * @property {Array} _cache
     * @private
     */
-    this._cache = [ 0, 0, 0, 0, 1, 0, 1, 0 ];
+    this._cache = [ 0, 0, 0, 0, 1, 0, 1, 0, 0 ];
 
 };
 
@@ -103,7 +104,7 @@ Phaser.Graphics.prototype.preUpdate = function () {
         this.renderable = this.game.world.camera.screenView.intersects(this.getBounds());
     }
 
-    this.world.setTo(this.game.camera.x + this.worldTransform[2], this.game.camera.y + this.worldTransform[5]);
+    this.world.setTo(this.game.camera.x + this.worldTransform.tx, this.game.camera.y + this.worldTransform.ty);
 
     if (this.visible)
     {
@@ -147,7 +148,11 @@ Phaser.Graphics.prototype.postUpdate = function () {
 */
 Phaser.Graphics.prototype.destroy = function(destroyChildren) {
 
+    if (this.game === null || this.destroyPhase) { return; }
+
     if (typeof destroyChildren === 'undefined') { destroyChildren = true; }
+
+    this._cache[8] = 1;
 
     this.clear();
 
@@ -185,30 +190,139 @@ Phaser.Graphics.prototype.destroy = function(destroyChildren) {
 
     this.game = null;
 
+    this._cache[8] = 0;
+
 };
 
 /*
-* Draws a {Phaser.Polygon} or a {PIXI.Polygon} filled
+* Draws a circle.
 *
-* @method Phaser.Graphics.prototype.drawPolygon
+* @method Phaser.Graphics.prototype.drawCircle
+* @param {Number} x - The X coordinate of the center of the circle.
+* @param {Number} y - The Y coordinate of the center of the circle.
+* @param {Number} radius - The diameter of the circle.
+* @return {Phaser.Graphics} This Graphics object.
 */
-Phaser.Graphics.prototype.drawPolygon = function (poly) {
+Phaser.Graphics.prototype.drawCircle = function(x, y, diameter)
+{
+    this.drawShape(new Phaser.Circle(x, y, diameter));
 
-    this.moveTo(poly.points[0].x, poly.points[0].y);
+    return this;
+};
 
-    for (var i = 1; i < poly.points.length; i += 1)
+/*
+* Draws a single {Phaser.Polygon} triangle from a {Phaser.Point} array
+*
+* @method Phaser.Graphics.prototype.drawTriangle
+* @param {Array<Phaser.Point>} points - An array of Phaser.Points that make up the three vertices of this triangle
+* @param {boolean} [cull=false] - Should we check if the triangle is back-facing
+*/
+Phaser.Graphics.prototype.drawTriangle = function(points, cull) {
+
+    if (typeof cull === 'undefined') { cull = false; }
+
+    var triangle = new Phaser.Polygon(points);
+
+    if (cull)
     {
-        this.lineTo(poly.points[i].x, poly.points[i].y);
+        var cameraToFace = new Phaser.Point(this.game.camera.x - points[0].x, this.game.camera.y - points[0].y);
+        var ab = new Phaser.Point(points[1].x - points[0].x, points[1].y - points[0].y);
+        var cb = new Phaser.Point(points[1].x - points[2].x, points[1].y - points[2].y);
+        var faceNormal = cb.cross(ab);
+
+        if (cameraToFace.dot(faceNormal) > 0)
+        {
+            this.drawPolygon(triangle);
+        }
+    }
+    else
+    {
+        this.drawPolygon(triangle);
     }
 
-    this.lineTo(poly.points[0].x, poly.points[0].y);
+};
 
+/*
+* Draws {Phaser.Polygon} triangles 
+*
+* @method Phaser.Graphics.prototype.drawTriangles
+* @param {Array<Phaser.Point>|Array<number>} vertices - An array of Phaser.Points or numbers that make up the vertices of the triangles
+* @param {Array<number>} {indices=null} - An array of numbers that describe what order to draw the vertices in
+* @param {boolean} [cull=false] - Should we check if the triangle is back-facing
+*/
+Phaser.Graphics.prototype.drawTriangles = function(vertices, indices, cull) {
+
+    if (typeof cull === 'undefined') { cull = false; }
+
+    var point1 = new Phaser.Point();
+    var point2 = new Phaser.Point();
+    var point3 = new Phaser.Point();
+    var points = [];
+    var i;
+
+    if (!indices)
+    {
+        if (vertices[0] instanceof Phaser.Point)
+        {
+            for (i = 0; i < vertices.length / 3; i++)
+            {
+                this.drawTriangle([vertices[i * 3], vertices[i * 3 + 1], vertices[i * 3 + 2]], cull);
+            }
+        }
+        else
+        {
+            for (i = 0; i < vertices.length / 6; i++)
+            {
+                point1.x = vertices[i * 6 + 0];
+                point1.y = vertices[i * 6 + 1];
+                point2.x = vertices[i * 6 + 2];
+                point2.y = vertices[i * 6 + 3];
+                point3.x = vertices[i * 6 + 4];
+                point3.y = vertices[i * 6 + 5];
+                this.drawTriangle([point1, point2, point3], cull);
+            }
+        }
+    }
+    else
+    {
+        if (vertices[0] instanceof Phaser.Point)
+        {
+            for (i = 0; i < indices.length /3; i++)
+            {
+                points.push(vertices[indices[i * 3 ]]);
+                points.push(vertices[indices[i * 3 + 1]]);
+                points.push(vertices[indices[i * 3 + 2]]);
+
+                if (points.length === 3)
+                {
+                    this.drawTriangle(points, cull);
+                    points = [];
+                }
+            }
+        }
+        else
+        {
+            for (i = 0; i < indices.length; i++)
+            {
+                point1.x = vertices[indices[i] * 2];
+                point1.y = vertices[indices[i] * 2 + 1];
+                points.push(point1.copyTo({}));
+
+                if (points.length === 3)
+                {
+                    this.drawTriangle(points, cull);
+                    points = [];
+                }
+            }
+        }
+    }
 };
 
 /**
 * Indicates the rotation of the Graphics, in degrees, from its original orientation. Values from 0 to 180 represent clockwise rotation; values from 0 to -180 represent counterclockwise rotation.
 * Values outside this range are added to or subtracted from 360 to obtain a value within the range. For example, the statement player.angle = 450 is the same as player.angle = 90.
 * If you wish to work in radians instead of degrees use the property Sprite.rotation instead.
+*
 * @name Phaser.Graphics#angle
 * @property {number} angle - Gets or sets the angle of rotation in degrees.
 */
@@ -251,6 +365,20 @@ Object.defineProperty(Phaser.Graphics.prototype, "fixedToCamera", {
         {
             this._cache[7] = 0;
         }
+    }
+
+});
+
+/**
+* @name Phaser.Graphics#destroyPhase
+* @property {boolean} destroyPhase - True if this object is currently being destroyed.
+*/
+Object.defineProperty(Phaser.Graphics.prototype, "destroyPhase", {
+
+    get: function () {
+
+        return !!this._cache[8];
+
     }
 
 });

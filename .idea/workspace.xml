@@ -2,21 +2,635 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b67e05c5-2c34-49f2-b71f-5ecb58c06694" name="Default" comment="">
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\dialogs.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\dist\example\js\dialogs.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\dist\js\game.js" afterPath="" />
-      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\dialogs.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\build\phaser.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\docs\Phaser.Easing.Back.html" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\docs\Phaser.Easing.Bounce.html" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\docs\Phaser.Easing.Circular.html" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\docs\Phaser.Easing.Cubic.html" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\docs\Phaser.Easing.Elastic.html" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\docs\Phaser.Easing.Exponential.html" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\docs\Phaser.Easing.Linear.html" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\docs\Phaser.Easing.Quadratic.html" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\docs\Phaser.Easing.Quartic.html" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\docs\Phaser.Easing.Quintic.html" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\docs\Phaser.Easing.Sinusoidal.html" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\docs\SignalBinding.html" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\docs\build\build master.bat" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\docs\build\conf.json" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\docs\build\docstrap-master\styles\bootswatch.less" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\docs\build\docstrap-master\styles\main.less" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\docs\build\docstrap-master\styles\variables.less" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\docs\build\docstrap-master\template\jsdoc.conf.json" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\docs\build\docstrap-master\template\publish.js" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\docs\build\docstrap-master\template\static\img\glyphicons-halflings-white.png" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\docs\build\docstrap-master\template\static\img\glyphicons-halflings.png" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\docs\build\docstrap-master\template\static\scripts\URI.js" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\docs\build\docstrap-master\template\static\scripts\bootstrap-dropdown.js" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\docs\build\docstrap-master\template\static\scripts\bootstrap-tab.js" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\docs\build\docstrap-master\template\static\scripts\jquery.localScroll.js" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\docs\build\docstrap-master\template\static\scripts\jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\docs\build\docstrap-master\template\static\scripts\jquery.scrollTo.js" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\docs\build\docstrap-master\template\static\scripts\jquery.sunlight.js" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\docs\build\docstrap-master\template\static\scripts\prettify\Apache-License-2.0.txt" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\docs\build\docstrap-master\template\static\scripts\prettify\jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\docs\build\docstrap-master\template\static\scripts\prettify\lang-css.js" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\docs\build\docstrap-master\template\static\scripts\prettify\prettify.js" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\docs\build\docstrap-master\template\static\scripts\sunlight-plugin.doclinks.js" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\docs\build\docstrap-master\template\static\scripts\sunlight-plugin.linenumbers.js" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\docs\build\docstrap-master\template\static\scripts\sunlight-plugin.menu.js" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\docs\build\docstrap-master\template\static\scripts\sunlight.javascript.js" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\docs\build\docstrap-master\template\static\scripts\sunlight.js" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\docs\build\docstrap-master\template\static\scripts\toc.js" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\docs\build\docstrap-master\template\static\styles\darkstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\docs\build\docstrap-master\template\static\styles\prettify-tomorrow.css" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\docs\build\docstrap-master\template\static\styles\site.cerulean.css" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\docs\build\docstrap-master\template\static\styles\sunlight.dark.css" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\docs\build\docstrap-master\template\static\styles\sunlight.default.css" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\docs\build\docstrap-master\template\tmpl\container.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\docs\build\docstrap-master\template\tmpl\details.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\docs\build\docstrap-master\template\tmpl\example.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\docs\build\docstrap-master\template\tmpl\examples.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\docs\build\docstrap-master\template\tmpl\exceptions.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\docs\build\docstrap-master\template\tmpl\fires.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\docs\build\docstrap-master\template\tmpl\layout.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\docs\build\docstrap-master\template\tmpl\mainpage.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\docs\build\docstrap-master\template\tmpl\members.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\docs\build\docstrap-master\template\tmpl\method.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\docs\build\docstrap-master\template\tmpl\params.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\docs\build\docstrap-master\template\tmpl\properties.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\docs\build\docstrap-master\template\tmpl\returns.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\docs\build\docstrap-master\template\tmpl\sections.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\docs\build\docstrap-master\template\tmpl\source.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\docs\build\docstrap-master\template\tmpl\tutorial.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\docs\build\docstrap-master\template\tmpl\type.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\examples\where have they gone.txt" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\labs\code\001 under sea.js" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\labs\code\002 animated tilesprites.js" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\labs\code\003 thrust.js" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\labs\code\004 maggot batch.js" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\labs\code\005 ilkkeee.js" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\labs\code\006 bitmap fonts ahoy.js" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\labs\code\007 text shadow.js" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\labs\code\008 cannon balls.js" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\labs\code\009 boxes everywhere.js" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\labs\code\010 fixed to camera.js" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\labs\code\011 font wobble.js" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\labs\code\012 ninja physics.js" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\labs\css\component.css" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\labs\css\demo.css" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\labs\css\normalize.css" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\labs\favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\labs\index.php" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\labs\index_local.php" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\labs\index_remote.php" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\labs\js\modernizr.custom.js" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\labs\list.php" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\labs\view.php" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\labs\view_local.php" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\labs\view_remote.php" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\plugins\AStar.js" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\plugins\CSS3Filters.js" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\plugins\ColorHarmony.js" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\plugins\ProTracker.js" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\plugins\QuadTree.js" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\plugins\SamplePlugin.js" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\plugins\Webcam.js" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\resources\Phaser Logo\PNG\Phaser-2D-Flat.png" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\resources\Phaser Logo\PNG\Phaser-2D-Flat.psd" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\src\core\LinkedList.js" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\src\pixi\core\Circle.js" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\src\pixi\core\Ellipse.js" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\src\pixi\core\Matrix.js" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\src\pixi\core\Point.js" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\src\pixi\core\Polygon.js" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\src\pixi\core\Rectangle.js" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tasks\examples.js" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tasks\umd.js" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\01 Getting Started\hellophaser.zip" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\01 Getting Started\hellophaser\index.html" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\01 Getting Started\hellophaser\phaser.min.js" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\01 Getting Started\hellophaser\phaser.png" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\01 Getting Started\images\cloneFrom.jpg" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\01 Getting Started\images\dashboard.jpg" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\01 Getting Started\images\editor.jpg" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\01 Getting Started\images\start.jpg" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\01 Getting Started\index.html" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\01 Getting Started\part2.html" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\01 Getting Started\part3.html" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\01 Getting Started\part4.html" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\01 Getting Started\part5.html" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\01 Getting Started\part6.html" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\01 Getting Started\part7.html" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\01 Getting Started\part8.html" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\02 Making your first game\assets\baddie.png" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\02 Making your first game\assets\diamond.png" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\02 Making your first game\assets\dude.png" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\02 Making your first game\assets\firstaid.png" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\02 Making your first game\assets\platform.png" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\02 Making your first game\assets\sky.png" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\02 Making your first game\assets\star.png" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\02 Making your first game\js\phaser.min.js" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\02 Making your first game\part1.html" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\02 Making your first game\part2.html" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\02 Making your first game\part3.html" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\02 Making your first game\part4.html" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\02 Making your first game\part5.html" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\02 Making your first game\part6.html" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\02 Making your first game\part7.html" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\02 Making your first game\part8.html" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\02 Making your first game\part9.html" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\02 Making your first game\phaser_1x_tutorial_02.zip" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\02 Making your first game\phaser_tutorial_02.zip" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\02 Making your first game\screen shots\part3.png" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\02 Making your first game\screen shots\part4.png" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\02 Making your first game\screen shots\part5.png" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\02 Making your first game\screen shots\part6.png" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\02 Making your first game\screen shots\part7.png" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\02 Making your first game\screen shots\part8.png" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\02 Making your first game\screen shots\part9.png" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\02 Making your first game\screen shots\tutorial_header.png" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\02 Making your first game\tutorial.html" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\03 Using Phaser with TypeScript\screen shots\part1.png" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\03 Using Phaser with TypeScript\screen shots\part2.png" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\03 Using Phaser with TypeScript\screen shots\part3.png" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\03 Using Phaser with TypeScript\screen shots\part4.png" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\03 Using Phaser with TypeScript\screen shots\part5.png" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\03 Using Phaser with TypeScript\screen shots\part6.png" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\03 Using Phaser with TypeScript\screen shots\part7.png" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\03 Using Phaser with TypeScript\screen shots\part8.png" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\03 Using Phaser with TypeScript\screen shots\part9.png" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\04 Advanced TypeScript Projects\assets.zip" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\04 Advanced TypeScript Projects\assets\level1.png" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\04 Advanced TypeScript Projects\assets\loader.png" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\04 Advanced TypeScript Projects\assets\logo.png" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\04 Advanced TypeScript Projects\assets\simon.png" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\04 Advanced TypeScript Projects\assets\title.mp3" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\04 Advanced TypeScript Projects\assets\titlepage.jpg" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\04 Advanced TypeScript Projects\index.html" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\04 Advanced TypeScript Projects\screen shots\part1.png" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\04 Advanced TypeScript Projects\screen shots\part2.png" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\04 Advanced TypeScript Projects\screen shots\part3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\04 Advanced TypeScript Projects\screen shots\part3.png" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\04 Advanced TypeScript Projects\screen shots\part4.png" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\04 Advanced TypeScript Projects\screen shots\part5.png" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\04 Advanced TypeScript Projects\visualstudio_project.zip" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\Spanish\01 Comenzando\images\cloneFrom.jpg" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\Spanish\01 Comenzando\images\dashboard.jpg" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\Spanish\01 Comenzando\images\editor.jpg" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\Spanish\01 Comenzando\images\start.jpg" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\Spanish\01 Comenzando\index.html" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\Spanish\01 Comenzando\part2.html" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\Spanish\01 Comenzando\part3.html" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\Spanish\01 Comenzando\part4.html" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\Spanish\01 Comenzando\part5.html" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\Spanish\01 Comenzando\part6.html" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\Spanish\01 Comenzando\part7.html" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\Spanish\01 Comenzando\part8.html" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\Spanish\02 Creando tu primer juego\assets\baddie.png" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\Spanish\02 Creando tu primer juego\assets\diamond.png" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\Spanish\02 Creando tu primer juego\assets\dude.png" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\Spanish\02 Creando tu primer juego\assets\firstaid.png" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\Spanish\02 Creando tu primer juego\assets\platform.png" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\Spanish\02 Creando tu primer juego\assets\sky.png" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\Spanish\02 Creando tu primer juego\assets\star.png" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\Spanish\02 Creando tu primer juego\js\phaser.min.js" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\Spanish\02 Creando tu primer juego\part1.html" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\Spanish\02 Creando tu primer juego\part2.html" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\Spanish\02 Creando tu primer juego\part3.html" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\Spanish\02 Creando tu primer juego\part4.html" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\Spanish\02 Creando tu primer juego\part5.html" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\Spanish\02 Creando tu primer juego\part6.html" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\Spanish\02 Creando tu primer juego\part7.html" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\Spanish\02 Creando tu primer juego\part8.html" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\Spanish\02 Creando tu primer juego\part9.html" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\Spanish\02 Creando tu primer juego\phaser_tutorial_02.zip" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\Spanish\02 Creando tu primer juego\screen shots\part3.png" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\Spanish\02 Creando tu primer juego\screen shots\part4.png" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\Spanish\02 Creando tu primer juego\screen shots\part5.png" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\Spanish\02 Creando tu primer juego\screen shots\part6.png" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\Spanish\02 Creando tu primer juego\screen shots\part7.png" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\Spanish\02 Creando tu primer juego\screen shots\part8.png" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\Spanish\02 Creando tu primer juego\screen shots\part9.png" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\Spanish\02 Creando tu primer juego\screen shots\tutorial_header.png" afterPath="" />
+      <change type="DELETED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\tutorials\Spanish\02 Creando tu primer juego\tutorial.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/resources/Phaser Logo/Pixel Art/phaser_pixel_large_shaded.png" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/resources/Phaser Logo/Pixel Art/phaser_pixel_large_shaded.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/resources/Screen Shots/phaser_quadtree.png" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/resources/Screen Shots/phaser_quadtree.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/.bower.json" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/AABB.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/AABB.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/physics/ninja/AABB.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/physics/ninja/AABB.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/filters/AbstractFilter.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/filters/AbstractFilter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/filters/AlphaMaskFilter.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/filters/AlphaMaskFilter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Animation.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Animation.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/animation/Animation.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/animation/Animation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/AnimationManager.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/AnimationManager.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/animation/AnimationManager.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/animation/AnimationManager.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/AnimationParser.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/AnimationParser.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/animation/AnimationParser.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/animation/AnimationParser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/particles/arcade/ArcadeParticles.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/particles/arcade/ArcadeParticles.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/loaders/AssetLoader.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/loaders/AssetLoader.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/loaders/AtlasLoader.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/loaders/AtlasLoader.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/textures/BaseTexture.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/textures/BaseTexture.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/BitmapData.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/BitmapData.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/gameobjects/BitmapData.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/gameobjects/BitmapData.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/loaders/BitmapFontLoader.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/loaders/BitmapFontLoader.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/BitmapText.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/BitmapText.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/gameobjects/BitmapText.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/gameobjects/BitmapText.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/text/BitmapText.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/text/BitmapText.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/filters/BlurFilter.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/filters/BlurFilter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/filters/BlurX.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/filters/BlurX.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/filters/BlurXFilter.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/filters/BlurXFilter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/filters/BlurY.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/filters/BlurY.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/filters/BlurYFilter.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/filters/BlurYFilter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Body.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Body.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/physics/arcade/Body.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/physics/arcade/Body.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/physics/ninja/Body.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/physics/ninja/Body.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/physics/p2/Body.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/physics/p2/Body.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Body.js_.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Body.js_.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Body.js__.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Body.js__.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/BodyDebug.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/BodyDebug.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/physics/p2/BodyDebug.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/physics/p2/BodyDebug.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/resources/Project Templates/Basic/Boot.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/resources/Project Templates/Basic/Boot.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/resources/Project Templates/Full Screen Mobile/src/Boot.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/resources/Project Templates/Full Screen Mobile/src/Boot.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Button.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Button.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/gameobjects/Button.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/gameobjects/Button.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/CONTRIBUTING.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Cache.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Cache.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/loader/Cache.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/loader/Cache.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Camera.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Camera.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/core/Camera.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/core/Camera.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Canvas.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Canvas.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/system/Canvas.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/system/Canvas.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/renderers/canvas/CanvasGraphics.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/renderers/canvas/CanvasGraphics.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/renderers/canvas/utils/CanvasMaskManager.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/renderers/canvas/utils/CanvasMaskManager.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/renderers/canvas/CanvasRenderer.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/renderers/canvas/CanvasRenderer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/renderers/canvas/utils/CanvasTinter.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/renderers/canvas/utils/CanvasTinter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Circle.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Circle.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/geom/Circle.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/geom/Circle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/physics/ninja/Circle.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/physics/ninja/Circle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Circle.js_.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Circle.js_.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/CollisionGroup.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/CollisionGroup.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/physics/p2/CollisionGroup.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/physics/p2/CollisionGroup.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Color.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Color.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/utils/Color.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/utils/Color.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/filters/ColorMatrixFilter.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/filters/ColorMatrixFilter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/filters/ColorStepFilter.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/filters/ColorStepFilter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/ContactMaterial.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/ContactMaterial.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/physics/p2/ContactMaterial.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/physics/p2/ContactMaterial.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/filters/CrossHatchFilter.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/filters/CrossHatchFilter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Debug.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Debug.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/utils/Debug.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/utils/Debug.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/utils/Detector.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/utils/Detector.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Device.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Device.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/system/Device.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/system/Device.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/filters/DisplacementFilter.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/filters/DisplacementFilter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/display/DisplayObject.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/display/DisplayObject.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/display/DisplayObjectContainer.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/display/DisplayObjectContainer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/DistanceConstraint.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/DistanceConstraint.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/physics/p2/DistanceConstraint.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/physics/p2/DistanceConstraint.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/filters/DotScreenFilter.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/filters/DotScreenFilter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Easing.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Easing.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/tween/Easing.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/tween/Easing.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Ellipse.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Ellipse.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/geom/Ellipse.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/geom/Ellipse.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Emitter.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Emitter.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/particles/arcade/Emitter.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/particles/arcade/Emitter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/utils/EventTarget.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/utils/EventTarget.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Events.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Events.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/gameobjects/Events.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/gameobjects/Events.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Filter.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Filter.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/core/Filter.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/core/Filter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/filters/FilterBlock.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/filters/FilterBlock.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/renderers/webgl/utils/FilterTexture.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/renderers/webgl/utils/FilterTexture.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Frame.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Frame.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/animation/Frame.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/animation/Frame.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/FrameData.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/FrameData.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/animation/FrameData.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/animation/FrameData.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Game.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Game.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/resources/Project Templates/Basic/Game.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/resources/Project Templates/Basic/Game.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/core/Game.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/core/Game.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/GameObjectCreator.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/GameObjectCreator.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/gameobjects/GameObjectCreator.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/gameobjects/GameObjectCreator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/GameObjectFactory.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/GameObjectFactory.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/gameobjects/GameObjectFactory.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/gameobjects/GameObjectFactory.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Gamepad.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Gamepad.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/input/Gamepad.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/input/Gamepad.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/GamepadButton.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/GamepadButton.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/input/GamepadButton.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/input/GamepadButton.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/GearConstraint.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/GearConstraint.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/physics/p2/GearConstraint.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/physics/p2/GearConstraint.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Graphics.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Graphics.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/gameobjects/Graphics.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/gameobjects/Graphics.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/primitives/Graphics.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/primitives/Graphics.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/filters/GrayFilter.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/filters/GrayFilter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Group.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Group.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/core/Group.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/core/Group.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/Gruntfile.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/Gruntfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Image.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Image.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/gameobjects/Image.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/gameobjects/Image.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/loaders/ImageLoader.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/loaders/ImageLoader.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Input.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Input.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/input/Input.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/input/Input.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/InputHandler.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/InputHandler.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/input/InputHandler.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/input/InputHandler.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/InteractionData.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/InteractionData.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/InteractionManager.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/InteractionManager.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/InversePointProxy.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/InversePointProxy.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/physics/p2/InversePointProxy.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/physics/p2/InversePointProxy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/filters/InvertFilter.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/filters/InvertFilter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/loaders/JsonLoader.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/loaders/JsonLoader.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Key.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Key.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/input/Key.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/input/Key.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Keyboard.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Keyboard.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/input/Keyboard.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/input/Keyboard.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Line.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Line.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/geom/Line.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/geom/Line.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/LinkedList.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/LinkedList.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Loader.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Loader.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/loader/Loader.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/loader/Loader.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/LoaderParser.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/LoaderParser.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/loader/LoaderParser.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/loader/LoaderParser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/LockConstraint.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/LockConstraint.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/physics/p2/LockConstraint.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/physics/p2/LockConstraint.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/MSPointer.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/MSPointer.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/input/MSPointer.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/input/MSPointer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Material.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Material.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/physics/p2/Material.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/physics/p2/Material.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Math.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Math.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/math/Math.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/math/Math.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Mouse.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Mouse.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/input/Mouse.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/input/Mouse.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/display/MovieClip.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/display/MovieClip.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Net.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Net.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/filters/NormalMapFilter.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/filters/NormalMapFilter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/Outro.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/Outro.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/Outro.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/Outro.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Particles.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Particles.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/particles/Particles.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/particles/Particles.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Animation.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Animation.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.AnimationManager.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.AnimationManager.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.AnimationParser.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.AnimationParser.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.BitmapData.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.BitmapData.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.BitmapText.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.BitmapText.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Button.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Button.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Cache.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Cache.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Camera.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Camera.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Canvas.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Canvas.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Circle.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Circle.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Color.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Color.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Device.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Device.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Easing.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Easing.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Ellipse.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Ellipse.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Events.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Events.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Filter.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Filter.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Frame.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.FrameData.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.FrameData.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Game.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Game.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.GameObjectCreator.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.GameObjectCreator.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.GameObjectFactory.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.GameObjectFactory.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Gamepad.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Gamepad.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.GamepadButton.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.GamepadButton.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Graphics.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Graphics.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Group.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Group.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Image.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Image.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Input.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Input.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.InputHandler.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.InputHandler.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Key.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Key.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Keyboard.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Keyboard.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Line.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Line.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.LinkedList.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.LinkedList.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Loader.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Loader.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.LoaderParser.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.LoaderParser.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.MSPointer.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.MSPointer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Math.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Math.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Mouse.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Mouse.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Net.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Net.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Particles.Arcade.Emitter.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Particles.Arcade.Emitter.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Particles.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Particles.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Physics.Arcade.Body.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Physics.Arcade.Body.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Physics.Arcade.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Physics.Arcade.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Physics.Ninja.AABB.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Physics.Ninja.AABB.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Physics.Ninja.Body.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Physics.Ninja.Body.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Physics.Ninja.Circle.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Physics.Ninja.Circle.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Physics.Ninja.Tile.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Physics.Ninja.Tile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Physics.Ninja.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Physics.Ninja.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Physics.P2.Body.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Physics.P2.Body.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Physics.P2.BodyDebug.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Physics.P2.BodyDebug.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Physics.P2.CollisionGroup.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Physics.P2.CollisionGroup.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Physics.P2.ContactMaterial.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Physics.P2.ContactMaterial.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Physics.P2.DistanceConstraint.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Physics.P2.DistanceConstraint.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Physics.P2.GearConstraint.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Physics.P2.GearConstraint.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Physics.P2.InversePointProxy.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Physics.P2.InversePointProxy.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Physics.P2.LockConstraint.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Physics.P2.LockConstraint.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Physics.P2.Material.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Physics.P2.Material.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Physics.P2.PointProxy.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Physics.P2.PointProxy.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Physics.P2.PrismaticConstraint.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Physics.P2.PrismaticConstraint.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Physics.P2.RevoluteConstraint.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Physics.P2.RevoluteConstraint.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Physics.P2.Spring.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Physics.P2.Spring.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Physics.P2.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Physics.P2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Physics.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Physics.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Plugin.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Plugin.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.PluginManager.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.PluginManager.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Point.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Point.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Pointer.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Pointer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Polygon.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Polygon.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.QuadTree.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.QuadTree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.RandomDataGenerator.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.RandomDataGenerator.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Rectangle.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Rectangle.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.RenderTexture.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.RenderTexture.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.RequestAnimationFrame.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.RequestAnimationFrame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.RetroFont.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.RetroFont.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.ScaleManager.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.ScaleManager.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Signal.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Signal.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.SinglePad.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.SinglePad.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Sound.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Sound.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.SoundManager.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.SoundManager.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Sprite.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Sprite.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.SpriteBatch.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.SpriteBatch.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Stage.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Stage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.State.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.State.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.StateManager.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.StateManager.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Text.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Text.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Tile.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Tile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.TileSprite.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.TileSprite.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Tilemap.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Tilemap.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.TilemapLayer.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.TilemapLayer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.TilemapParser.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.TilemapParser.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Tileset.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Tileset.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Time.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Time.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Timer.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Timer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.TimerEvent.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.TimerEvent.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Touch.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Touch.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Tween.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Tween.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.TweenManager.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.TweenManager.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Utils.Debug.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Utils.Debug.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Utils.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.Utils.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.World.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.World.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Phaser.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/Phaser.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/Phaser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Physics.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Physics.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/physics/Physics.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/physics/Physics.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/filters/PixelateFilter.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/filters/PixelateFilter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/Pixi.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/Pixi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/renderers/webgl/shaders/PixiFastShader.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/renderers/webgl/shaders/PixiFastShader.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/renderers/webgl/shaders/PixiShader.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/renderers/webgl/shaders/PixiShader.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Plugin.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Plugin.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/core/Plugin.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/core/Plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/PluginManager.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/PluginManager.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/core/PluginManager.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/core/PluginManager.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Point.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Point.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/geom/Point.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/geom/Point.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/PointProxy.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/PointProxy.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/physics/p2/PointProxy.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/physics/p2/PointProxy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Pointer.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Pointer.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/input/Pointer.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/input/Pointer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Polygon.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Polygon.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/geom/Polygon.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/geom/Polygon.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/utils/Polyk.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/utils/Polyk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/renderers/webgl/shaders/PrimitiveShader.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/renderers/webgl/shaders/PrimitiveShader.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/PrismaticConstraint.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/PrismaticConstraint.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/physics/p2/PrismaticConstraint.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/physics/p2/PrismaticConstraint.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/QuadTree.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/QuadTree.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/math/QuadTree.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/math/QuadTree.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/README.md" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/filters/RGBSplitFilter.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/filters/RGBSplitFilter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/RandomDataGenerator.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/RandomDataGenerator.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/math/RandomDataGenerator.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/math/RandomDataGenerator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Rectangle.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Rectangle.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/geom/Rectangle.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/geom/Rectangle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/RenderTexture.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/RenderTexture.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/gameobjects/RenderTexture.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/gameobjects/RenderTexture.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/textures/RenderTexture.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/textures/RenderTexture.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/RequestAnimationFrame.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/RequestAnimationFrame.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/system/RequestAnimationFrame.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/system/RequestAnimationFrame.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/RetroFont.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/RetroFont.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/gameobjects/RetroFont.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/gameobjects/RetroFont.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/RevoluteConstraint.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/RevoluteConstraint.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/physics/p2/RevoluteConstraint.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/physics/p2/RevoluteConstraint.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/extras/Rope.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/extras/Rope.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/filters/SampleFilter.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/filters/SampleFilter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/ScaleManager.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/ScaleManager.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/core/ScaleManager.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/core/ScaleManager.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/filters/SepiaFilter.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/filters/SepiaFilter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Signal.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Signal.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/core/Signal.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/core/Signal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/SignalBinding.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/SignalBinding.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/core/SignalBinding.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/core/SignalBinding.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/SinglePad.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/SinglePad.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/input/SinglePad.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/input/SinglePad.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/filters/SmartBlurFilter.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/filters/SmartBlurFilter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Sound.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Sound.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/sound/Sound.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/sound/Sound.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/SoundManager.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/SoundManager.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/sound/SoundManager.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/sound/SoundManager.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/extras/Spine.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/extras/Spine.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/loaders/SpineLoader.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/loaders/SpineLoader.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Spring.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Spring.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/physics/p2/Spring.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/physics/p2/Spring.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Sprite.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Sprite.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/gameobjects/Sprite.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/gameobjects/Sprite.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/display/Sprite.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/display/Sprite.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/SpriteBatch.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/SpriteBatch.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/gameobjects/SpriteBatch.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/gameobjects/SpriteBatch.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/display/SpriteBatch.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/display/SpriteBatch.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/loaders/SpriteSheetLoader.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/loaders/SpriteSheetLoader.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Stage.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Stage.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/core/Stage.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/core/Stage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/display/Stage.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/display/Stage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/State.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/State.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/core/State.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/core/State.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/StateManager.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/StateManager.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/core/StateManager.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/core/StateManager.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/extras/Strip.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/extras/Strip.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/renderers/webgl/shaders/StripShader.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/renderers/webgl/shaders/StripShader.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Text.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Text.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/gameobjects/Text.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/gameobjects/Text.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/text/Text.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/text/Text.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/textures/Texture.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/textures/Texture.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Tile.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Tile.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/physics/ninja/Tile.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/physics/ninja/Tile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/tilemap/Tile.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/tilemap/Tile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Tile.js_.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Tile.js_.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/TileSprite.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/TileSprite.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/gameobjects/TileSprite.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/gameobjects/TileSprite.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Tilemap.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Tilemap.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/tilemap/Tilemap.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/tilemap/Tilemap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/TilemapLayer.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/TilemapLayer.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/tilemap/TilemapLayer.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/tilemap/TilemapLayer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/TilemapParser.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/TilemapParser.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/tilemap/TilemapParser.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/tilemap/TilemapParser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Tileset.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Tileset.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/tilemap/Tileset.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/tilemap/Tileset.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/extras/TilingSprite.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/extras/TilingSprite.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Time.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Time.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/time/Time.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/time/Time.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Timer.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Timer.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/time/Timer.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/time/Timer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/TimerEvent.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/TimerEvent.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/time/TimerEvent.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/time/TimerEvent.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Touch.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Touch.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/input/Touch.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/input/Touch.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Tween.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Tween.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/tween/Tween.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/tween/Tween.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/TweenManager.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/TweenManager.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/tween/TweenManager.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/tween/TweenManager.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/filters/TwistFilter.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/filters/TwistFilter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Utils.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/Utils.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/utils/Utils.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/utils/Utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/utils/Utils.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/utils/Utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/renderers/webgl/utils/WebGLFastSpriteBatch.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/renderers/webgl/utils/WebGLFastSpriteBatch.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/renderers/webgl/utils/WebGLFilterManager.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/renderers/webgl/utils/WebGLFilterManager.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/renderers/webgl/utils/WebGLGraphics.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/renderers/webgl/utils/WebGLGraphics.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/renderers/webgl/utils/WebGLMaskManager.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/renderers/webgl/utils/WebGLMaskManager.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/renderers/webgl/WebGLRenderer.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/renderers/webgl/WebGLRenderer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/renderers/webgl/utils/WebGLShaderManager.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/renderers/webgl/utils/WebGLShaderManager.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/renderers/webgl/utils/WebGLShaderUtils.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/renderers/webgl/utils/WebGLShaderUtils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/renderers/webgl/utils/WebGLSpriteBatch.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/pixi/renderers/webgl/utils/WebGLSpriteBatch.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/World.js.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/World.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/core/World.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/core/World.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/physics/arcade/World.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/physics/arcade/World.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/physics/ninja/World.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/physics/ninja/World.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/physics/p2/World.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/physics/p2/World.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/World.js_.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/World.js_.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/World.js__.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/World.js__.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/World.js___.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/World.js___.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/tasks/banner.txt" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/tasks/banner.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower.json" afterPath="$PROJECT_DIR$/example/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/bower.json" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/classes.list.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/classes.list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/build/config.php" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/build/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/example/js/dialogs.js" afterPath="$PROJECT_DIR$/dist/example/js/dialogs.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dialogs.js" afterPath="$PROJECT_DIR$/src/dialogs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/resources/PhysicsEditor Exporter/exporter.xml" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/resources/PhysicsEditor Exporter/exporter.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/example/js/game.js" afterPath="$PROJECT_DIR$/dist/example/js/game.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/example/index.html" afterPath="$PROJECT_DIR$/dist/example/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/index.html" afterPath="$PROJECT_DIR$/example/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/index.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/resources/Project Templates/Full Screen Mobile/index.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/resources/Project Templates/Full Screen Mobile/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/license.txt" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/license.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/namespaces.list.html" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/namespaces.list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/build/custom/ninja.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/build/custom/ninja.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/build/custom/ninja.min.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/build/custom/ninja.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/build/custom/p2.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/build/custom/p2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/src/physics/p2/p2.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/src/physics/p2/p2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/build/custom/p2.min.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/build/custom/p2.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/package.json" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/build/custom/phaser-no-libs.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/build/custom/phaser-no-libs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/build/custom/phaser-no-libs.min.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/build/custom/phaser-no-libs.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/build/custom/phaser-no-physics.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/build/custom/phaser-no-physics.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/build/custom/phaser-no-physics.min.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/build/custom/phaser-no-physics.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/example/js/phaser.js" afterPath="$PROJECT_DIR$/dist/example/js/phaser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/build/phaser.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/build/phaser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/resources/PhysicsEditor Exporter/phaser.json" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/resources/PhysicsEditor Exporter/phaser.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/build/phaser.map" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/build/phaser.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/example/js/phaser.min.js" afterPath="$PROJECT_DIR$/dist/example/js/phaser.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/build/phaser.min.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/build/phaser.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/build/custom/pixi.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/build/custom/pixi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/build/custom/pixi.min.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/build/custom/pixi.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/game/states/play.js" afterPath="$PROJECT_DIR$/example/game/states/play.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/game/states/preload.js" afterPath="$PROJECT_DIR$/example/game/states/preload.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/example/css/styles.css" afterPath="$PROJECT_DIR$/dist/example/css/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/styles/sunlight.default.css" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/styles/sunlight.default.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/scripts/toc.js" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/docs/scripts/toc.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="P:\Google Drive\repos\dialog-plugin\example\bower_components\phaser-official\changelog.md" afterPath="$PROJECT_DIR$/example/bower_components/phaser-official/CHANGELOG.md" />
     </list>
     <ignored path="dialog-plugin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,64 +653,44 @@
     <favorites_list name="dialog-plugin" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.74157304">
+    <splitter split-orientation="horizontal" split-proportion="0.5442343">
       <split-first>
         <leaf>
-          <file leaf-file-name="dialogs.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="dialogs.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/dialogs.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-0.18294051" vertical-offset="707" max-vertical-offset="1598">
-                  <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+                <state vertical-scroll-proportion="-57.615383" vertical-offset="1477" max-vertical-offset="4063">
+                  <caret line="175" column="0" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="play.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="play.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/example/game/states/play.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
-                  <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+                <state vertical-scroll-proportion="0.32232347" vertical-offset="23" max-vertical-offset="901">
+                  <caret line="18" column="23" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="23" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/dist/example/index.html">
+          <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/example/game/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="391">
-                  <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+                  <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="game.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/dist/example/js/game.js">
+          <file leaf-file-name="bower.json" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/example/bower.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="2856">
-                  <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="preload.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/example/game/states/preload.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
-                  <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Gruntfile.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Gruntfile.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-0.65384614" vertical-offset="459" max-vertical-offset="1768">
-                  <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+                <state vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="221">
+                  <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
                   <folding />
                 </state>
               </provider>
@@ -109,8 +703,8 @@
           <file leaf-file-name="modal.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/../phaser_modals/src/modal.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.32915717" vertical-offset="510" max-vertical-offset="5049">
-                  <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.33333334" vertical-offset="1552" max-vertical-offset="5049">
+                  <caret line="108" column="4" selection-start-line="108" selection-start-column="4" selection-end-line="109" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -135,8 +729,9 @@
         <option value="$PROJECT_DIR$/dist/example/js/game.js" />
         <option value="$PROJECT_DIR$/Gruntfile.js" />
         <option value="$PROJECT_DIR$/example/game/states/preload.js" />
-        <option value="$PROJECT_DIR$/example/game/states/play.js" />
+        <option value="$PROJECT_DIR$/example/bower.json" />
         <option value="$PROJECT_DIR$/src/dialogs.js" />
+        <option value="$PROJECT_DIR$/example/game/states/play.js" />
       </list>
     </option>
   </component>
@@ -277,6 +872,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bower_components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="phaser-official" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dialog-plugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dialog-plugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="dist" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -316,6 +933,9 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="editorconfig.notification" value="Applied .editorconfig settings" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="options.lastSelected" value="preferences.editor" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -382,25 +1002,25 @@
     <frame x="-1680" y="2" width="1676" height="1048" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Grunt" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Grunt" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13117754" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -520,22 +1140,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/game/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../phaser_modals/src/modal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32915717" vertical-offset="510" max-vertical-offset="5049">
-          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dist/example/js/dialogs.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1547">
@@ -552,22 +1156,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/example/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="391">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/example/js/game.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="2856">
-          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.65384614" vertical-offset="459" max-vertical-offset="1768">
@@ -578,24 +1166,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/example/game/states/preload.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.3815937" vertical-offset="0" max-vertical-offset="891">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/game/states/play.js">
+    <entry file="file://$PROJECT_DIR$/dist/example/js/game.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
-          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.65831435" vertical-offset="357" max-vertical-offset="2856">
+          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/example/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27514452" vertical-offset="0" max-vertical-offset="865">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="221">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../phaser_modals/src/modal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="1552" max-vertical-offset="5049">
+          <caret line="108" column="4" selection-start-line="108" selection-start-column="4" selection-end-line="109" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/game/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dialogs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.18294051" vertical-offset="707" max-vertical-offset="1598">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state vertical-scroll-proportion="-57.615383" vertical-offset="1477" max-vertical-offset="4063">
+          <caret line="175" column="0" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/game/states/play.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32232347" vertical-offset="23" max-vertical-offset="901">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="23" />
           <folding />
         </state>
       </provider>

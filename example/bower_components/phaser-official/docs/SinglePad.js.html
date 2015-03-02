@@ -3,11 +3,14 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Phaser Source: input/SinglePad.js</title>
+	<title>Phaser Source: D:/wamp/www/phaser/src/input/SinglePad.js</title>
 
 	<!--[if lt IE 9]>
 	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
+
+	<link type="text/css" rel="stylesheet" href="styles/default.css">
+
 	<link type="text/css" rel="stylesheet" href="styles/sunlight.default.css">
 
 	
@@ -16,11 +19,14 @@
 </head>
 
 <body>
+
 <div class="container-fluid">
 	<div class="navbar navbar-fixed-top navbar-inverse">
+		<div style="position: absolute; width: 143px; height: 31px; right: 10px; top: 10px; z-index: 1050"><a href="http://phaser.io"><img src="img/phaser.png" border="0" /></a></div>
 		<div class="navbar-inner">
-			<a class="brand" href="index.html">Phaser</a>
+			<a class="brand" href="index.html">Phaser API</a>
 			<ul class="nav">
+
 				
 				<li class="dropdown">
 					<a href="namespaces.list.html" class="dropdown-toggle" data-toggle="dropdown">Namespaces<b
@@ -28,8 +34,12 @@
 
 					<ul class="dropdown-menu ">
 						
-						<li>
+						<li class="class-depth-0">
 							<a href="Phaser.html">Phaser</a>
+						</li>
+						
+						<li class="class-depth-0">
+							<a href="PIXI.html">PIXI</a>
 						</li>
 						
 
@@ -42,454 +52,879 @@
 
 					<ul class="dropdown-menu ">
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.Animation.html">Animation</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.AnimationManager.html">AnimationManager</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.AnimationParser.html">AnimationParser</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
+							<a href="Phaser.ArrayList.html">ArrayList</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.ArraySet.html">ArraySet</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.ArrayUtils.html">ArrayUtils</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.AudioSprite.html">AudioSprite</a>
+						</li>
+						
+						<li class="class-depth-1">
 							<a href="Phaser.BitmapData.html">BitmapData</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.BitmapText.html">BitmapText</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.Button.html">Button</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.Cache.html">Cache</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.Camera.html">Camera</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.Canvas.html">Canvas</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.Circle.html">Circle</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.Color.html">Color</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.Device.html">Device</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
+							<a href="Phaser.DOM.html">DOM</a>
+						</li>
+						
+						<li class="class-depth-1">
 							<a href="Phaser.Easing.html">Easing</a>
 						</li>
 						
-						<li>
-							<a href="Phaser.Easing.Back.html">Back</a>
-						</li>
-						
-						<li>
-							<a href="Phaser.Easing.Bounce.html">Bounce</a>
-						</li>
-						
-						<li>
-							<a href="Phaser.Easing.Circular.html">Circular</a>
-						</li>
-						
-						<li>
-							<a href="Phaser.Easing.Cubic.html">Cubic</a>
-						</li>
-						
-						<li>
-							<a href="Phaser.Easing.Elastic.html">Elastic</a>
-						</li>
-						
-						<li>
-							<a href="Phaser.Easing.Exponential.html">Exponential</a>
-						</li>
-						
-						<li>
-							<a href="Phaser.Easing.Linear.html">Linear</a>
-						</li>
-						
-						<li>
-							<a href="Phaser.Easing.Quadratic.html">Quadratic</a>
-						</li>
-						
-						<li>
-							<a href="Phaser.Easing.Quartic.html">Quartic</a>
-						</li>
-						
-						<li>
-							<a href="Phaser.Easing.Quintic.html">Quintic</a>
-						</li>
-						
-						<li>
-							<a href="Phaser.Easing.Sinusoidal.html">Sinusoidal</a>
-						</li>
-						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.Ellipse.html">Ellipse</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.Events.html">Events</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.Filter.html">Filter</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
+							<a href="Phaser.FlexGrid.html">FlexGrid</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.FlexLayer.html">FlexLayer</a>
+						</li>
+						
+						<li class="class-depth-1">
 							<a href="Phaser.Frame.html">Frame</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.FrameData.html">FrameData</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.Game.html">Game</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.GameObjectCreator.html">GameObjectCreator</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.GameObjectFactory.html">GameObjectFactory</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.Gamepad.html">Gamepad</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.GamepadButton.html">GamepadButton</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.Graphics.html">Graphics</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.Group.html">Group</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.Image.html">Image</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.Input.html">Input</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.InputHandler.html">InputHandler</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.Key.html">Key</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.Keyboard.html">Keyboard</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.Line.html">Line</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.LinkedList.html">LinkedList</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.Loader.html">Loader</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.LoaderParser.html">LoaderParser</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.Math.html">Math</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.Mouse.html">Mouse</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.MSPointer.html">MSPointer</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.Net.html">Net</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
+							<a href="Phaser.Particle.html">Particle</a>
+						</li>
+						
+						<li class="class-depth-1">
 							<a href="Phaser.Particles.html">Particles</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-2">
+							<a href="Phaser.Particles.Arcade.html">Arcade</a>
+						</li>
+						
+						<li class="class-depth-3">
 							<a href="Phaser.Particles.Arcade.Emitter.html">Emitter</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.Physics.html">Physics</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-2">
 							<a href="Phaser.Physics.Arcade.html">Arcade</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-3">
 							<a href="Phaser.Physics.Arcade.Body.html">Body</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-2">
 							<a href="Phaser.Physics.Ninja.html">Ninja</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-3">
 							<a href="Phaser.Physics.Ninja.AABB.html">AABB</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-3">
 							<a href="Phaser.Physics.Ninja.Body.html">Body</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-3">
 							<a href="Phaser.Physics.Ninja.Circle.html">Circle</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-3">
 							<a href="Phaser.Physics.Ninja.Tile.html">Tile</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-2">
 							<a href="Phaser.Physics.P2.html">P2</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-3">
 							<a href="Phaser.Physics.P2.Body.html">Body</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-3">
 							<a href="Phaser.Physics.P2.BodyDebug.html">BodyDebug</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-3">
 							<a href="Phaser.Physics.P2.CollisionGroup.html">CollisionGroup</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-3">
 							<a href="Phaser.Physics.P2.ContactMaterial.html">ContactMaterial</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-3">
 							<a href="Phaser.Physics.P2.DistanceConstraint.html">DistanceConstraint</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-3">
+							<a href="Phaser.Physics.P2.FixtureList.html">FixtureList</a>
+						</li>
+						
+						<li class="class-depth-3">
 							<a href="Phaser.Physics.P2.GearConstraint.html">GearConstraint</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-3">
 							<a href="Phaser.Physics.P2.InversePointProxy.html">InversePointProxy</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-3">
 							<a href="Phaser.Physics.P2.LockConstraint.html">LockConstraint</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-3">
 							<a href="Phaser.Physics.P2.Material.html">Material</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-3">
 							<a href="Phaser.Physics.P2.PointProxy.html">PointProxy</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-3">
 							<a href="Phaser.Physics.P2.PrismaticConstraint.html">PrismaticConstraint</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-3">
 							<a href="Phaser.Physics.P2.RevoluteConstraint.html">RevoluteConstraint</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-3">
+							<a href="Phaser.Physics.P2.RotationalSpring.html">RotationalSpring</a>
+						</li>
+						
+						<li class="class-depth-3">
 							<a href="Phaser.Physics.P2.Spring.html">Spring</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.Plugin.html">Plugin</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.PluginManager.html">PluginManager</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.Point.html">Point</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.Pointer.html">Pointer</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.Polygon.html">Polygon</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.QuadTree.html">QuadTree</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.RandomDataGenerator.html">RandomDataGenerator</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.Rectangle.html">Rectangle</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.RenderTexture.html">RenderTexture</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.RequestAnimationFrame.html">RequestAnimationFrame</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.RetroFont.html">RetroFont</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
+							<a href="Phaser.Rope.html">Rope</a>
+						</li>
+						
+						<li class="class-depth-1">
 							<a href="Phaser.ScaleManager.html">ScaleManager</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.Signal.html">Signal</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
+							<a href="Phaser.SignalBinding.html">SignalBinding</a>
+						</li>
+						
+						<li class="class-depth-1">
 							<a href="Phaser.SinglePad.html">SinglePad</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.Sound.html">Sound</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.SoundManager.html">SoundManager</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.Sprite.html">Sprite</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.SpriteBatch.html">SpriteBatch</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.Stage.html">Stage</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.State.html">State</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.StateManager.html">StateManager</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.Text.html">Text</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.Tile.html">Tile</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.Tilemap.html">Tilemap</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.TilemapLayer.html">TilemapLayer</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.TilemapParser.html">TilemapParser</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.Tileset.html">Tileset</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.TileSprite.html">TileSprite</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.Time.html">Time</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.Timer.html">Timer</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.TimerEvent.html">TimerEvent</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.Touch.html">Touch</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.Tween.html">Tween</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
+							<a href="Phaser.TweenData.html">TweenData</a>
+						</li>
+						
+						<li class="class-depth-1">
 							<a href="Phaser.TweenManager.html">TweenManager</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.Utils.html">Utils</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-2">
 							<a href="Phaser.Utils.Debug.html">Debug</a>
 						</li>
 						
-						<li>
+						<li class="class-depth-1">
 							<a href="Phaser.World.html">World</a>
 						</li>
 						
-						<li>
-							<a href="SignalBinding.html">SignalBinding</a>
+						<li class="class-depth-1">
+							<a href="PIXI.AbstractFilter.html">AbstractFilter</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.AjaxRequest.html">AjaxRequest</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.AlphaMaskFilter.html">AlphaMaskFilter</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.AsciiFilter.html">AsciiFilter</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.AssetLoader.html">AssetLoader</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.AtlasLoader.html">AtlasLoader</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.BaseTexture.html">BaseTexture</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.BitmapFontLoader.html">BitmapFontLoader</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.BitmapText.html">BitmapText</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.BlurFilter.html">BlurFilter</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.BlurXFilter.html">BlurXFilter</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.BlurYFilter.html">BlurYFilter</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.CanvasBuffer.html">CanvasBuffer</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.CanvasGraphics.html">CanvasGraphics</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.CanvasMaskManager.html">CanvasMaskManager</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.CanvasRenderer.html">CanvasRenderer</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.CanvasTinter.html">CanvasTinter</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.Circle.html">Circle</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.ColorMatrixFilter.html">ColorMatrixFilter</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.ColorStepFilter.html">ColorStepFilter</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.ComplexPrimitiveShader.html">ComplexPrimitiveShader</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.ConvolutionFilter.html">ConvolutionFilter</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.CrossHatchFilter.html">CrossHatchFilter</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.DisplacementFilter.html">DisplacementFilter</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.DisplayObject.html">DisplayObject</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.DisplayObjectContainer.html">DisplayObjectContainer</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.DotScreenFilter.html">DotScreenFilter</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.Ellipse.html">Ellipse</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.Event.html">Event</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.EventTarget.html">EventTarget</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.FilterBlock.html">FilterBlock</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.FilterTexture.html">FilterTexture</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.Graphics.html">Graphics</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.GraphicsData.html">GraphicsData</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.GrayFilter.html">GrayFilter</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.ImageLoader.html">ImageLoader</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.InteractionData.html">InteractionData</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.InteractionManager.html">InteractionManager</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.InvertFilter.html">InvertFilter</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.JsonLoader.html">JsonLoader</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.Matrix.html">Matrix</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.MovieClip.html">MovieClip</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.NoiseFilter.html">NoiseFilter</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.NormalMapFilter.html">NormalMapFilter</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.PixelateFilter.html">PixelateFilter</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.PIXI.html">PIXI</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.PixiFastShader.html">PixiFastShader</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.PixiShader.html">PixiShader</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.Point.html">Point</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.Polygon.html">Polygon</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.PolyK.html">PolyK</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.PrimitiveShader.html">PrimitiveShader</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.Rectangle.html">Rectangle</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.RenderTexture.html">RenderTexture</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.RGBSplitFilter.html">RGBSplitFilter</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.Rope.html">Rope</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.RoundedRectangle.html">RoundedRectangle</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.SepiaFilter.html">SepiaFilter</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.SmartBlurFilter.html">SmartBlurFilter</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.Spine.html">Spine</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.SpineLoader.html">SpineLoader</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.SpineTextureLoader.html">SpineTextureLoader</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.Sprite.html">Sprite</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.SpriteBatch.html">SpriteBatch</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.SpriteSheetLoader.html">SpriteSheetLoader</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.Stage.html">Stage</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.Strip.html">Strip</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.StripShader.html">StripShader</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.Text.html">Text</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.Texture.html">Texture</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.TilingSprite.html">TilingSprite</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.TiltShiftFilter.html">TiltShiftFilter</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.TiltShiftXFilter.html">TiltShiftXFilter</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.TiltShiftYFilter.html">TiltShiftYFilter</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.TwistFilter.html">TwistFilter</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.VideoTexture.html">VideoTexture</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.WebGLBlendModeManager.html">WebGLBlendModeManager</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.WebGLFastSpriteBatch.html">WebGLFastSpriteBatch</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.WebGLFilterManager.html">WebGLFilterManager</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.WebGLRenderer.html">WebGLRenderer</a>
 						</li>
 						
 
 					</ul>
 				</li>
 				
+
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Core<b class="caret"></b></a>
+					<ul class="dropdown-menu ">
+						<li class="class-depth-1"><a href="Phaser.Game.html">Game</a></li>
+						<li class="class-depth-1"><a href="Phaser.Group.html">Group</a></li>
+						<li class="class-depth-1"><a href="Phaser.World.html">World</a></li>
+						<li class="class-depth-1"><a href="Phaser.Loader.html">Loader</a></li>
+						<li class="class-depth-1"><a href="Phaser.Time.html">Time</a></li>
+						<li class="class-depth-1"><a href="Phaser.Camera.html">Camera</a></li>
+						<li class="class-depth-1"><a href="Phaser.StateManager.html">State Manager</a></li>
+						<li class="class-depth-1"><a href="Phaser.TweenManager.html">Tween Manager</a></li>
+						<li class="class-depth-1"><a href="Phaser.SoundManager.html">Sound Manager</a></li>
+						<li class="class-depth-1"><a href="Phaser.Input.html">Input Manager</a></li>
+						<li class="class-depth-1"><a href="Phaser.ScaleManager.html">Scale Manager</a></li>
+					</ul>
+				</li>
+
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Game Objects<b class="caret"></b></a>
+					<ul class="dropdown-menu ">
+						<li class="class-depth-1"><a href="Phaser.GameObjectFactory.html">Factory (game.add)</a></li>
+						<li class="class-depth-1"><a href="Phaser.GameObjectCreator.html">Creator (game.make)</a></li>
+						<li class="class-depth-1"><a href="Phaser.Sprite.html">Sprite</a></li>
+						<li class="class-depth-1"><a href="Phaser.Image.html">Image</a></li>
+						<li class="class-depth-1"><a href="Phaser.Sound.html">Sound</a></li>
+						<li class="class-depth-1"><a href="Phaser.Particles.Arcade.Emitter.html">Particle Emitter</a></li>
+						<li class="class-depth-1"><a href="Phaser.Particle.html">Particle</a></li>
+						<li class="class-depth-1"><a href="Phaser.Text.html">Text</a></li>
+						<li class="class-depth-1"><a href="Phaser.Tween.html">Tween</a></li>
+						<li class="class-depth-1"><a href="Phaser.BitmapText.html">BitmapText</a></li>
+						<li class="class-depth-1"><a href="Phaser.Tilemap.html">Tilemap</a></li>
+						<li class="class-depth-1"><a href="Phaser.BitmapData.html">BitmapData</a></li>
+						<li class="class-depth-1"><a href="Phaser.RetroFont.html">RetroFont</a></li>
+						<li class="class-depth-1"><a href="Phaser.Button.html">Button</a></li>
+						<li class="class-depth-1"><a href="Phaser.Animation.html">Animation</a></li>
+						<li class="class-depth-1"><a href="Phaser.Graphics.html">Graphics</a></li>
+						<li class="class-depth-1"><a href="Phaser.RenderTexture.html">RenderTexture</a></li>
+						<li class="class-depth-1"><a href="Phaser.TileSprite.html">TileSprite</a></li>
+					</ul>
+				</li>
+
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Geometry<b class="caret"></b></a>
+					<ul class="dropdown-menu ">
+						<li class="class-depth-1"><a href="Phaser.Circle.html">Circle</a></li>
+						<li class="class-depth-1"><a href="Phaser.Rectangle.html">Rectangle</a></li>
+						<li class="class-depth-1"><a href="Phaser.Point.html">Point</a></li>
+						<li class="class-depth-1"><a href="Phaser.Line.html">Line</a></li>
+						<li class="class-depth-1"><a href="Phaser.Ellipse.html">Ellipse</a></li>
+						<li class="class-depth-1"><a href="Phaser.Polygon.html">Polygon</a></li>
+					</ul>
+				</li>
+
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Physics<b class="caret"></b></a>
+					<ul class="dropdown-menu ">
+						<li class="class-depth-1"><a href="Phaser.Physics.Arcade.html">Arcade Physics</a></li>
+						<li class="class-depth-2"><a href="Phaser.Physics.Arcade.Body.html">Body</a></li>
+						<li class="class-depth-1"><a href="Phaser.Physics.P2.html">P2 Physics</a></li>
+						<li class="class-depth-2"><a href="Phaser.Physics.P2.Body.html">Body</a></li>
+						<li class="class-depth-2"><a href="Phaser.Physics.P2.Spring.html">Spring</a></li>
+						<li class="class-depth-2"><a href="Phaser.Physics.P2.CollisionGroup.html">CollisionGroup</a></li>
+						<li class="class-depth-2"><a href="Phaser.Physics.P2.ContactMaterial.html">ContactMaterial</a></li>
+						<li class="class-depth-1"><a href="Phaser.Physics.Ninja.html">Ninja Physics</a></li>
+						<li class="class-depth-2"><a href="Phaser.Physics.Body.html">Body</a></li>
+					</ul>
+				</li>
+
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Input<b class="caret"></b></a>
+					<ul class="dropdown-menu ">
+						<li class="class-depth-1"><a href="Phaser.InputHandler.html">Input Handler</a></li>
+						<li class="class-depth-1"><a href="Phaser.Pointer.html">Pointer</a></li>
+						<li class="class-depth-1"><a href="Phaser.Mouse.html">Mouse</a></li>
+						<li class="class-depth-1"><a href="Phaser.Keyboard.html">Keyboard</a></li>
+						<li class="class-depth-1"><a href="Phaser.Key.html">Key</a></li>
+						<li class="class-depth-1"><a href="Phaser.Gamepad.html">Gamepad</a></li>
+					</ul>
+				</li>
+
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Community<b class="caret"></b></a>
+					<ul class="dropdown-menu ">
+						<li class="class-depth-1"><a href="https://leanpub.com/u/photonstorm">Phaser Books</a></li>
+						<li class="class-depth-1"><a href="https://github.com/photonstorm/phaser">Phaser Github</a></li>
+						<li class="class-depth-1"><a href="http://examples.phaser.io">Phaser Examples</a></li>
+						<li class="class-depth-1"><a href="https://github.com/photonstorm/phaser-plugins">Phaser Plugins</a></li>
+						<li class="class-depth-1"><a href="http://www.html5gamedevs.com/forum/14-phaser/">Forum</a></li>
+						<li class="class-depth-1"><a href="http://stackoverflow.com/questions/tagged/phaser-framework">Stack Overflow</a></li>
+						<li class="class-depth-1"><a href="https://confirmsubscription.com/h/r/369DE48E3E86AF1E">Newsletter</a></li>
+						<li class="class-depth-1"><a href="https://twitter.com/photonstorm">Twitter</a></li>
+						<li class="class-depth-1"><a href="http://www.html5gamedevs.com/topic/4470-official-phaserio-irc-channel-phaserio-on-freenode/">IRC</a></li>
+						<li class="class-depth-1"><a href="https://www.gittip.com/photonstorm/">GitTip</a></li>
+					</ul>
+				</li>
+
 			</ul>
 		</div>
 	</div>
@@ -503,22 +938,24 @@
 					
 
 
-		<h1 class="page-title">Source: input/SinglePad.js</h1>
+		<h1 class="page-title">Source: D:/wamp/www/phaser/src/input/SinglePad.js</h1>
     
     <section>
         <article>
             <pre class="sunlight-highlight-javascript linenums">/**
 * @author       @karlmacklin &lt;tacklemcclean@gmail.com>
+* @author       Richard Davey &lt;rich@photonstorm.com>
 * @copyright    2014 Photon Storm Ltd.
 * @license      {@link https://github.com/photonstorm/phaser/blob/master/license.txt|MIT License}
 */
 
 /**
+* A single Phaser Gamepad
+* 
 * @class Phaser.SinglePad
-* @classdesc A single Phaser Gamepad
 * @constructor
 * @param {Phaser.Game} game - Current game instance.
-* @param {Object} padParent - The parent Phaser.Gamepad object (all gamepads reside under this)
+* @param {object} padParent - The parent Phaser.Gamepad object (all gamepads reside under this)
 */
 Phaser.SinglePad = function (game, padParent) {
 
@@ -528,60 +965,19 @@ Phaser.SinglePad = function (game, padParent) {
     this.game = game;
 
     /**
-    * @property {Phaser.Gamepad} padParent - Main Phaser Gamepad object
-    */
-    this._padParent = padParent;
-
-    /**
     * @property {number} index - The gamepad index as per browsers data
-    * @default
+    * @readonly
     */
-    this._index = null;
+    this.index = null;
 
     /**
-    * @property {Object} _rawPad - The 'raw' gamepad data.
-    * @private
+    * @property {boolean} connected - Whether or not this particular gamepad is connected or not.
+    * @readonly
     */
-    this._rawPad = null;
+    this.connected = false;
 
     /**
-    * @property {boolean} _connected - Is this pad connected or not.
-    * @private
-    */
-    this._connected = false;
-
-    /**
-    * @property {number} _prevTimestamp - Used to check for differences between earlier polls and current state of gamepads.
-    * @private
-    */
-    this._prevTimestamp = null;
-
-    /**
-    * @property {Array} _rawButtons - The 'raw' button state.
-    * @private
-    */
-    this._rawButtons = [];
-
-    /**
-    * @property {Array} _buttons - Current Phaser state of the buttons.
-    * @private
-    */
-    this._buttons = [];
-
-    /**
-    * @property {Array} _axes - Current axes state.
-    * @private
-    */
-    this._axes = [];
-
-    /**
-    * @property {Array} _hotkeys - Hotkey buttons.
-    * @private
-    */
-    this._hotkeys = [];
-
-    /**
-    * @property {Object} callbackContext - The context under which the callbacks are run.
+    * @property {object} callbackContext - The context under which the callbacks are run.
     */
     this.callbackContext = this;
 
@@ -620,15 +1016,58 @@ Phaser.SinglePad = function (game, padParent) {
     */
     this.deadZone = 0.26;
 
+    /**
+    * @property {Phaser.Gamepad} padParent - Main Phaser Gamepad object
+    * @private
+    */
+    this._padParent = padParent;
+
+    /**
+    * @property {object} _rawPad - The 'raw' gamepad data.
+    * @private
+    */
+    this._rawPad = null;
+
+    /**
+    * @property {number} _prevTimestamp - Used to check for differences between earlier polls and current state of gamepads.
+    * @private
+    */
+    this._prevTimestamp = null;
+
+    /**
+    * @property {Array} _buttons - Array of Phaser.GamepadButton objects. This array is populated when the gamepad is connected.
+    * @private
+    */
+    this._buttons = [];
+
+    /**
+    * @property {number} _buttonsLen - Length of the _buttons array.
+    * @private
+    */
+    this._buttonsLen = 0;
+
+    /**
+    * @property {Array} _axes - Current axes state.
+    * @private
+    */
+    this._axes = [];
+
+    /**
+    * @property {number} _axesLen - Length of the _axes array.
+    * @private
+    */
+    this._axesLen = 0;
+
 };
 
 Phaser.SinglePad.prototype = {
 
     /**
-    * Add callbacks to the this Gamepad to handle connect/disconnect/button down/button up/axis change/float value buttons
+    * Add callbacks to this Gamepad to handle connect / disconnect / button down / button up / axis change / float value buttons.
+    * 
     * @method Phaser.SinglePad#addCallbacks
-    * @param {Object} context - The context under which the callbacks are run.
-    * @param {Object} callbacks - Object that takes six different callbak methods:
+    * @param {object} context - The context under which the callbacks are run.
+    * @param {object} callbacks - Object that takes six different callbak methods:
     * onConnectCallback, onDisconnectCallback, onDownCallback, onUpCallback, onAxisCallback, onFloatCallback
     */
     addCallbacks: function (context, callbacks) {
@@ -646,67 +1085,70 @@ Phaser.SinglePad.prototype = {
     },
 
     /**
-    * If you need more fine-grained control over a Key you can create a new Phaser.Key object via this method.
-    * The Key object can then be polled, have events attached to it, etc.
+    * Gets a GamepadButton object from this controller to be stored and referenced locally.
+    * The GamepadButton object can then be polled, have events attached to it, etc.
     *
-    * @method Phaser.SinglePad#addButton
-    * @param {number} buttonCode - The buttonCode of the button, i.e. Phaser.Gamepad.BUTTON_0 or Phaser.Gamepad.BUTTON_1
+    * @method Phaser.SinglePad#getButton
+    * @param {number} buttonCode - The buttonCode of the button, i.e. Phaser.Gamepad.BUTTON_0, Phaser.Gamepad.XBOX360_A, etc.
     * @return {Phaser.GamepadButton} The GamepadButton object which you can store locally and reference directly.
     */
-    addButton: function (buttonCode) {
+    getButton: function (buttonCode) {
 
-        this._hotkeys[buttonCode] = new Phaser.GamepadButton(this.game, buttonCode);
-        return this._hotkeys[buttonCode];
+        if (this._buttons[buttonCode])
+        {
+            return this._buttons[buttonCode];
+        }
+        else
+        {
+            return null;
+        }
 
     },
 
     /**
-    * Main update function, should be called by Phaser.Gamepad
+    * Main update function called by Phaser.Gamepad.
+    * 
     * @method Phaser.SinglePad#pollStatus
     */
     pollStatus: function () {
 
-        if (this._rawPad.timestamp && (this._rawPad.timestamp == this._prevTimestamp))
+        if (!this.connected || !this.game.input.enabled || !this.game.input.gamepad.enabled || (this._rawPad.timestamp && (this._rawPad.timestamp === this._prevTimestamp)))
         {
             return;
         }
 
-        for (var i = 0; i &lt; this._rawPad.buttons.length; i += 1)
+        for (var i = 0; i &lt; this._buttonsLen; i++)
         {
-            var buttonValue = this._rawPad.buttons[i];
+            var rawButtonVal = isNaN(this._rawPad.buttons[i]) ? this._rawPad.buttons[i].value : this._rawPad.buttons[i];
 
-            if (this._rawButtons[i] !== buttonValue)
+            if (rawButtonVal !== this._buttons[i].value)
             {
-                if (buttonValue === 1)
+                if (rawButtonVal === 1)
                 {
-                    this.processButtonDown(i, buttonValue);
+                    this.processButtonDown(i, rawButtonVal);
                 }
-                else if (buttonValue === 0)
+                else if (rawButtonVal === 0)
                 {
-                    this.processButtonUp(i, buttonValue);
+                    this.processButtonUp(i, rawButtonVal);
                 }
                 else
                 {
-                    this.processButtonFloat(i, buttonValue);
+                    this.processButtonFloat(i, rawButtonVal);
                 }
-
-                this._rawButtons[i] = buttonValue;
             }
         }
-
-        var axes = this._rawPad.axes;
-
-        for (var j = 0; j &lt; axes.length; j += 1)
+        
+        for (var index = 0; index &lt; this._axesLen; index++)
         {
-            var axis = axes[j];
+            var value = this._rawPad.axes[index];
 
-            if (axis > 0 && axis > this.deadZone || axis &lt; 0 && axis &lt; -this.deadZone)
+            if ((value > 0 && value > this.deadZone) || (value &lt; 0 && value &lt; -this.deadZone))
             {
-                this.processAxisChange({axis: j, value: axis});
+                this.processAxisChange(index, value);
             }
             else
             {
-                this.processAxisChange({axis: j, value: 0});
+                this.processAxisChange(index, 0);
             }
         }
 
@@ -715,23 +1157,40 @@ Phaser.SinglePad.prototype = {
     },
 
     /**
-    * Gamepad connect function, should be called by Phaser.Gamepad
+    * Gamepad connect function, should be called by Phaser.Gamepad.
+    * 
     * @method Phaser.SinglePad#connect
-    * @param {Object} rawPad - The raw gamepad object
+    * @param {object} rawPad - The raw gamepad object
     */
     connect: function (rawPad) {
 
-        var triggerCallback = !this._connected;
+        var triggerCallback = !this.connected;
 
-        this._index = rawPad.index;
-        this._connected = true;
+        this.connected = true;
+        this.index = rawPad.index;
+
         this._rawPad = rawPad;
-        this._rawButtons = rawPad.buttons;
-        this._axes = rawPad.axes;
+
+        this._buttons = [];
+        this._buttonsLen = rawPad.buttons.length;
+
+        this._axes = [];
+        this._axesLen = rawPad.axes.length;
+
+        for (var a = 0; a &lt; this._axesLen; a++)
+        {
+            this._axes[a] = rawPad.axes[a];
+        }
+
+        for (var buttonCode in rawPad.buttons)
+        {
+            buttonCode = parseInt(buttonCode, 10);
+            this._buttons[buttonCode] = new Phaser.GamepadButton(this, buttonCode);
+        }
 
         if (triggerCallback && this._padParent.onConnectCallback)
         {
-            this._padParent.onConnectCallback.call(this._padParent.callbackContext, this._index);
+            this._padParent.onConnectCallback.call(this._padParent.callbackContext, this.index);
         }
 
         if (triggerCallback && this.onConnectCallback)
@@ -742,18 +1201,30 @@ Phaser.SinglePad.prototype = {
     },
 
     /**
-    * Gamepad disconnect function, should be called by Phaser.Gamepad
+    * Gamepad disconnect function, should be called by Phaser.Gamepad.
+    * 
     * @method Phaser.SinglePad#disconnect
     */
     disconnect: function () {
 
-        var triggerCallback = this._connected;
-        this._connected = false;
+        var triggerCallback = this.connected;
+        var disconnectingIndex = this.index;
+
+        this.connected = false;
+        this.index = null;
+
         this._rawPad = undefined;
-        this._rawButtons = [];
+
+        for (var i = 0; i &lt; this._buttonsLen; i++)
+        {
+            this._buttons[i].destroy();
+        }
+
         this._buttons = [];
-        var disconnectingIndex = this._index;
-        this._index = null;
+        this._buttonsLen = 0;
+
+        this._axes = [];
+        this._axesLen = 0;
 
         if (triggerCallback && this._padParent.onDisconnectCallback)
         {
@@ -768,52 +1239,73 @@ Phaser.SinglePad.prototype = {
     },
 
     /**
-    * Handles changes in axis
+     * Destroys this object and associated callback references.
+     *
+     * @method Phaser.SinglePad#destroy
+     */
+    destroy: function () {
+
+        this._rawPad = undefined;
+
+        for (var i = 0; i &lt; this._buttonsLen; i++)
+        {
+            this._buttons[i].destroy();
+        }
+
+        this._buttons = [];
+        this._buttonsLen = 0;
+
+        this._axes = [];
+        this._axesLen = 0;
+
+        this.onConnectCallback = null;
+        this.onDisconnectCallback = null;
+        this.onDownCallback = null;
+        this.onUpCallback = null;
+        this.onAxisCallback = null;
+        this.onFloatCallback = null;
+
+    },
+
+    /**
+    * Handles changes in axis.
+    * 
     * @method Phaser.SinglePad#processAxisChange
-    * @param {Object} axisState - State of the relevant axis
+    * @param {object} axisState - State of the relevant axis
     */
-    processAxisChange: function (axisState) {
+    processAxisChange: function (index, value) {
 
-        if (this.game.input.disabled || this.game.input.gamepad.disabled)
+        if (this._axes[index] === value)
         {
             return;
         }
 
-        if (this._axes[axisState.axis] === axisState.value)
-        {
-            return;
-        }
-
-        this._axes[axisState.axis] = axisState.value;
+        this._axes[index] = value;
 
         if (this._padParent.onAxisCallback)
         {
-            this._padParent.onAxisCallback.call(this._padParent.callbackContext, axisState, this._index);
+            this._padParent.onAxisCallback.call(this._padParent.callbackContext, this, index, value);
         }
 
         if (this.onAxisCallback)
         {
-            this.onAxisCallback.call(this.callbackContext, axisState);
+            this.onAxisCallback.call(this.callbackContext, this, index, value);
         }
 
     },
 
     /**
-    * Handles button down press
+    * Handles button down press.
+    * 
     * @method Phaser.SinglePad#processButtonDown
     * @param {number} buttonCode - Which buttonCode of this button
-    * @param {Object} value - Button value
+    * @param {object} value - Button value
     */
     processButtonDown: function (buttonCode, value) {
 
-        if (this.game.input.disabled || this.game.input.gamepad.disabled)
-        {
-            return;
-        }
-
         if (this._padParent.onDownCallback)
         {
-            this._padParent.onDownCallback.call(this._padParent.callbackContext, buttonCode, value, this._index);
+            this._padParent.onDownCallback.call(this._padParent.callbackContext, buttonCode, value, this.index);
         }
 
         if (this.onDownCallback)
@@ -821,57 +1313,25 @@ Phaser.SinglePad.prototype = {
             this.onDownCallback.call(this.callbackContext, buttonCode, value);
         }
 
-        if (this._buttons[buttonCode] && this._buttons[buttonCode].isDown)
+        if (this._buttons[buttonCode])
         {
-            //  Key already down and still down, so update
-            this._buttons[buttonCode].duration = this.game.time.now - this._buttons[buttonCode].timeDown;
-        }
-        else
-        {
-            if (!this._buttons[buttonCode])
-            {
-                //  Not used this button before, so register it
-                this._buttons[buttonCode] = {
-                    isDown: true,
-                    timeDown: this.game.time.now,
-                    timeUp: 0,
-                    duration: 0,
-                    value: value
-                };
-            }
-            else
-            {
-                //  Button used before but freshly down
-                this._buttons[buttonCode].isDown = true;
-                this._buttons[buttonCode].timeDown = this.game.time.now;
-                this._buttons[buttonCode].duration = 0;
-                this._buttons[buttonCode].value = value;
-            }
-        }
-
-        if (this._hotkeys[buttonCode])
-        {
-            this._hotkeys[buttonCode].processButtonDown(value);
+            this._buttons[buttonCode].processButtonDown(value);
         }
 
     },
 
     /**
-    * Handles button release
+    * Handles button release.
+    * 
     * @method Phaser.SinglePad#processButtonUp
     * @param {number} buttonCode - Which buttonCode of this button
-    * @param {Object} value - Button value
+    * @param {object} value - Button value
     */
     processButtonUp: function (buttonCode, value) {
 
-        if (this.game.input.disabled || this.game.input.gamepad.disabled)
-        {
-            return;
-        }
-
         if (this._padParent.onUpCallback)
         {
-            this._padParent.onUpCallback.call(this._padParent.callbackContext, buttonCode, value, this._index);
+            this._padParent.onUpCallback.call(this._padParent.callbackContext, buttonCode, value, this.index);
         }
 
         if (this.onUpCallback)
@@ -879,47 +1339,25 @@ Phaser.SinglePad.prototype = {
             this.onUpCallback.call(this.callbackContext, buttonCode, value);
         }
 
-        if (this._hotkeys[buttonCode])
-        {
-            this._hotkeys[buttonCode].processButtonUp(value);
-        }
-
         if (this._buttons[buttonCode])
         {
-            this._buttons[buttonCode].isDown = false;
-            this._buttons[buttonCode].timeUp = this.game.time.now;
-            this._buttons[buttonCode].value = value;
-        }
-        else
-        {
-            //  Not used this button before, so register it
-            this._buttons[buttonCode] = {
-                isDown: false,
-                timeDown: this.game.time.now,
-                timeUp: this.game.time.now,
-                duration: 0,
-                value: value
-            };
+            this._buttons[buttonCode].processButtonUp(value);
         }
 
     },
 
     /**
     * Handles buttons with floating values (like analog buttons that acts almost like an axis but still registers like a button)
+    * 
     * @method Phaser.SinglePad#processButtonFloat
     * @param {number} buttonCode - Which buttonCode of this button
-    * @param {Object} value - Button value (will range somewhere between 0 and 1, but not specifically 0 or 1.
+    * @param {object} value - Button value (will range somewhere between 0 and 1, but not specifically 0 or 1.
     */
     processButtonFloat: function (buttonCode, value) {
 
-        if (this.game.input.disabled || this.game.input.gamepad.disabled)
-        {
-            return;
-        }
-
         if (this._padParent.onFloatCallback)
         {
-            this._padParent.onFloatCallback.call(this._padParent.callbackContext, buttonCode, value, this._index);
+            this._padParent.onFloatCallback.call(this._padParent.callbackContext, buttonCode, value, this.index);
         }
 
         if (this.onFloatCallback)
@@ -927,26 +1365,16 @@ Phaser.SinglePad.prototype = {
             this.onFloatCallback.call(this.callbackContext, buttonCode, value);
         }
 
-        if (!this._buttons[buttonCode])
+        if (this._buttons[buttonCode])
         {
-            //  Not used this button before, so register it
-            this._buttons[buttonCode] = { value: value };
-        }
-        else
-        {
-            //  Button used before but freshly down
-            this._buttons[buttonCode].value = value;
-        }
-
-        if (this._hotkeys[buttonCode])
-        {
-            this._hotkeys[buttonCode].processButtonFloat(value);
+            this._buttons[buttonCode].processButtonFloat(value);
         }
 
     },
 
     /**
-    * Returns value of requested axis
+    * Returns value of requested axis.
+    * 
     * @method Phaser.SinglePad#axis
     * @param {number} axisCode - The index of the axis to check
     * @return {number} Axis value if available otherwise false
@@ -963,10 +1391,11 @@ Phaser.SinglePad.prototype = {
     },
 
     /**
-    * Returns true if the button is currently pressed down.
+    * Returns true if the button is pressed down.
+    * 
     * @method Phaser.SinglePad#isDown
-    * @param {number} buttonCode - The buttonCode of the key to check.
-    * @return {boolean} True if the key is currently down.
+    * @param {number} buttonCode - The buttonCode of the button to check.
+    * @return {boolean} True if the button is pressed down.
     */
     isDown: function (buttonCode) {
 
@@ -980,7 +1409,26 @@ Phaser.SinglePad.prototype = {
     },
 
     /**
+    * Returns true if the button is not currently pressed.
+    * 
+    * @method Phaser.SinglePad#isUp
+    * @param {number} buttonCode - The buttonCode of the button to check.
+    * @return {boolean} True if the button is not currently pressed down.
+    */
+    isUp: function (buttonCode) {
+
+        if (this._buttons[buttonCode])
+        {
+            return this._buttons[buttonCode].isUp;
+        }
+
+        return false;
+
+    },
+
+    /**
     * Returns the "just released" state of a button from this gamepad. Just released is considered as being true if the button was released within the duration given (default 250ms).
+    * 
     * @method Phaser.SinglePad#justReleased
     * @param {number} buttonCode - The buttonCode of the button to check for.
     * @param {number} [duration=250] - The duration below which the button is considered as being just released.
@@ -988,14 +1436,16 @@ Phaser.SinglePad.prototype = {
     */
     justReleased: function (buttonCode, duration) {
 
-        if (typeof duration === "undefined") { duration = 250; }
-
-        return (this._buttons[buttonCode] && this._buttons[buttonCode].isDown === false && (this.game.time.now - this._buttons[buttonCode].timeUp &lt; duration));
+        if (this._buttons[buttonCode])
+        {
+            return this._buttons[buttonCode].justReleased(duration);
+        }
 
     },
 
     /**
     * Returns the "just pressed" state of a button from this gamepad. Just pressed is considered true if the button was pressed down within the duration given (default 250ms).
+    * 
     * @method Phaser.SinglePad#justPressed
     * @param {number} buttonCode - The buttonCode of the button to check for.
     * @param {number} [duration=250] - The duration below which the button is considered as being just pressed.
@@ -1003,18 +1453,20 @@ Phaser.SinglePad.prototype = {
     */
     justPressed: function (buttonCode, duration) {
 
-        if (typeof duration === "undefined") { duration = 250; }
-
-        return (this._buttons[buttonCode] && this._buttons[buttonCode].isDown && this._buttons[buttonCode].duration &lt; duration);
+        if (this._buttons[buttonCode])
+        {
+            return this._buttons[buttonCode].justPressed(duration);
+        }
 
     },
 
     /**
     * Returns the value of a gamepad button. Intended mainly for cases when you have floating button values, for example
-    * analog trigger buttons on the XBOX 360 controller
+    * analog trigger buttons on the XBOX 360 controller.
+    * 
     * @method Phaser.SinglePad#buttonValue
     * @param {number} buttonCode - The buttonCode of the button to check.
-    * @return {boolean} Button value if available otherwise false.
+    * @return {number} Button value if available otherwise null. Be careful as this can incorrectly evaluate to 0.
     */
     buttonValue: function (buttonCode) {
 
@@ -1023,20 +1475,16 @@ Phaser.SinglePad.prototype = {
             return this._buttons[buttonCode].value;
         }
 
-        return false;
+        return null;
 
     },
 
     /**
-    * Reset all buttons/axes of this gamepad
+    * Reset all buttons/axes of this gamepad.
+    * 
     * @method Phaser.SinglePad#reset
     */
     reset: function () {
-
-        for (var i = 0; i &lt; this._buttons.length; i++)
-        {
-            this._buttons[i] = 0;
-        }
 
         for (var j = 0; j &lt; this._axes.length; j++)
         {
@@ -1048,34 +1496,6 @@ Phaser.SinglePad.prototype = {
 };
 
 Phaser.SinglePad.prototype.constructor = Phaser.SinglePad;
-
-/**
- * Whether or not this particular gamepad is connected or not.
- * @name Phaser.SinglePad#connected
- * @property {boolean} connected - Whether or not this particular gamepad is connected or not.
- * @readonly
- */
-Object.defineProperty(Phaser.SinglePad.prototype, "connected", {
-
-    get: function () {
-        return this._connected;
-    }
-
-});
-
-/**
- * Gamepad index as per browser data
- * @name Phaser.SinglePad#index
- * @property {number} index - The gamepad index, used to identify specific gamepads in the browser
- * @readonly
- */
-Object.defineProperty(Phaser.SinglePad.prototype, "index", {
-
-    get: function () {
-        return this._index;
-    }
-
-});
 </pre>
         </article>
     </section>
@@ -1097,7 +1517,7 @@ Object.defineProperty(Phaser.SinglePad.prototype, "index", {
 					
 		<span class="jsdoc-message">
 		Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.3.0-dev</a>
-		on Fri Mar 28 2014 01:41:23 GMT-0000 (GMT) using the <a href="https://github.com/terryweiss/docstrap">DocStrap template</a>.
+		on Tue Jan 06 2015 06:31:49 GMT-0000 (GMT) using the <a href="https://github.com/terryweiss/docstrap">DocStrap template</a>.
 		</span>
 				</footer>
 			</div>
@@ -1118,13 +1538,12 @@ Object.defineProperty(Phaser.SinglePad.prototype, "index", {
 	<script src="scripts/bootstrap-dropdown.js"></script>
 	<script src="scripts/toc.js"></script>
 
-
 	<script>  Sunlight.highlightAll({lineNumbers:true,  showMenu: true, enableDoclinks :true}); </script>
 
 	<script>
 		$( function () {
 			$( "#toc" ).toc( {
-			    anchorName  : function(i, heading, prefix) {
+				anchorName  : function(i, heading, prefix) {
 					return $(heading).attr("id") || ( prefix + i );
 				},
 				selectors   : "h1,h2,h3,h4",

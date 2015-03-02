@@ -7,14 +7,13 @@
 
 /**
 * Creates a Ellipse object. A curve on a plane surrounding two focal points.
-* @class Ellipse
-* @classdesc Phaser - Ellipse
+* 
+* @class Phaser.Ellipse
 * @constructor
 * @param {number} [x=0] - The X coordinate of the upper-left corner of the framing rectangle of this ellipse.
 * @param {number} [y=0] - The Y coordinate of the upper-left corner of the framing rectangle of this ellipse.
 * @param {number} [width=0] - The overall width of this ellipse.
 * @param {number} [height=0] - The overall height of this ellipse.
-* @return {Phaser.Ellipse} This Ellipse object
 */
 Phaser.Ellipse = function (x, y, width, height) {
 
@@ -70,7 +69,20 @@ Phaser.Ellipse.prototype = {
     },
 
     /**
+    * Returns the framing rectangle of the ellipse as a Phaser.Rectangle object.
+    * 
+    * @method Phaser.Ellipse#getBounds
+    * @return {Phaser.Rectangle} The bounds of the Ellipse.
+    */
+    getBounds: function () {
+
+        return new Phaser.Rectangle(this.x - this.width, this.y - this.height, this.width, this.height);
+
+    },
+
+    /**
     * Copies the x, y, width and height properties from any given object to this Ellipse.
+    * 
     * @method Phaser.Ellipse#copyFrom
     * @param {any} source - The object to copy from.
     * @return {Phaser.Ellipse} This Ellipse object.
@@ -82,10 +94,10 @@ Phaser.Ellipse.prototype = {
     },
 
     /**
-    * Copies the x, y and diameter properties from this Circle to any given object.
+    * Copies the x, y, width and height properties from this Ellipse to any given object.
     * @method Phaser.Ellipse#copyTo
     * @param {any} dest - The object to copy to.
-    * @return {Object} This dest object.
+    * @return {object} This dest object.
     */
     copyTo: function(dest) {
 
@@ -101,21 +113,21 @@ Phaser.Ellipse.prototype = {
     /**
     * Returns a new Ellipse object with the same values for the x, y, width, and height properties as this Ellipse object.
     * @method Phaser.Ellipse#clone
-    * @param {Phaser.Ellipse} out - Optional Ellipse object. If given the values will be set into the object, otherwise a brand new Ellipse object will be created and returned.
+    * @param {Phaser.Ellipse} output - Optional Ellipse object. If given the values will be set into the object, otherwise a brand new Ellipse object will be created and returned.
     * @return {Phaser.Ellipse} The cloned Ellipse object.
     */
-    clone: function(out) {
+    clone: function(output) {
 
-        if (typeof out === "undefined")
+        if (typeof output === "undefined" || output === null)
         {
-            out = new Phaser.Ellipse(this.x, this.y, this.width, this.height);
+            output = new Phaser.Ellipse(this.x, this.y, this.width, this.height);
         }
         else
         {
-            out.setTo(this.x, this.y, this.width, this.height);
+            output.setTo(this.x, this.y, this.width, this.height);
         }
 
-        return out;
+        return output;
 
     },
 
@@ -183,7 +195,7 @@ Object.defineProperty(Phaser.Ellipse.prototype, "right", {
         }
         else
         {
-            this.width = this.x + value;
+            this.width = value - this.x;
         }
     }
 
@@ -225,7 +237,7 @@ Object.defineProperty(Phaser.Ellipse.prototype, "bottom", {
         }
         else
         {
-            this.height = this.y + value;
+            this.height = value - this.y;
         }
     }
 
@@ -256,6 +268,7 @@ Object.defineProperty(Phaser.Ellipse.prototype, "empty", {
 
 /**
 * Return true if the given x/y coordinates are within the Ellipse object.
+* 
 * @method Phaser.Ellipse.contains
 * @param {Phaser.Ellipse} a - The Ellipse to be checked.
 * @param {number} x - The X value of the coordinate to test.
@@ -269,26 +282,14 @@ Phaser.Ellipse.contains = function (a, x, y) {
         return false;
     }
 
-    //  Normalize the coords to an ellipse with center 0,0 and a radius of 0.5
-    var normx = ((x - a.x) / a.width) - 0.5;
-    var normy = ((y - a.y) / a.height) - 0.5;
+    //  Normalize the coords to an ellipse with center 0,0
+    var normx = ((x - a.x) / a.width);
+    var normy = ((y - a.y) / a.height);
 
     normx *= normx;
     normy *= normy;
 
-    return (normx + normy < 0.25);
-
-};
-
-/**
-* Returns the framing rectangle of the ellipse as a Phaser.Rectangle object.
-*
-* @method Phaser.Ellipse.getBounds
-* @return {Phaser.Rectangle} The framing rectangle
-*/
-Phaser.Ellipse.prototype.getBounds = function() {
-
-    return new Phaser.Rectangle(this.x, this.y, this.width, this.height);
+    return (normx + normy <= 1);
 
 };
 

@@ -7,6 +7,59 @@ Phaser.Plugin.Dialogs = function (game) {
     Phaser.Plugin.call(this, game);
     this.game = game;
     this.dialogs = new Phaser.Group(this.game, this.game.world, 'Dialogs');
+
+    this.getDialog = function getDialog(name) {
+        for(var i = 0, col = this.dialogs.children, len = col.length; i<len; i++) {
+            if(col[i].name === name) return col[i];
+        }
+    };
+
+    this.animate = function animate(dialog, type) {
+        var self = this,
+            animations = {
+                'alphaIn': function () {
+                    return self.game.add.tween(dialog)
+                        .from({alpha: 0}, 500, Phaser.Easing.Linear.None, true);
+                },
+                'alphaUpIn': function () {
+                    self.game.add.tween(dialog)
+                        .from({alpha: 0, y: dialog.y + 50}, 500, Phaser.Easing.Cubic.InOut, true);
+                    return self.game.add.tween(dialog.scale)
+                        .from({x: 0.5, y: 0.5}, 500, Phaser.Easing.Cubic.InOut, true);
+                },
+                'alphaScaleIn': function () {
+                    return self.game.add.tween(dialog)
+                        .from({alpha: 0, y: dialog.y + 50}, 500, Phaser.Easing.Cubic.InOut, true);
+                },
+                'alphaOut': function () {
+                    return self.game.add.tween(dialog)
+                        .to({alpha: 0}, 500, Phaser.Easing.Linear.None, true);
+                },
+                'alphaUpOut': function () {
+                    self.game.add.tween(dialog)
+                        .to({alpha: 0, y: dialog.y + 50}, 500, Phaser.Easing.Cubic.InOut, true);
+                    return self.game.add.tween(dialog.scale)
+                        .to({x: 0.5, y: 0.5}, 500, Phaser.Easing.Cubic.InOut, true);
+                },
+                'alphaScaleOut': function () {
+                    return self.game.add.tween(dialog)
+                        .to({alpha: 0, y: dialog.y + 50}, 500, Phaser.Easing.Cubic.InOut, true);
+                }
+            },
+            tween, animType;
+
+        animType = (type === 'In') ? dialog.fadeInType : dialog.fadeOutType;
+
+        if (animType && typeof animType === "string") {
+            tween = animations[animType+type].call(self);
+        } else if (typeof animType === "function") {
+            tween = animType.call(self);
+        } else {
+            tween = animations["alpha"].call(self);
+        }
+
+        return tween;
+    };
 };
 
 Phaser.Plugin.Dialogs.prototype = Object.create(Phaser.Plugin.prototype);
@@ -17,72 +70,164 @@ Phaser.Plugin.Dialogs.prototype.createDialog = function createDialog (config) {
         type = config.type || '',
         name = config.name || '',
         hasEasyClose = config.hasEasyClose || false,
-
-        hasBg = config.hasBg || false,
-        hasCloseBtn = config.hasCloseBtn || false,
+        hasBgScreen = config.hasBgScreen || true,
+        bgImg = config.bgImg || '',
         closeBtnSprite = config.closeBtnSprite || '',
-        bgColor = config.bgColor || "0x000000",
-        bgAlpha = config.bgAlpha || 0.7,
-        centerV = config.centerV || true,
-        centerH = config.centerH || true,
-        objects = config.objects || [];
+        btnOffsetY = config.btnOffsetY || 0,
+        bgScreenColor = config.bgScreenColor || "0x000000",
+        bgScreenAlpha = config.bgScreenAlpha || 0.7,
+        fadeInType = config.fadeInType || '',
+        fadeOutType = config.fadeOutType || '',
+        objects = config.objects || [1,1,1];
 
-    var bg;
+
+
+    var bgScreen;
     var dialog = this.game.add.group();
-
+    dialog.fadeOutType = fadeOutType;
+    dialog.fadeInType = fadeInType;
     dialog.name = name;
+    dialog.x = self.game.width / 2;
+    dialog.y = self.game.height / 2;
 
-    var initBg = function initBg() {
+    var initBgScreen = function initBg() {
+        bgScreen = self.game.add.graphics(0, 0);
+        bgScreen.beginFill(bgScreenColor, bgScreenAlpha);
+        bgScreen.drawRect(0 - self.game.width / 2, 0 - self.game.height / 2, self.game.width, self.game.height);
+        bgScreen.inputEnabled = false;
 
-        bg = self.game.add.graphics(0, 0);
-        bg.beginFill(bgColor, bgAlpha);
-        bg.drawRect(0, 0, self.game.width, self.game.height);
-        bg.inputEnabled = false;
-
-        dialog.add(bg)
+        dialog.add(bgScreen);
     };
 
-    var initcloseBtn = function initcloseBtn () {
+    var initBgImg = function initBg() {
+        bgImg = self.game.add.sprite(0, 0, bgImg);
+        bgImg.anchor.x = 0.5;
+        bgImg.anchor.y = 0.5;
+        bgImg.inputEnabled = false;
+
+        dialog.add(bgImg)
+    };
+
+    var initCloseBtn = function initCloseBtn () {
         var closeBtn = self.game.add.sprite(0, 0, closeBtnSprite);
         closeBtn.inputEnabled = true;
-        closeBtn.x = self.game.width/2;
-        closeBtn.y = self.game.height/2;
+        closeBtn.y = 0 + btnOffsetY;
         closeBtn.anchor.x = 0.5;
         closeBtn.anchor.y = 0.5;
         closeBtn.events.onInputDown.add(function() {
-            self.hideDialog(name);
+            self.destroy(name);
         }, self);
 
         dialog.add(closeBtn);
     };
 
+    var initObjects = function initObjects () {
+        for(var i = 0, len = objects.length; i < len; i++) {
+            var item = objects[i],
+                type = item.type || 'text',
+                color = item.color || '#000',
+                fontFamily = item.fontFamily || 'Arial',
+                fontSize = item.fontSize || 32,
+                stroke = item.stroke || '#000',
+                strokeThickness = item.strokeThickness || 0,
+                align = item.align || 'center',
+                offsetX = item.offsetX || 0,
+                offsetY = item.offsetY || 0,
+                contentScale = item.contentScale || 1,
+                content = item.content || "",
+                callback = item.callback || false,
+                label;
+
+
+            if (type === "text" || type === "bitmapText") {
+                if (type === "text") {
+                    label = self.game.add.text(0, 0, content, {
+                        font: fontSize + 'px ' + fontFamily,
+                        fill: color,
+                        stroke: stroke,
+                        strokeThickness: strokeThickness,
+                        align: align
+                    });
+                    label.contentType = 'text';
+                    label.update();
+                    label.x = (0 - (label.width / 2)) + offsetX;
+                    label.y = (0 - (label.height / 2)) + offsetY;
+                } else {
+                    label = self.game.add.bitmapText(0, 0, fontFamily, String(content), fontSize);
+                    label.contentType = 'bitmapText';
+                    label.updateText();
+                    label.x = (0 - ((label.width) / 2)) + offsetX;
+                    label.y = (0 - ((label.height) / 2)) + offsetY;
+                }
+
+            } else if (type === "image") {
+                label = self.game.add.sprite(0, 0, content);
+                label.scale.setTo(contentScale, contentScale);
+                label.x = (0 - ((label.width) / 2)) + offsetX;
+                label.y = (0 - ((label.height) / 2)) + offsetY;
+                if(callback) {
+                  label.inputEnabled = true;
+                  label.events.onInputDown.add(callback, self)
+                }
+            }
+
+            label.offsetX = offsetX;
+            label.offsetY = offsetY;
+
+            dialog.add(label);
+        }
+    };
+
     var setEasyClose = function setEasyClose () {
         self.game.input.onDown.add(function() {
-            self.hideDialog(name);
+            self.hide(name);
         }, self);
 
     };
 
+
     hasEasyClose && setEasyClose();
-    hasBg && initBg();
-    hasCloseBtn && initcloseBtn();
+    hasBgScreen && initBgScreen();
+    bgImg !== '' && initBgImg();
+    closeBtnSprite != '' && initCloseBtn();
+    objects.length > 0 && initObjects();
+    fadeInType != '' && this.animate(dialog, 'In');
+
     this.dialogs.add(dialog);
     this.game.world.bringToTop(this.dialogs);
 };
 
-Phaser.Plugin.Dialogs.prototype.hideDialog = function hideDialog (name) {
-    var dialog,
-        self = this,
-        getDialog = function getDialog() {
-          console.log(self.dialogs.children)
+Phaser.Plugin.Dialogs.prototype.hide = function hide (name) {
+    var currentDialog = this.getDialog(name);
 
-          for(var i = 0, col = self.dialogs.children, len = col.length; i<len; i++) {
-                if(col[i].name === name) return col[i];
-            }
-        };
-    dialog = getDialog(name);
+    if(currentDialog.fadeOutType !== '') {
+        this.animate(currentDialog, 'Out').onComplete.add(function () {
+          currentDialog.visibility = false;
+        }, this);
+    } else {
+        currentDialog.visibility = false;
+    }
+};
 
-  dialog.visible = false;
+Phaser.Plugin.Dialogs.prototype.show = function show (name) {
+    var currentDialog = this.getDialog(name);
 
+    if(currentDialog.fadeInType !== '') {
+      this.animate(currentDialog, 'In').onComplete.add(function () {
+        currentDialog.visibility = true;
+      }, this);
+    } else {
+      currentDialog.visibility = true;
+    }
+};
 
+Phaser.Plugin.Dialogs.prototype.destroy = function destroy (name) {
+  var currentDialog = this.getDialog(name);
+  if(currentDialog.fadeOutType !== '') {
+        this.animate(currentDialog, 'Out').onComplete.add(function () {
+            currentDialog.destroy();
+        }, this);
+    } else {
+        currentDialog.destroy();
+    }
 };

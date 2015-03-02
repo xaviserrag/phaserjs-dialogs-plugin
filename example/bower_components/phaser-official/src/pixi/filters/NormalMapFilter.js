@@ -4,18 +4,19 @@
 
 
 /**
- *
- * The NormalMapFilter class uses the pixel values from the specified texture (called the displacement map) to perform a displacement of an object.
+ * The NormalMapFilter class uses the pixel values from the specified texture (called the displacement map) to perform a displacement of an object. 
  * You can use this filter to apply all manor of crazy warping effects
- * Currently the r property of the texture is used offset the x and the g propery of the texture is used to offset the y.
+ * Currently the r property of the texture is used offset the x and the g property of the texture is used to offset the y.
+ * 
  * @class NormalMapFilter
- * @contructor
- * @param texture {Texture} The texture used for the displacemtent map * must be power of 2 texture at the moment
+ * @extends AbstractFilter
+ * @constructor
+ * @param texture {Texture} The texture used for the displacement map * must be power of 2 texture at the moment
  */
 PIXI.NormalMapFilter = function(texture)
 {
 	PIXI.AbstractFilter.call( this );
-
+	
 	this.passes = [this];
 	texture.baseTexture._powerOf2 = true;
 
@@ -29,7 +30,7 @@ PIXI.NormalMapFilter = function(texture)
 	//	LightDir: {type: 'f3', value:[0, 1, 0]},
 		LightPos: {type: '3f', value:[0, 1, 0]}
 	};
-
+	
 
 	if(texture.baseTexture.hasLoaded)
 	{
@@ -49,30 +50,30 @@ PIXI.NormalMapFilter = function(texture)
 	  "varying float vColor;",
 	  "uniform sampler2D displacementMap;",
 	  "uniform sampler2D uSampler;",
-
+	 
 	  "uniform vec4 dimensions;",
-
+	  
 		"const vec2 Resolution = vec2(1.0,1.0);",      //resolution of screen
 		"uniform vec3 LightPos;",    //light position, normalized
 		"const vec4 LightColor = vec4(1.0, 1.0, 1.0, 1.0);",      //light RGBA -- alpha is intensity
-		"const vec4 AmbientColor = vec4(1.0, 1.0, 1.0, 0.5);",    //ambient RGBA -- alpha is intensity
+		"const vec4 AmbientColor = vec4(1.0, 1.0, 1.0, 0.5);",    //ambient RGBA -- alpha is intensity 
 		"const vec3 Falloff = vec3(0.0, 1.0, 0.2);",         //attenuation coefficients
 
 		"uniform vec3 LightDir;",//" = vec3(1.0, 0.0, 1.0);",
 
 
 	  "uniform vec2 mapDimensions;",// = vec2(256.0, 256.0);",
-
+	 
 
 	  "void main(void) {",
 	  	"vec2 mapCords = vTextureCoord.xy;",
 
 	  	"vec4 color = texture2D(uSampler, vTextureCoord.st);",
         "vec3 nColor = texture2D(displacementMap, vTextureCoord.st).rgb;",
-
+ 
 
 	  	"mapCords *= vec2(dimensions.x/512.0, dimensions.y/512.0);",
-
+	  
 	  	"mapCords.y *= -1.0;",
 	 	"mapCords.y += 1.0;",
 
@@ -113,73 +114,44 @@ PIXI.NormalMapFilter = function(texture)
 	/*
 	 	// normalise color
 	 	"vec3 normal = normalize(nColor * 2.0 - 1.0);",
-
+	 	
 	 	"vec3 deltaPos = vec3( (light.xy - gl_FragCoord.xy) / resolution.xy, light.z );",
 
 	 	"float lambert = clamp(dot(normal, lightDir), 0.0, 1.0);",
 
-		"float d = sqrt(dot(deltaPos, deltaPos));",
+	 	"float d = sqrt(dot(deltaPos, deltaPos));", 
         "float att = 1.0 / ( attenuation.x + (attenuation.y*d) + (attenuation.z*d*d) );",
 
         "vec3 result = (ambientColor * ambientIntensity) + (lightColor.rgb * lambert) * att;",
         "result *= color.rgb;",
-
+       
         "gl_FragColor = vec4(result, 1.0);",*/
 
-
+	  	
 
 	  "}"
 	];
-
+	
 }
 
-/*
-void main() {
-        //sample color & normals from our textures
-        vec4 color = texture2D(u_texture, v_texCoords.st);
-        vec3 nColor = texture2D(u_normals, v_texCoords.st).rgb;
-
-        //some bump map programs will need the Y value flipped..
-        nColor.g = yInvert ? 1.0 - nColor.g : nColor.g;
-
-        //this is for debugging purposes, allowing us to lower the intensity of our bump map
-        vec3 nBase = vec3(0.5, 0.5, 1.0);
-        nColor = mix(nBase, nColor, strength);
-
-        //normals need to be converted to [-1.0, 1.0] range and normalized
-        vec3 normal = normalize(nColor * 2.0 - 1.0);
-
-        //here we do a simple distance calculation
-        vec3 deltaPos = vec3( (light.xy - gl_FragCoord.xy) / resolution.xy, light.z );
-
-        vec3 lightDir = normalize(deltaPos);
-        float lambert = useNormals ? clamp(dot(normal, lightDir), 0.0, 1.0) : 1.0;
-
-        //now let's get a nice little falloff
-        float d = sqrt(dot(deltaPos, deltaPos));
-        float att = useShadow ? 1.0 / ( attenuation.x + (attenuation.y*d) + (attenuation.z*d*d) ) : 1.0;
-
-        vec3 result = (ambientColor * ambientIntensity) + (lightColor.rgb * lambert) * att;
-        result *= color.rgb;
-
-        gl_FragColor = v_color * vec4(result, color.a);
-}
-*/
 PIXI.NormalMapFilter.prototype = Object.create( PIXI.AbstractFilter.prototype );
 PIXI.NormalMapFilter.prototype.constructor = PIXI.NormalMapFilter;
 
+/**
+ * Sets the map dimensions uniforms when the texture becomes available.
+ *
+ * @method onTextureLoaded
+ */
 PIXI.NormalMapFilter.prototype.onTextureLoaded = function()
 {
-
 	this.uniforms.mapDimensions.value.x = this.uniforms.displacementMap.value.width;
 	this.uniforms.mapDimensions.value.y = this.uniforms.displacementMap.value.height;
 
 	this.uniforms.displacementMap.value.baseTexture.off("loaded", this.boundLoadedFunction)
-
-}
+};
 
 /**
- * The texture used for the displacemtent map * must be power of 2 texture at the moment
+ * The texture used for the displacement map. Must be power of 2 texture.
  *
  * @property map
  * @type Texture

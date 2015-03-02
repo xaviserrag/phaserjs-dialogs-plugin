@@ -8,7 +8,7 @@
  * @class MovieClip
  * @extends Sprite
  * @constructor
- * @param textures {Array<Texture>} an array of {Texture} objects that make up the animation
+ * @param textures {Array(Texture)} an array of {Texture} objects that make up the animation
  */
 PIXI.MovieClip = function(textures)
 {
@@ -18,7 +18,7 @@ PIXI.MovieClip = function(textures)
      * The array of textures that make up the animation
      *
      * @property textures
-     * @type Array
+     * @type Array(Texture)
      */
     this.textures = textures;
 
@@ -88,7 +88,6 @@ Object.defineProperty( PIXI.MovieClip.prototype, 'totalFrames', {
 	}
 });
 
-
 /**
  * Stops the MovieClip
  *
@@ -143,13 +142,15 @@ PIXI.MovieClip.prototype.gotoAndPlay = function(frameNumber)
  */
 PIXI.MovieClip.prototype.updateTransform = function()
 {
-    PIXI.Sprite.prototype.updateTransform.call(this);
+    this.displayObjectContainerUpdateTransform();
 
     if(!this.playing)return;
 
     this.currentFrame += this.animationSpeed;
 
     var round = (this.currentFrame + 0.5) | 0;
+
+    this.currentFrame = this.currentFrame % this.textures.length;
 
     if(this.loop || round < this.textures.length)
     {
@@ -163,4 +164,42 @@ PIXI.MovieClip.prototype.updateTransform = function()
             this.onComplete();
         }
     }
+};
+
+/**
+ * A short hand way of creating a movieclip from an array of frame ids
+ *
+ * @static
+ * @method fromFrames
+ * @param frames {Array} the array of frames ids the movieclip will use as its texture frames
+ */
+PIXI.MovieClip.fromFrames = function(frames)
+{
+    var textures = [];
+
+    for (var i = 0; i < frames.length; i++)
+    {
+        textures.push(new PIXI.Texture.fromFrame(frames[i]));
+    }
+
+    return new PIXI.MovieClip(textures);
+};
+
+/**
+ * A short hand way of creating a movieclip from an array of image ids
+ *
+ * @static
+ * @method fromImages
+ * @param frames {Array} the array of image ids the movieclip will use as its texture frames
+ */
+PIXI.MovieClip.fromImages = function(images)
+{
+    var textures = [];
+
+    for (var i = 0; i < images.length; i++)
+    {
+        textures.push(new PIXI.Texture.fromImage(images[i]));
+    }
+
+    return new PIXI.MovieClip(textures);
 };

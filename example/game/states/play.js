@@ -16,7 +16,26 @@
       this.sprite.body.velocity.y = this.game.rnd.integerInRange(-500,500);
 
       this.sprite.events.onInputDown.add(this.clickListener, this);
-      this.game.Dialogs.createDialog({hasBg: true, hasCloseBtn: true, closeBtnSprite:'closeBtn', name: 'popup', hasEasyClose: false});
+      this.game.Dialogs.createDialog({
+          name: 'popup',
+          closeBtnSprite: 'closeBtn',
+          btnOffsetY: 100,
+          bgImg: 'yeoman',
+          hasEasyClose: true,
+          fadeInType: 'alphaScale',
+          fadeOutType: 'alphaUp',
+          objects: [
+            {
+              type: 'text',
+              color: '#ff55ff',
+              fontFamily: 'Arial',
+              fontSize: 52,
+              offsetX: 0,
+              offsetY: -100,
+              content: "Hello World"
+            }
+          ]
+      });
     },
     update: function() {
     },
