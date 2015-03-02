@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b67e05c5-2c34-49f2-b71f-5ecb58c06694" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dialogs.js" afterPath="$PROJECT_DIR$/src/dialogs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
     </list>
     <ignored path="dialog-plugin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,8 +41,8 @@
           <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/readme.md">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.8426573" vertical-offset="928" max-vertical-offset="1500">
-                  <caret line="94" column="0" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.65909094" vertical-offset="928" max-vertical-offset="1500">
+                  <caret line="87" column="72" selection-start-line="87" selection-start-column="72" selection-end-line="87" selection-end-column="72" />
                   <folding />
                 </state>
               </provider>
@@ -96,8 +95,10 @@
           <file leaf-file-name="dialogs.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/dialogs.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.9798995" vertical-offset="915" max-vertical-offset="4035">
-                  <caret line="100" column="51" selection-start-line="100" selection-start-column="51" selection-end-line="100" selection-end-column="51" />
+                <state vertical-scroll-proportion="0.94974875" vertical-offset="1593" max-vertical-offset="4035">
+                  <caret line="98" column="22" selection-start-line="98" selection-start-column="22" selection-end-line="98" selection-end-column="22" />
+                  <caret line="98" column="46" selection-start-line="98" selection-start-column="46" selection-end-line="98" selection-end-column="46" />
+                  <caret line="144" column="39" selection-start-line="144" selection-start-column="39" selection-end-line="144" selection-end-column="39" />
                   <folding />
                 </state>
               </provider>
@@ -509,16 +510,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8426573" vertical-offset="928" max-vertical-offset="1500">
-          <caret line="94" column="0" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.65909094" vertical-offset="928" max-vertical-offset="1500">
+          <caret line="87" column="72" selection-start-line="87" selection-start-column="72" selection-end-line="87" selection-end-column="72" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dialogs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9798995" vertical-offset="915" max-vertical-offset="4035">
-          <caret line="100" column="51" selection-start-line="100" selection-start-column="51" selection-end-line="100" selection-end-column="51" />
+        <state vertical-scroll-proportion="0.94974875" vertical-offset="1593" max-vertical-offset="4035">
+          <caret line="98" column="22" selection-start-line="98" selection-start-column="22" selection-end-line="98" selection-end-column="22" />
+          <caret line="98" column="46" selection-start-line="98" selection-start-column="46" selection-end-line="98" selection-end-column="46" />
+          <caret line="144" column="39" selection-start-line="144" selection-start-column="39" selection-end-line="144" selection-end-column="39" />
           <folding />
         </state>
       </provider>
