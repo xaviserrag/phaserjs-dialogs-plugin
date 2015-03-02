@@ -60,6 +60,17 @@ Phaser.Plugin.Dialogs = function (game) {
 
         return tween;
     };
+
+     this.destroy = function destroy (name) {
+       var currentDialog = this.getDialog(name);
+       if (currentDialog && currentDialog.fadeOutType !== '') {
+         this.animate(currentDialog, 'Out').onComplete.add(function () {
+           currentDialog.destroy();
+         }, this);
+       } else if (currentDialog) {
+         currentDialog.destroy();
+       }
+     }
 };
 
 Phaser.Plugin.Dialogs.prototype = Object.create(Phaser.Plugin.prototype);
@@ -114,7 +125,7 @@ Phaser.Plugin.Dialogs.prototype.createDialog = function createDialog (config) {
         closeBtn.y = 0 + btnOffsetY;
         closeBtn.anchor.x = 0.5;
         closeBtn.anchor.y = 0.5;
-        closeBtn.events.onInputDown.add(function() {
+        closeBtn.events.onInputDown.addOnce(function() {
             self.destroy(name);
         }, self);
 
@@ -179,55 +190,43 @@ Phaser.Plugin.Dialogs.prototype.createDialog = function createDialog (config) {
     };
 
     var setEasyClose = function setEasyClose () {
-        self.game.input.onDown.add(function() {
-            self.hide(name);
-        }, self);
-
+        self.game.input.onDown.addOnce(function () {
+          self.destroy(name);
+        });
     };
 
 
-    hasEasyClose && setEasyClose();
     hasBgScreen && initBgScreen();
     bgImg !== '' && initBgImg();
     closeBtnSprite != '' && initCloseBtn();
     objects.length > 0 && initObjects();
+    hasEasyClose && setEasyClose();
+
     fadeInType != '' && this.animate(dialog, 'In');
 
     this.dialogs.add(dialog);
     this.game.world.bringToTop(this.dialogs);
 };
 
-Phaser.Plugin.Dialogs.prototype.hide = function hide (name) {
-    var currentDialog = this.getDialog(name);
-
-    if(currentDialog.fadeOutType !== '') {
-        this.animate(currentDialog, 'Out').onComplete.add(function () {
-          currentDialog.visibility = false;
-        }, this);
-    } else {
-        currentDialog.visibility = false;
-    }
-};
-
-Phaser.Plugin.Dialogs.prototype.show = function show (name) {
-    var currentDialog = this.getDialog(name);
-
-    if(currentDialog.fadeInType !== '') {
-      this.animate(currentDialog, 'In').onComplete.add(function () {
-        currentDialog.visibility = true;
-      }, this);
-    } else {
-      currentDialog.visibility = true;
-    }
-};
-
-Phaser.Plugin.Dialogs.prototype.destroy = function destroy (name) {
-  var currentDialog = this.getDialog(name);
-  if(currentDialog.fadeOutType !== '') {
-        this.animate(currentDialog, 'Out').onComplete.add(function () {
-            currentDialog.destroy();
-        }, this);
-    } else {
-        currentDialog.destroy();
-    }
-};
+//TODO fix this.
+//Phaser.Plugin.Dialogs.prototype.hide = function hide (name) {
+//  var currentDialog = this.getDialog(name);
+//  if(currentDialog.fadeOutType !== '') {
+//    this.animate(currentDialog, 'Out').onComplete.add(function () {
+//      currentDialog.visibility = false;
+//    }, this);
+//  } else {
+//    currentDialog.visibility = false;
+//  }
+//};
+//
+//Phaser.Plugin.Dialogs.prototype.show = function show (name) {
+//  var currentDialog = this.getDialog(name);
+//  if(currentDialog.fadeInType !== '') {
+//    this.animate(currentDialog, 'In').onComplete.add(function () {
+//      currentDialog.visibility = true;
+//    }, this);
+//  } else {
+//    currentDialog.visibility = true;
+//  }
+//};
