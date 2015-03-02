@@ -5,7 +5,13 @@ Dialogs is a plugin to help you out with the creation of dialogs on your game.
 
 ##How to install the plugin
 
-Add this line of code on the same state were you want to create the dialogs:
+Load the script on the html file:
+```javascript
+  <script src="js/dialogs.js"></script>
+```
+
+Add this line of code on the same state were you want to create the dialogs (at this moment is
+not possible to use the Plugin on different states):
 ```javascript
  game.Dialogs = this.game.plugins.add(new Phaser.Plugin.Dialogs(this.game));
 ```
@@ -42,4 +48,4 @@ of a configuration object:
   },
  ```
 
-###Options
+###General Options
