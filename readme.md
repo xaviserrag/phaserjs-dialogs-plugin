@@ -144,10 +144,13 @@ In case of a `text`, this will be the text printed.
 
 * <b>animation</b> -> If case of an image, you can pass an array of frames here like in a normal animation.
  Example: 
+ 
  ```javascript
  animation: ['mario00', 'mario01', 'mario02']
+
  animation: [0, 1, 2]
  ```
+
 * <b> callback</b> -> a callback that will be triggered when the object is clicked.
 
 
