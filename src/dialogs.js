@@ -91,7 +91,6 @@ Phaser.Plugin.Dialogs.prototype.constructor = Phaser.Plugin.Dialogs;
 Phaser.Plugin.Dialogs.prototype.createDialog = function createDialog (config) {
     var self = this,
         spriteSheet = config.spriteSheet || '',
-        type = config.dialogType || '',
         name = config.name || '',
         hasEasyClose = config.hasEasyClose || false,
         hasBgScreen = config.hasBgScreen || false,
