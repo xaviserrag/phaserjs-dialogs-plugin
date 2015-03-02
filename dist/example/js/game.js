@@ -100,6 +100,8 @@ module.exports = Menu;
   function Play() {}
   Play.prototype = {
     create: function() {
+      this.game.Dialogs = this.game.plugins.add(new Phaser.Plugin.Dialogs(this.game));
+
       this.game.physics.startSystem(Phaser.Physics.ARCADE);
       this.sprite = this.game.add.sprite(this.game.width/2, this.game.height/2, 'yeoman');
       this.sprite.inputEnabled = true;
@@ -111,10 +113,9 @@ module.exports = Menu;
       this.sprite.body.velocity.y = this.game.rnd.integerInRange(-500,500);
 
       this.sprite.events.onInputDown.add(this.clickListener, this);
-      this.game.Dialogs.createDialog({hasBg: true, hasCloseBtn: true, closeBtnSprite:'closeBtn', hasEasyClose: false});
+      this.game.Dialogs.createDialog({hasBg: true, hasCloseBtn: true, closeBtnSprite:'closeBtn', name: 'popup', hasEasyClose: false});
     },
     update: function() {
-
     },
     clickListener: function() {
       this.game.state.start('gameover');
@@ -144,7 +145,8 @@ Preload.prototype = {
   },
   create: function() {
     this.asset.cropEnabled = false;
-    this.game.Dialogs = this.game.plugins.add(new Phaser.Plugin.Dialogs(this.game));
+    console.log(this.game)
+    this.game.plugins.add(Phaser.Plugin.Debug);
   },
   update: function() {
     if(!!this.ready) {

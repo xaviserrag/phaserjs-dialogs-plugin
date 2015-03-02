@@ -18,7 +18,8 @@ Preload.prototype = {
   },
   create: function() {
     this.asset.cropEnabled = false;
-    this.game.Dialogs = this.game.plugins.add(new Phaser.Plugin.Dialogs(this.game));
+    console.log(this.game)
+    this.game.plugins.add(Phaser.Plugin.Debug);
   },
   update: function() {
     if(!!this.ready) {

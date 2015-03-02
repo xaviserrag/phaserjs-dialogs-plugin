@@ -22,6 +22,7 @@ module.exports = function (grunt) {
       scripts: {
         files: [
             'example/game/**/*.js',
+            'src/*.js',
             '!example/game/main.js'
         ],
         options: {
@@ -57,8 +58,8 @@ module.exports = function (grunt) {
       dist: {
         files: [
           // includes files within path and its sub-directories
+          { expand: true, flatten: true, src: ['src/dialogs.js'], dest: 'dist/example/js/' },
           { expand: true, src: ['example/assets/**'], dest: 'dist/' },
-          { expand: true, flatten: true, src: ['src/*.js'], dest: 'dist/example/js/' },
           { expand: true, flatten: true, src: ['example/bower_components/**/build/*.js'], dest: 'dist/example/js/' },
           { expand: true, src: ['example/css/**'], dest: 'dist/' },
           { expand: true, src: ['example/index.html'], dest: 'dist/' }

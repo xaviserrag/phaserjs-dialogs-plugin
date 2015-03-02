@@ -6,9 +6,7 @@
 Phaser.Plugin.Dialogs = function (game) {
     Phaser.Plugin.call(this, game);
     this.game = game;
-
     this.dialogs = new Phaser.Group(game, game.world, 'Dialogs');
-    console.log(this.dialogs)
 };
 
 Phaser.Plugin.Dialogs.prototype = Object.create(Phaser.Plugin.prototype);
@@ -19,6 +17,7 @@ Phaser.Plugin.Dialogs.prototype.createDialog = function createDialog (config) {
         type = config.type || '',
         name = config.name || '',
         hasEasyClose = config.hasEasyClose || false,
+
         hasBg = config.hasBg || false,
         hasCloseBtn = config.hasCloseBtn || false,
         closeBtnSprite = config.closeBtnSprite || '',
@@ -65,18 +64,14 @@ Phaser.Plugin.Dialogs.prototype.createDialog = function createDialog (config) {
     hasEasyClose && setEasyClose();
     hasBg && initBg();
     hasCloseBtn && initcloseBtn();
-
     this.dialogs.add(dialog);
-    //console.log(this.game.world)
-    //this.game.world.bringToTop(this);
+    this.game.world.bringToTop(this.dialogs);
 };
 
 Phaser.Plugin.Dialogs.prototype.hideDialog = function hideDialog (name) {
     var dialog,
         self = this,
         getDialog = function getDialog() {
-            console.log(self.dialogs)
-
             for(var i = 0, col = self.dialogs.children, len = col.length; i<len; i++) {
                 if(col[i].name === name) return col[i];
             }
