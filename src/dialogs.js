@@ -78,7 +78,7 @@ Phaser.Plugin.Dialogs.prototype.constructor = Phaser.Plugin.Dialogs;
 
 Phaser.Plugin.Dialogs.prototype.createDialog = function createDialog (config) {
     var self = this,
-        type = config.type || '',
+        type = config.dialogType || '',
         name = config.name || '',
         hasEasyClose = config.hasEasyClose || false,
         hasBgScreen = config.hasBgScreen || true,
@@ -91,8 +91,6 @@ Phaser.Plugin.Dialogs.prototype.createDialog = function createDialog (config) {
         fadeOutType = config.fadeOutType || '',
         objects = config.objects || [1,1,1];
 
-
-
     var bgScreen;
     var dialog = this.game.add.group();
     dialog.fadeOutType = fadeOutType;
@@ -100,6 +98,7 @@ Phaser.Plugin.Dialogs.prototype.createDialog = function createDialog (config) {
     dialog.name = name;
     dialog.x = self.game.width / 2;
     dialog.y = self.game.height / 2;
+
 
     var initBgScreen = function initBg() {
         bgScreen = self.game.add.graphics(0, 0);
@@ -150,28 +149,29 @@ Phaser.Plugin.Dialogs.prototype.createDialog = function createDialog (config) {
                 label;
 
 
-            if (type === "text" || type === "bitmapText") {
-                if (type === "text") {
-                    label = self.game.add.text(0, 0, content, {
-                        font: fontSize + 'px ' + fontFamily,
-                        fill: color,
-                        stroke: stroke,
-                        strokeThickness: strokeThickness,
-                        align: align
-                    });
-                    label.contentType = 'text';
-                    label.update();
-                    label.x = (0 - (label.width / 2)) + offsetX;
-                    label.y = (0 - (label.height / 2)) + offsetY;
-                } else {
-                    label = self.game.add.bitmapText(0, 0, fontFamily, String(content), fontSize);
-                    label.contentType = 'bitmapText';
-                    label.updateText();
-                    label.x = (0 - ((label.width) / 2)) + offsetX;
-                    label.y = (0 - ((label.height) / 2)) + offsetY;
-                }
+            if (type === "text") {
+                label = self.game.add.text(0, 0, content, {
+                    font: fontSize + 'px ' + fontFamily,
+                    fill: color,
+                    stroke: stroke,
+                    strokeThickness: strokeThickness,
+                    align: align
+                });
+                label.contentType = 'text';
+                label.update();
+                label.x = (0 - (label.width / 2)) + offsetX;
+                label.y = (0 - (label.height / 2)) + offsetY;
+            }
 
-            } else if (type === "image") {
+            if (type === 'bitmapText') {
+                label = self.game.add.bitmapText(0, 0, fontFamily, String(content), fontSize);
+                label.contentType = 'bitmapText';
+                label.updateText();
+                label.x = (0 - ((label.width) / 2)) + offsetX;
+                label.y = (0 - ((label.height) / 2)) + offsetY;
+            }
+
+            if (type === "image") {
                 label = self.game.add.sprite(0, 0, content);
                 label.scale.setTo(contentScale, contentScale);
                 label.x = (0 - ((label.width) / 2)) + offsetX;
