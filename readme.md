@@ -83,7 +83,8 @@ First of all there are the general options, then is possible to add objects with
 dialog. Default: false.
 * <b>bgScreenColor</b> -> Color of the bgScreen. Default #000.
 * <b>bgScreenAlpha</b> -> Alpha of the bgScreen. Default 0.7.
-* <b>bgImg</b> -> Name of the sprite or frame that will be used for the background of the dialog. Default: ''.
+* <b>bgImg</b> -> Name of the sprite or frame that will be used for the background of the dialog.
+ If no sprite is passed, no bg will appear.
 * <b>closeBtnSprite</b> -> Name of the sprite or frame that will be used for the close Button. Default: ''.
 If no closeBtnSprite is passed, there will be no close button. Be careful to have always a close button or an easyClose activated.
 * <b>closeBtnOffsetY</b> -> Offset Y of the close button. Default: 0 (centered on the center).

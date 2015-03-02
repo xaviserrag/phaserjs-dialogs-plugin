@@ -60,7 +60,7 @@ Phaser.Plugin.Dialogs = function (game) {
             },
             tween, animType;
 
-        animType = (type === 'In') ? dialog.fadeInType : dialog.fadeOutType;
+        animType = (type === 'In') ? dialog.fadeIn : dialog.fadeOut;
 
         if (animType && typeof animType === "string") {
             tween = animations[animType+type].call(self);
@@ -75,7 +75,7 @@ Phaser.Plugin.Dialogs = function (game) {
 
      this.destroy = function destroy (name) {
        var currentDialog = this.getDialog(name);
-       if (currentDialog && currentDialog.fadeOutType !== '') {
+       if (currentDialog && currentDialog.fadeOut !== '') {
          this.animate(currentDialog, 'Out').onComplete.add(function () {
            currentDialog.destroy();
          }, this);
@@ -99,14 +99,14 @@ Phaser.Plugin.Dialogs.prototype.createDialog = function createDialog (config) {
         btnOffsetY = config.btnOffsetY || 0,
         bgScreenColor = config.bgScreenColor || "0x000000",
         bgScreenAlpha = config.bgScreenAlpha || 0.7,
-        fadeInType = config.fadeInType || '',
-        fadeOutType = config.fadeOutType || '',
+        fadeIn = config.fadeIn || '',
+        fadeOut = config.fadeOut || '',
         objects = config.objects || [];
 
     var bgScreen;
     var dialog = this.game.add.group();
-    dialog.fadeOutType = fadeOutType;
-    dialog.fadeInType = fadeInType;
+    dialog.fadeOut = fadeOut;
+    dialog.fadeIn = fadeIn;
     dialog.name = name;
     dialog.x = self.game.width / 2;
     dialog.y = self.game.height / 2;
@@ -233,7 +233,7 @@ Phaser.Plugin.Dialogs.prototype.createDialog = function createDialog (config) {
     objects.length > 0 && initObjects();
     hasEasyClose && setEasyClose();
 
-    fadeInType != '' && this.animate(dialog, 'In');
+    fadeIn != '' && this.animate(dialog, 'In');
 
     this.dialogs.add(dialog);
     this.game.world.bringToTop(this.dialogs);
@@ -242,7 +242,7 @@ Phaser.Plugin.Dialogs.prototype.createDialog = function createDialog (config) {
 //TODO fix this.
 //Phaser.Plugin.Dialogs.prototype.hide = function hide (name) {
 //  var currentDialog = this.getDialog(name);
-//  if(currentDialog.fadeOutType !== '') {
+//  if(currentDialog.fadeOut !== '') {
 //    this.animate(currentDialog, 'Out').onComplete.add(function () {
 //      currentDialog.visibility = false;
 //    }, this);
@@ -253,7 +253,7 @@ Phaser.Plugin.Dialogs.prototype.createDialog = function createDialog (config) {
 //
 //Phaser.Plugin.Dialogs.prototype.show = function show (name) {
 //  var currentDialog = this.getDialog(name);
-//  if(currentDialog.fadeInType !== '') {
+//  if(currentDialog.fadeIn !== '') {
 //    this.animate(currentDialog, 'In').onComplete.add(function () {
 //      currentDialog.visibility = true;
 //    }, this);
