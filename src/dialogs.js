@@ -27,6 +27,12 @@ Phaser.Plugin.Dialogs = function (game) {
                     return self.game.add.tween(dialog.scale)
                         .from({x: 0.5, y: 0.5}, 500, Phaser.Easing.Cubic.InOut, true);
                 },
+                'alphaDownIn': function () {
+                    self.game.add.tween(dialog)
+                        .from({alpha: 0, y: dialog.y - 50}, 500, Phaser.Easing.Cubic.InOut, true);
+                    return self.game.add.tween(dialog.scale)
+                        .from({x: 0.5, y: 0.5}, 500, Phaser.Easing.Cubic.InOut, true);
+                },
                 'alphaScaleIn': function () {
                     return self.game.add.tween(dialog)
                         .from({alpha: 0, y: dialog.y + 50}, 500, Phaser.Easing.Cubic.InOut, true);
@@ -38,6 +44,12 @@ Phaser.Plugin.Dialogs = function (game) {
                 'alphaUpOut': function () {
                     self.game.add.tween(dialog)
                         .to({alpha: 0, y: dialog.y + 50}, 500, Phaser.Easing.Cubic.InOut, true);
+                    return self.game.add.tween(dialog.scale)
+                        .to({x: 0.5, y: 0.5}, 500, Phaser.Easing.Cubic.InOut, true);
+                },
+                'alphaDownOut': function () {
+                    self.game.add.tween(dialog)
+                        .to({alpha: 0, y: dialog.y - 50}, 500, Phaser.Easing.Cubic.InOut, true);
                     return self.game.add.tween(dialog.scale)
                         .to({x: 0.5, y: 0.5}, 500, Phaser.Easing.Cubic.InOut, true);
                 },
@@ -78,6 +90,7 @@ Phaser.Plugin.Dialogs.prototype.constructor = Phaser.Plugin.Dialogs;
 
 Phaser.Plugin.Dialogs.prototype.createDialog = function createDialog (config) {
     var self = this,
+        spriteSheet = config.spriteSheet || '',
         type = config.dialogType || '',
         name = config.name || '',
         hasEasyClose = config.hasEasyClose || false,
@@ -103,14 +116,17 @@ Phaser.Plugin.Dialogs.prototype.createDialog = function createDialog (config) {
     var initBgScreen = function initBg() {
         bgScreen = self.game.add.graphics(0, 0);
         bgScreen.beginFill(bgScreenColor, bgScreenAlpha);
-        bgScreen.drawRect(0 - self.game.width / 2, 0 - self.game.height / 2, self.game.width, self.game.height);
-        bgScreen.inputEnabled = false;
-
+        bgScreen.drawRect(0 - self.game.width * 2, 0 - self.game.height * 2, self.game.width * 4, self.game.height * 4);
+        bgScreen.inputEnabled = true;
         dialog.add(bgScreen);
     };
 
     var initBgImg = function initBg() {
-        bgImg = self.game.add.sprite(0, 0, bgImg);
+        if(spriteSheet !== '') {
+          bgImg = self.game.add.sprite(0, 0, spriteSheet, bgImg);
+        } else {
+          bgImg = self.game.add.sprite(0, 0, bgImg);
+        }
         bgImg.anchor.x = 0.5;
         bgImg.anchor.y = 0.5;
         bgImg.inputEnabled = false;
@@ -119,7 +135,13 @@ Phaser.Plugin.Dialogs.prototype.createDialog = function createDialog (config) {
     };
 
     var initCloseBtn = function initCloseBtn () {
-        var closeBtn = self.game.add.sprite(0, 0, closeBtnSprite);
+        var closeBtn;
+
+        if(spriteSheet !== '') {
+          closeBtn= self.game.add.sprite(0, 0, spriteSheet, closeBtnSprite);
+        } else {
+            closeBtn= self.game.add.sprite(0, 0, closeBtnSprite);
+        }
         closeBtn.inputEnabled = true;
         closeBtn.y = 0 + btnOffsetY;
         closeBtn.anchor.x = 0.5;
@@ -172,7 +194,11 @@ Phaser.Plugin.Dialogs.prototype.createDialog = function createDialog (config) {
             }
 
             if (type === "image") {
-                label = self.game.add.sprite(0, 0, content);
+                if(spriteSheet !== '') {
+                  label = self.game.add.sprite(0, 0, spriteSheet, content);
+                } else{
+                  label = self.game.add.sprite(0, 0, content);
+                }
                 label.scale.setTo(contentScale, contentScale);
                 label.x = (0 - ((label.width) / 2)) + offsetX;
                 label.y = (0 - ((label.height) / 2)) + offsetY;
