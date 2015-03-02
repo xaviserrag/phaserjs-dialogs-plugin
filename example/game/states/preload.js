@@ -13,7 +13,7 @@ Preload.prototype = {
     this.load.onLoadComplete.addOnce(this.onLoadComplete, this);
     this.load.setPreloadSprite(this.asset);
     this.load.image('yeoman', 'assets/yeoman-logo.png');
-    this.load.atlasJSONHash('btn', 'assets/btn.png', 'assets/btn.json');
+    this.load.atlasJSONHash('popup', 'assets/btn.png', 'assets/btn.json');
     this.load.image('bg', 'assets/bg.png');
 
   },

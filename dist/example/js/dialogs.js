@@ -65,7 +65,7 @@ Phaser.Plugin.Dialogs = function (game) {
         if (animType && typeof animType === "string") {
             tween = animations[animType+type].call(self);
         } else if (typeof animType === "function") {
-            tween = animType.call(self);
+            tween = animType.call(self, dialog);
         } else {
             tween = animations["alpha"].call(self);
         }
@@ -94,7 +94,7 @@ Phaser.Plugin.Dialogs.prototype.createDialog = function createDialog (config) {
         type = config.dialogType || '',
         name = config.name || '',
         hasEasyClose = config.hasEasyClose || false,
-        hasBgScreen = config.hasBgScreen || true,
+        hasBgScreen = config.hasBgScreen || false,
         bgImg = config.bgImg || '',
         closeBtnSprite = config.closeBtnSprite || '',
         btnOffsetY = config.btnOffsetY || 0,
@@ -114,6 +114,7 @@ Phaser.Plugin.Dialogs.prototype.createDialog = function createDialog (config) {
 
 
     var initBgScreen = function initBg() {
+      console.log("????", hasBgScreen)
         bgScreen = self.game.add.graphics(0, 0);
         bgScreen.beginFill(bgScreenColor, bgScreenAlpha);
         bgScreen.drawRect(0 - self.game.width * 2, 0 - self.game.height * 2, self.game.width * 4, self.game.height * 4);

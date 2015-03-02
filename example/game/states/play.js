@@ -6,13 +6,14 @@
       this.game.Dialogs = this.game.plugins.add(new Phaser.Plugin.Dialogs(this.game));
       this.bg = this.game.add.sprite(-300,-300,'bg');
 
-      var buttons = ['gameOver', 'level', 'list', 'random'];
+      var buttons = ['game-over-btn', 'level-btn', 'list-btn', 'random-btn'];
 
       var dialogs = [
         {
           name: 'gameOver',
           btnOffsetY: 50,
           bgScreenAlpha: 0.9,
+          hasBgScreen: true,
           hasEasyClose: true,
           fadeInType: 'alpha',
           fadeOutType: 'alpha',
@@ -44,36 +45,52 @@
         },
         {
           name: 'level',
-          spriteSheet: 'btn',
-          closeBtnSprite: 'close',
-          btnOffsetY: 150,
+          spriteSheet: 'popup',
+          closeBtnSprite: 'close-btn',
+          bgImg: 'bg-popup',
+          btnOffsetY: 151,
           hasEasyClose: false,
           fadeInType: 'alphaScale',
           fadeOutType: 'alphaScale',
           objects: [
             {
               type: 'text',
-              color: '#33ff33',
+              color: '#222',
               fontFamily: 'Arial',
               fontSize: 52,
-              offsetX: 0,
-              offsetY: -100,
-              content: "Hello World"
+              offsetY: -130,
+              content: "Level Cleared!"
             },
             {
               type: 'text',
-              color: '#3333ff',
+              color: '#222',
               fontFamily: 'Arial',
-              fontSize: 20,
-              offsetX: 0,
+              fontSize: 30,
+              offsetX: -200,
               offsetY: -20,
-              content: "Hi men"
+              content: "Gems: "
+            },
+            {
+              type: 'text',
+              color: '#222',
+              fontFamily: 'Arial',
+              fontSize: 30,
+              offsetX: -120,
+              offsetY: -20,
+              content: "120"
+            },
+            {
+              type: 'image',
+              offsetX: -20,
+              offsetY: -20,
+              content: "gem"
             }
           ]
         },
         {
           name: 'list',
           bgImg: 'yeoman',
+          hasBgScreen: true,
           hasEasyClose: true,
           fadeInType: 'alphaDown',
           fadeOutType: 'alphaUp',
@@ -94,6 +111,8 @@
           closeBtnSprite: 'closeBtn',
           btnOffsetY: 100,
           bgImg: 'yeoman',
+          hasBgScreen: true,
+          bgScreenColor: 0x55ffff,
           hasEasyClose: true,
           fadeInType: 'alphaScale',
           fadeOutType: 'alphaUp',
@@ -125,7 +144,7 @@
 
       for(var i = 0; i < 4; i++){
         var self = this;
-        var sprite = this.game.add.sprite(200 * i + 50, self.game.height/2 - 20, 'btn', buttons[i]);
+        var sprite = this.game.add.sprite(200 * i + 50, self.game.height/2 - 20, 'popup', buttons[i]);
         sprite.inputEnabled = true;
         sprite.anchor.y = 0.5;
         (function (i) {
