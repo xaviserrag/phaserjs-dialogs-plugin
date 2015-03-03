@@ -2,6 +2,7 @@
 
 Inspired by:
 [netgfx](https://github.com/netgfx/phaser_modals)
+
 Dialogs is a plugin to help you out with the creation of dialogs on your game.
 
 ##How to install the plugin
