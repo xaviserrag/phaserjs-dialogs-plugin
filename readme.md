@@ -144,7 +144,7 @@ In case of an `image` this will be the spriteName or frameName (if an spriteShee
 In case of a `text`, this will be the text printed.
 
 * <b>animation</b> -> If case of an image, you can pass an array of frames here like in a normal animation.
- Example: 
+ It will be played as a loop. Example: 
  
  ```javascript
  animation: ['mario00', 'mario01', 'mario02']
