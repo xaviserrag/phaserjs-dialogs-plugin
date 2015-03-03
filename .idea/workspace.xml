@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b67e05c5-2c34-49f2-b71f-5ecb58c06694" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="P:\Google Drive\repos\dialog-plugin\readme.md" afterPath="$PROJECT_DIR$/Readme.md" />
     </list>
     <ignored path="dialog-plugin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,8 +42,8 @@
           <file leaf-file-name="Readme.md" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Readme.md">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.09289618" vertical-offset="0" max-vertical-offset="2788">
-                  <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.34836066" vertical-offset="0" max-vertical-offset="2788">
+                  <caret line="15" column="59" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
                   <folding />
                 </state>
               </provider>
@@ -592,8 +593,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Readme.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09289618" vertical-offset="0" max-vertical-offset="2788">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.34836066" vertical-offset="0" max-vertical-offset="2788">
+          <caret line="15" column="59" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
           <folding />
         </state>
       </provider>

@@ -7,13 +7,13 @@ Inspired by:
 
 Load the script on the html file:
 ```javascript
-  <script src="js/dialogs.js"></script>
+  <script src="dialogs.js"></script>
 ```
 
 Add this line of code on the same state were you want to create the dialogs (at this moment is
 not possible to use the Plugin on different states):
 ```javascript
- game.Dialogs = game.plugins.add(new Phaser.Plugin.Dialogs(this.game));
+ game.Dialogs = game.plugins.add(new Phaser.Plugin.Dialogs(game));
 ```
 
 It is necessary to pass the `game` to the `constructor` of the Plugin.
