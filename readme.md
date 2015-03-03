@@ -153,5 +153,6 @@ In case of a `text`, this will be the text printed.
 
 * <b> callback</b> -> a callback that will be triggered when the object is clicked.
 
+###Contributors
 
-
+[Tomás Casquero](https://github.com/tomcask)
