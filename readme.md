@@ -61,8 +61,8 @@ of a configuration object:
     hasBgScreen: true,
     bgScreenAlpha: 0.9,
     btnCloseY: 0,
-    fadeInType: 'alpha',
-    fadeOutType: 'alpha',
+    fadeIn: 'alpha',
+    fadeOut: 'alpha',
     objects: [
       {
         type: 'text',
